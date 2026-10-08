@@ -1,0 +1,6 @@
+v0.8.1 Seoul 1979 deployment/location hotfix
+- Added rok_government and new_military to unit-data validation allowlist; fixes scenario load failure.
+- Removed initial unit hex collisions around Gyeongbokgung/Sogyeok-dong and Yongsan.
+- Corrected Seobinggo Security Branch from a Han River water hex to the north-bank urban hex (60,46).
+- Separated the 30th Security Battalion and DSC/Sogyeok-dong positions at the map's current scale.
+- Kept the existing large-scale terrain geometry unchanged.

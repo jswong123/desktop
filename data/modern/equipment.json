@@ -1,0 +1,123 @@
+{
+  "ZTZ99A": {
+    "name": "ZTZ-99A主战坦克",
+    "category": "主战坦克",
+    "firepower": 95,
+    "protection": 95,
+    "mobility": 78,
+    "fuelUse": 90
+  },
+  "ZBD04A": {
+    "name": "ZBD-04A步兵战车",
+    "category": "履带式步兵战车",
+    "firepower": 78,
+    "protection": 76,
+    "mobility": 76,
+    "fuelUse": 78,
+    "waterMobility": "float_crossing",
+    "waterMovementCost": 4,
+    "waterRole": "有限自行浮渡"
+  },
+  "PLZ05": {
+    "name": "PLZ-05自行榴弹炮",
+    "category": "自行火炮",
+    "firepower": 92,
+    "protection": 48,
+    "mobility": 62,
+    "fuelUse": 76
+  },
+  "HQ17A": {
+    "name": "红旗-17A野战防空系统",
+    "category": "野战防空",
+    "firepower": 70,
+    "protection": 55,
+    "mobility": 72,
+    "fuelUse": 62
+  },
+  "ZTL11": {
+    "name": "ZTL-11轮式突击车",
+    "category": "轮式突击车",
+    "firepower": 82,
+    "protection": 62,
+    "mobility": 92,
+    "fuelUse": 62
+  },
+  "ZBL08": {
+    "name": "ZBL-08轮式步兵战车",
+    "category": "轮式步兵战车",
+    "firepower": 70,
+    "protection": 60,
+    "mobility": 94,
+    "fuelUse": 58
+  },
+  "PCL181": {
+    "name": "PCL-181车载榴弹炮",
+    "category": "车载火炮",
+    "firepower": 86,
+    "protection": 35,
+    "mobility": 90,
+    "fuelUse": 55
+  },
+  "CSK181": {
+    "name": "CSK-181装甲高机动车",
+    "category": "轻型装甲机动车",
+    "firepower": 48,
+    "protection": 42,
+    "mobility": 96,
+    "fuelUse": 42
+  },
+  "PCP001": {
+    "name": "轻型迫击炮/火力支援车",
+    "category": "轻型火力支援",
+    "firepower": 68,
+    "protection": 30,
+    "mobility": 92,
+    "fuelUse": 38
+  },
+  "UAV_RECON": {
+    "name": "战术侦察无人机系统",
+    "category": "无人侦察系统",
+    "firepower": 10,
+    "protection": 15,
+    "mobility": 100,
+    "fuelUse": 20
+  },
+  "ENG_VEH": {
+    "name": "装甲工程保障车辆",
+    "category": "工程保障",
+    "firepower": 35,
+    "protection": 65,
+    "mobility": 65,
+    "fuelUse": 65
+  },
+  "LOG_VEH": {
+    "name": "综合保障车辆",
+    "category": "勤务保障",
+    "firepower": 15,
+    "protection": 35,
+    "mobility": 75,
+    "fuelUse": 45
+  },
+  "ZBD05": {
+    "name": "ZBD-05两栖步兵战车",
+    "category": "两栖步兵战车",
+    "firepower": 78,
+    "protection": 70,
+    "mobility": 88,
+    "fuelUse": 82,
+    "waterMobility": "amphibious_assault",
+    "waterMovementCost": 2,
+    "waterRole": "专业两栖突击"
+  },
+  "ZTD05": {
+    "name": "ZTD-05两栖突击车",
+    "category": "两栖突击车",
+    "firepower": 86,
+    "protection": 68,
+    "mobility": 90,
+    "fuelUse": 88,
+    "waterMobility": "amphibious_assault",
+    "waterMovementCost": 2,
+    "waterRole": "专业两栖突击"
+  }
+}

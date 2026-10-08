@@ -1,0 +1,8038 @@
+{
+  "id": "berlin",
+  "key": "berlin",
+  "name": "柏林战役",
+  "scenario": "柏林战役",
+  "date": "1945-04-16",
+  "startTime": "05:00",
+  "hoursPerTurn": 6,
+  "startingPhase": "soviet",
+  "map": {
+    "id": "berlin",
+    "name": "柏林战役",
+    "width": 72,
+    "height": 48,
+    "hexSize": 26,
+    "terrain": [
+      {
+        "q": 18,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 33,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 32,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 43,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 50,
+        "r": 24,
+        "type": "marsh"
+      },
+      {
+        "q": 50,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 51,
+        "r": 17,
+        "type": "marsh"
+      },
+      {
+        "q": 51,
+        "r": 34,
+        "type": "marsh"
+      },
+      {
+        "q": 52,
+        "r": 10,
+        "type": "marsh"
+      },
+      {
+        "q": 52,
+        "r": 27,
+        "type": "marsh"
+      },
+      {
+        "q": 53,
+        "r": 20,
+        "type": "marsh"
+      },
+      {
+        "q": 53,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 54,
+        "r": 13,
+        "type": "marsh"
+      },
+      {
+        "q": 54,
+        "r": 30,
+        "type": "marsh"
+      },
+      {
+        "q": 55,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 55,
+        "r": 23,
+        "type": "marsh"
+      },
+      {
+        "q": 55,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 56,
+        "r": 16,
+        "type": "marsh"
+      },
+      {
+        "q": 56,
+        "r": 33,
+        "type": "marsh"
+      },
+      {
+        "q": 57,
+        "r": 9,
+        "type": "marsh"
+      },
+      {
+        "q": 57,
+        "r": 26,
+        "type": "marsh"
+      },
+      {
+        "q": 58,
+        "r": 19,
+        "type": "marsh"
+      },
+      {
+        "q": 58,
+        "r": 36,
+        "type": "marsh"
+      },
+      {
+        "q": 59,
+        "r": 12,
+        "type": "marsh"
+      },
+      {
+        "q": 59,
+        "r": 29,
+        "type": "marsh"
+      },
+      {
+        "q": 60,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 60,
+        "r": 22,
+        "type": "marsh"
+      },
+      {
+        "q": 60,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 61,
+        "r": 15,
+        "type": "marsh"
+      },
+      {
+        "q": 61,
+        "r": 32,
+        "type": "marsh"
+      },
+      {
+        "q": 62,
+        "r": 8,
+        "type": "marsh"
+      },
+      {
+        "q": 62,
+        "r": 25,
+        "type": "marsh"
+      },
+      {
+        "q": 62,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 63,
+        "r": 18,
+        "type": "marsh"
+      },
+      {
+        "q": 63,
+        "r": 35,
+        "type": "marsh"
+      },
+      {
+        "q": 64,
+        "r": 11,
+        "type": "marsh"
+      },
+      {
+        "q": 64,
+        "r": 28,
+        "type": "marsh"
+      },
+      {
+        "q": 65,
+        "r": 21,
+        "type": "marsh"
+      },
+      {
+        "q": 65,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 66,
+        "r": 14,
+        "type": "marsh"
+      },
+      {
+        "q": 66,
+        "r": 31,
+        "type": "marsh"
+      },
+      {
+        "q": 67,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 67,
+        "r": 24,
+        "type": "marsh"
+      },
+      {
+        "q": 67,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 68,
+        "r": 17,
+        "type": "marsh"
+      },
+      {
+        "q": 68,
+        "r": 34,
+        "type": "marsh"
+      }
+    ],
+    "rivers": [
+      {
+        "id": "oder",
+        "name": "奥得河",
+        "nameZh": "奥得河",
+        "width": 5,
+        "points": [
+          [
+            58,
+            0
+          ],
+          [
+            57,
+            10
+          ],
+          [
+            58,
+            20
+          ],
+          [
+            57,
+            30
+          ],
+          [
+            59,
+            47
+          ]
+        ]
+      },
+      {
+        "id": "spree",
+        "name": "施普雷河",
+        "nameZh": "施普雷河",
+        "width": 3,
+        "points": [
+          [
+            18,
+            28
+          ],
+          [
+            25,
+            27
+          ],
+          [
+            32,
+            28
+          ],
+          [
+            39,
+            30
+          ],
+          [
+            45,
+            33
+          ]
+        ]
+      }
+    ],
+    "roads": [
+      {
+        "id": "reichsstrasse1",
+        "name": "屈斯特林—柏林公路",
+        "nameZh": "屈斯特林—柏林公路",
+        "importance": "main",
+        "points": [
+          [
+            68,
+            24
+          ],
+          [
+            58,
+            24
+          ],
+          [
+            48,
+            24
+          ],
+          [
+            40,
+            24
+          ],
+          [
+            32,
+            24
+          ],
+          [
+            24,
+            24
+          ],
+          [
+            18,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "south_axis",
+        "name": "科特布斯—柏林公路",
+        "nameZh": "科特布斯—柏林公路",
+        "importance": "main",
+        "points": [
+          [
+            60,
+            42
+          ],
+          [
+            52,
+            38
+          ],
+          [
+            44,
+            35
+          ],
+          [
+            36,
+            32
+          ],
+          [
+            28,
+            29
+          ]
+        ]
+      }
+    ],
+    "railways": [
+      {
+        "id": "east_rail",
+        "name": "柏林东方铁路",
+        "nameZh": "柏林东方铁路",
+        "points": [
+          [
+            67,
+            20
+          ],
+          [
+            56,
+            20
+          ],
+          [
+            48,
+            21
+          ],
+          [
+            39,
+            22
+          ],
+          [
+            30,
+            23
+          ],
+          [
+            20,
+            23
+          ]
+        ]
+      }
+    ],
+    "settlements": [
+      {
+        "id": "kustrin",
+        "name": "屈斯特林桥头堡",
+        "nameZh": "屈斯特林桥头堡",
+        "q": 62,
+        "r": 24,
+        "type": "position"
+      },
+      {
+        "id": "seelow",
+        "name": "泽洛高地",
+        "nameZh": "泽洛高地",
+        "q": 47,
+        "r": 23,
+        "type": "position"
+      },
+      {
+        "id": "muncheberg",
+        "name": "明歇贝格",
+        "nameZh": "明歇贝格",
+        "q": 42,
+        "r": 23,
+        "type": "town"
+      },
+      {
+        "id": "strausberg",
+        "name": "施特劳斯贝格",
+        "nameZh": "施特劳斯贝格",
+        "q": 38,
+        "r": 20,
+        "type": "town"
+      },
+      {
+        "id": "berlin_e",
+        "name": "柏林东郊",
+        "nameZh": "柏林东郊",
+        "q": 34,
+        "r": 24,
+        "type": "major_city"
+      },
+      {
+        "id": "pankow",
+        "name": "潘科",
+        "nameZh": "潘科",
+        "q": 29,
+        "r": 17,
+        "type": "town"
+      },
+      {
+        "id": "lichtenberg",
+        "name": "利希滕贝格",
+        "nameZh": "利希滕贝格",
+        "q": 32,
+        "r": 24,
+        "type": "town"
+      },
+      {
+        "id": "tempelhof",
+        "name": "滕珀尔霍夫机场",
+        "nameZh": "滕珀尔霍夫机场",
+        "q": 28,
+        "r": 31,
+        "type": "airfield"
+      },
+      {
+        "id": "tiergarten",
+        "name": "蒂尔加滕",
+        "nameZh": "蒂尔加滕",
+        "q": 24,
+        "r": 24,
+        "type": "major_city"
+      },
+      {
+        "id": "reichstag",
+        "name": "国会大厦",
+        "nameZh": "国会大厦",
+        "q": 23,
+        "r": 23,
+        "type": "objective"
+      },
+      {
+        "id": "chancellery",
+        "name": "帝国总理府",
+        "nameZh": "帝国总理府",
+        "q": 24,
+        "r": 25,
+        "type": "objective",
+        "strategicObjective": true
+      },
+      {
+        "id": "zoo",
+        "name": "动物园防空塔",
+        "nameZh": "动物园防空塔",
+        "q": 22,
+        "r": 25,
+        "type": "fortress"
+      },
+      {
+        "id": "humboldthain",
+        "name": "洪堡海恩防空塔",
+        "nameZh": "洪堡海恩防空塔",
+        "q": 27,
+        "r": 20,
+        "type": "fortress"
+      },
+      {
+        "id": "friedrichshain",
+        "name": "腓特烈斯海恩防空塔",
+        "nameZh": "腓特烈斯海恩防空塔",
+        "q": 29,
+        "r": 23,
+        "type": "fortress"
+      },
+      {
+        "id": "spandau",
+        "name": "施潘道",
+        "nameZh": "施潘道",
+        "q": 18,
+        "r": 23,
+        "type": "town"
+      },
+      {
+        "id": "potsdam",
+        "name": "波茨坦",
+        "nameZh": "波茨坦",
+        "q": 19,
+        "r": 36,
+        "type": "town"
+      },
+      {
+        "id": "teltow",
+        "name": "泰尔托",
+        "nameZh": "泰尔托",
+        "q": 28,
+        "r": 36,
+        "type": "position"
+      },
+      {
+        "id": "moltkebridge",
+        "name": "毛奇桥",
+        "nameZh": "毛奇桥",
+        "q": 23,
+        "r": 22,
+        "type": "strongpoint"
+      },
+      {
+        "id": "lehrter",
+        "name": "莱尔特车站",
+        "nameZh": "莱尔特车站",
+        "q": 22,
+        "r": 22,
+        "type": "strongpoint"
+      },
+      {
+        "id": "alexanderplatz",
+        "name": "亚历山大广场",
+        "nameZh": "亚历山大广场",
+        "q": 27,
+        "r": 24,
+        "type": "strongpoint"
+      },
+      {
+        "id": "anhalter",
+        "name": "安哈尔特车站",
+        "nameZh": "安哈尔特车站",
+        "q": 24,
+        "r": 27,
+        "type": "strongpoint"
+      },
+      {
+        "id": "potsdamer",
+        "name": "波茨坦广场",
+        "nameZh": "波茨坦广场",
+        "q": 23,
+        "r": 26,
+        "type": "strongpoint"
+      },
+      {
+        "id": "friedrichstrasse",
+        "name": "腓特烈大街",
+        "nameZh": "腓特烈大街",
+        "q": 25,
+        "r": 24,
+        "type": "strongpoint"
+      },
+      {
+        "id": "landwehr",
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "q": 25,
+        "r": 28,
+        "type": "position"
+      },
+      {
+        "id": "spree_inner",
+        "name": "施普雷河内城防线",
+        "nameZh": "施普雷河内城防线",
+        "q": 24,
+        "r": 22,
+        "type": "position"
+      },
+      {
+        "id": "charlottenburg",
+        "name": "夏洛滕堡",
+        "nameZh": "夏洛滕堡",
+        "q": 20,
+        "r": 25,
+        "type": "town"
+      },
+      {
+        "id": "moabit",
+        "name": "莫阿比特",
+        "nameZh": "莫阿比特",
+        "q": 22,
+        "r": 21,
+        "type": "town"
+      },
+      {
+        "id": "neukolln",
+        "name": "新克尔恩",
+        "nameZh": "新克尔恩",
+        "q": 29,
+        "r": 29,
+        "type": "town"
+      },
+      {
+        "id": "treptow",
+        "name": "特雷普托",
+        "nameZh": "特雷普托",
+        "q": 31,
+        "r": 28,
+        "type": "town"
+      }
+    ],
+    "fortifications": [
+      {
+        "q": 49,
+        "r": 8,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 10,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 12,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 16,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 18,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 20,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 22,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 24,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 26,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 28,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 30,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 32,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 34,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 49,
+        "r": 38,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛第一防御地带",
+        "nameZh": "泽洛第一防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 8,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 10,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 12,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 14,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 16,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 18,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 20,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 22,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 24,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 26,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 30,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 32,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 34,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 36,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 47,
+        "r": 38,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛主防御地带",
+        "nameZh": "泽洛主防御地带",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 8,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 10,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 12,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 16,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 18,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 20,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 22,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 24,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 26,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 28,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 30,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 32,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 34,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 44,
+        "r": 38,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "沃坦后方阵地",
+        "nameZh": "沃坦后方阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 48,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "泽洛支撑点",
+        "nameZh": "泽洛支撑点",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 46,
+        "r": 19,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "新韦尔比希支撑点",
+        "nameZh": "新韦尔比希支撑点",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 46,
+        "r": 28,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "弗里德斯多夫支撑点",
+        "nameZh": "弗里德斯多夫支撑点",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 42,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "明歇贝格防御支撑点",
+        "nameZh": "明歇贝格防御支撑点",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 17,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 20,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 23,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 26,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 29,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 32,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 36,
+        "r": 35,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 15,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 19,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 23,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 27,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 31,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 35,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 31,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 14,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 31,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 36,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林外围野战工事",
+        "nameZh": "柏林外围野战工事",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 19,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "aa_position_3",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔",
+        "nameZh": "动物园防空塔",
+        "maxHp": 320,
+        "hp": 320,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true,
+        "airDefensePosition": true,
+        "airDefenseEnabled": true,
+        "airDefenseRadius": 6,
+        "airDefensePower": 95,
+        "fixedPosition": true,
+        "showLabel": true
+      },
+      {
+        "q": 22,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 31,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 19,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "帝国总理府核心阵地",
+        "nameZh": "帝国总理府核心阵地",
+        "maxHp": 220,
+        "hp": 220,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true,
+        "showLabel": true
+      },
+      {
+        "q": 24,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 31,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 19,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第6段",
+        "nameZh": "政府区内环街垒第6段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 31,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 19,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 31,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 19,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 31,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 19,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 31,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与坚固建筑群",
+        "nameZh": "柏林城区街垒与坚固建筑群",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔",
+        "nameZh": "动物园防空塔",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "aa_position_3",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔",
+        "nameZh": "洪堡海恩防空塔",
+        "maxHp": 320,
+        "hp": 320,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true,
+        "airDefensePosition": true,
+        "airDefenseEnabled": true,
+        "airDefenseRadius": 6,
+        "airDefensePower": 95,
+        "fixedPosition": true,
+        "showLabel": true
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "aa_position_3",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔",
+        "nameZh": "腓特烈斯海恩防空塔",
+        "maxHp": 320,
+        "hp": 320,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true,
+        "airDefensePosition": true,
+        "airDefenseEnabled": true,
+        "airDefenseRadius": 6,
+        "airDefensePower": 95,
+        "fixedPosition": true,
+        "showLabel": true
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "国会大厦要塞化阵地",
+        "nameZh": "国会大厦要塞化阵地",
+        "maxHp": 220,
+        "hp": 220,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true,
+        "showLabel": true
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "帝国总理府防御核心",
+        "nameZh": "帝国总理府防御核心",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 24,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林东部外围防御圈",
+        "nameZh": "柏林东部外围防御圈",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "利希滕贝格街垒阵地",
+        "nameZh": "利希滕贝格街垒阵地",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 17,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "潘科反坦克阵地",
+        "nameZh": "潘科反坦克阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 31,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "滕珀尔霍夫防御据点",
+        "nameZh": "滕珀尔霍夫防御据点",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 24,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "蒂尔加滕核心阵地",
+        "nameZh": "蒂尔加滕核心阵地",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "国会大厦据点",
+        "nameZh": "国会大厦据点",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "帝国总理府核心据点",
+        "nameZh": "帝国总理府核心据点",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔",
+        "nameZh": "动物园防空塔",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔",
+        "nameZh": "洪堡海恩防空塔",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔",
+        "nameZh": "腓特烈斯海恩防空塔",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 18,
+        "r": 23,
+        "type": "trench",
+        "level": 2,
+        "owner": "german",
+        "progress": 100,
+        "name": "施潘道西部据点",
+        "nameZh": "施潘道西部据点",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 34,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 20,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 18,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 20,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 30,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 18,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 20,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 30,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 20,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 28,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 21,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第3段",
+        "nameZh": "政府区内环街垒第3段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 23,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 27,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第8段",
+        "nameZh": "政府区内环街垒第8段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 23,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林城区街垒与反坦克支撑点",
+        "nameZh": "柏林城区街垒与反坦克支撑点",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 27,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第9段",
+        "nameZh": "政府区内环街垒第9段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 17,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 31,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 18,
+        "r": 23,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 36,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 24,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林要点防御阵地",
+        "nameZh": "柏林要点防御阵地",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔重型要塞",
+        "nameZh": "动物园防空塔重型要塞",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔重型要塞",
+        "nameZh": "洪堡海恩防空塔重型要塞",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔重型要塞",
+        "nameZh": "腓特烈斯海恩防空塔重型要塞",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 24,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 24,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 26,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 26,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区核心防御圈",
+        "nameZh": "政府区核心防御圈",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 22,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "国会大厦—毛奇桥支撑点",
+        "nameZh": "国会大厦—毛奇桥支撑点",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 22,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "毛奇桥桥头堡",
+        "nameZh": "毛奇桥桥头堡",
+        "status": "intact",
+        "maxHp": 220,
+        "hp": 220,
+        "integrity": 100,
+        "berlinDefense": true,
+        "showLabel": true
+      },
+      {
+        "q": 22,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "国会大厦—毛奇桥支撑点",
+        "nameZh": "国会大厦—毛奇桥支撑点",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 21,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "国会大厦—毛奇桥支撑点",
+        "nameZh": "国会大厦—毛奇桥支撑点",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔要塞群",
+        "nameZh": "动物园防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 21,
+        "r": 25,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔要塞群",
+        "nameZh": "动物园防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 26,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "动物园防空塔要塞群",
+        "nameZh": "动物园防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 21,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第10段",
+        "nameZh": "政府区内环街垒第10段",
+        "status": "intact",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔要塞群",
+        "nameZh": "洪堡海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 20,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔要塞群",
+        "nameZh": "洪堡海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 21,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔要塞群",
+        "nameZh": "洪堡海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 20,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "洪堡海恩防空塔要塞群",
+        "nameZh": "洪堡海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔要塞群",
+        "nameZh": "腓特烈斯海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔要塞群",
+        "nameZh": "腓特烈斯海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 24,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔要塞群",
+        "nameZh": "腓特烈斯海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 23,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈斯海恩防空塔要塞群",
+        "nameZh": "腓特烈斯海恩防空塔要塞群",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 31,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "滕珀尔霍夫机场防御圈",
+        "nameZh": "滕珀尔霍夫机场防御圈",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 31,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "滕珀尔霍夫机场防御圈",
+        "nameZh": "滕珀尔霍夫机场防御圈",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 29,
+        "r": 31,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "滕珀尔霍夫机场防御圈",
+        "nameZh": "滕珀尔霍夫机场防御圈",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 30,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "滕珀尔霍夫机场防御圈",
+        "nameZh": "滕珀尔霍夫机场防御圈",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 32,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "滕珀尔霍夫机场防御圈",
+        "nameZh": "滕珀尔霍夫机场防御圈",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 27,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "安哈尔特车站支撑点",
+        "nameZh": "安哈尔特车站支撑点",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "波茨坦广场街垒群",
+        "nameZh": "波茨坦广场街垒群",
+        "status": "intact",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 24,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "亚历山大广场支撑点",
+        "nameZh": "亚历山大广场支撑点",
+        "status": "intact",
+        "maxHp": 190,
+        "hp": 190,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 24,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "腓特烈大街街垒群",
+        "nameZh": "腓特烈大街街垒群",
+        "status": "intact",
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 22,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "莱尔特车站防御点",
+        "nameZh": "莱尔特车站防御点",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 23,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 24,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 27,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 28,
+        "r": 28,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "兰德韦尔运河防线",
+        "nameZh": "兰德韦尔运河防线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 21,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林内城东部阻击线",
+        "nameZh": "柏林内城东部阻击线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 31,
+        "r": 22,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林内城东部阻击线",
+        "nameZh": "柏林内城东部阻击线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 23,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林内城东部阻击线",
+        "nameZh": "柏林内城东部阻击线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 32,
+        "r": 25,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林内城东部阻击线",
+        "nameZh": "柏林内城东部阻击线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 31,
+        "r": 27,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林内城东部阻击线",
+        "nameZh": "柏林内城东部阻击线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 30,
+        "r": 29,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "柏林内城东部阻击线",
+        "nameZh": "柏林内城东部阻击线",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 19,
+        "r": 23,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "施潘道—夏洛滕堡防御区",
+        "nameZh": "施潘道—夏洛滕堡防御区",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 20,
+        "r": 23,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第12段",
+        "nameZh": "政府区内环街垒第12段",
+        "status": "intact",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 20,
+        "r": 24,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "施潘道—夏洛滕堡防御区",
+        "nameZh": "施潘道—夏洛滕堡防御区",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 20,
+        "r": 25,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第11段",
+        "nameZh": "政府区内环街垒第11段",
+        "status": "intact",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 21,
+        "r": 25,
+        "type": "trench",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "施潘道—夏洛滕堡防御区",
+        "nameZh": "施潘道—夏洛滕堡防御区",
+        "status": "intact",
+        "maxHp": 110,
+        "hp": 110,
+        "integrity": 100,
+        "berlinDefense": true
+      },
+      {
+        "q": 21,
+        "r": 21,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第1段",
+        "nameZh": "政府区内环街垒第1段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 22,
+        "r": 21,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第2段",
+        "nameZh": "政府区内环街垒第2段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 22,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第4段",
+        "nameZh": "政府区内环街垒第4段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 26,
+        "r": 23,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第5段",
+        "nameZh": "政府区内环街垒第5段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      },
+      {
+        "q": 25,
+        "r": 26,
+        "type": "urban_barricade",
+        "level": 3,
+        "owner": "german",
+        "progress": 100,
+        "name": "政府区内环街垒第7段",
+        "nameZh": "政府区内环街垒第7段",
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact",
+        "berlinDefense": true
+      }
+    ],
+    "minefields": [
+      {
+        "q": 50,
+        "r": 10,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 14,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 18,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 22,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 26,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 30,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 34,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 50,
+        "r": 38,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 10,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 14,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 18,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 22,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 26,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 30,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 34,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 48,
+        "r": 38,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 10,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 14,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 18,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 22,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 26,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 30,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 34,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 46,
+        "r": 38,
+        "owner": "german",
+        "strength": 100,
+        "name": "反坦克雷区",
+        "nameZh": "反坦克雷区"
+      },
+      {
+        "q": 36,
+        "r": 18,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 36,
+        "r": 24,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 36,
+        "r": 30,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 34,
+        "r": 20,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 34,
+        "r": 28,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 30,
+        "r": 36,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 26,
+        "r": 36,
+        "owner": "german",
+        "strength": 100,
+        "name": "柏林外围雷区",
+        "nameZh": "柏林外围雷区"
+      },
+      {
+        "q": 34,
+        "r": 22,
+        "owner": "german",
+        "level": 2
+      },
+      {
+        "q": 34,
+        "r": 26,
+        "owner": "german",
+        "level": 2
+      },
+      {
+        "q": 32,
+        "r": 20,
+        "owner": "german",
+        "level": 1
+      },
+      {
+        "q": 31,
+        "r": 29,
+        "owner": "german",
+        "level": 1
+      },
+      {
+        "q": 29,
+        "r": 32,
+        "owner": "german",
+        "level": 1
+      },
+      {
+        "q": 27,
+        "r": 33,
+        "owner": "german",
+        "level": 1
+      },
+      {
+        "q": 21,
+        "r": 24,
+        "owner": "german",
+        "level": 1
+      },
+      {
+        "q": 25,
+        "r": 27,
+        "owner": "german",
+        "level": 1
+      }
+    ],
+    "nameZh": "柏林战役",
+    "walls": [
+      {
+        "from": {
+          "q": 34,
+          "r": 20
+        },
+        "to": {
+          "q": 35,
+          "r": 21
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 35,
+          "r": 21
+        },
+        "to": {
+          "q": 35,
+          "r": 23
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 35,
+          "r": 23
+        },
+        "to": {
+          "q": 34,
+          "r": 25
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 34,
+          "r": 25
+        },
+        "to": {
+          "q": 33,
+          "r": 27
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 27
+        },
+        "to": {
+          "q": 31,
+          "r": 29
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 29
+        },
+        "to": {
+          "q": 29,
+          "r": 31
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 29,
+          "r": 31
+        },
+        "to": {
+          "q": 27,
+          "r": 32
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 27,
+          "r": 32
+        },
+        "to": {
+          "q": 25,
+          "r": 32
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 25,
+          "r": 32
+        },
+        "to": {
+          "q": 23,
+          "r": 31
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 31
+        },
+        "to": {
+          "q": 21,
+          "r": 29
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 29
+        },
+        "to": {
+          "q": 20,
+          "r": 27
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 27
+        },
+        "to": {
+          "q": 20,
+          "r": 24
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 24
+        },
+        "to": {
+          "q": 21,
+          "r": 21
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 21
+        },
+        "to": {
+          "q": 23,
+          "r": 19
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 19
+        },
+        "to": {
+          "q": 26,
+          "r": 18
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 26,
+          "r": 18
+        },
+        "to": {
+          "q": 29,
+          "r": 18
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 29,
+          "r": 18
+        },
+        "to": {
+          "q": 32,
+          "r": 19
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 32,
+          "r": 19
+        },
+        "to": {
+          "q": 34,
+          "r": 20
+        },
+        "section": "柏林外围反坦克障碍带",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 30,
+          "r": 21
+        },
+        "to": {
+          "q": 31,
+          "r": 23
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 23
+        },
+        "to": {
+          "q": 31,
+          "r": 26
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 26
+        },
+        "to": {
+          "q": 29,
+          "r": 28
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 29,
+          "r": 28
+        },
+        "to": {
+          "q": 27,
+          "r": 29
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 27,
+          "r": 29
+        },
+        "to": {
+          "q": 24,
+          "r": 29
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 24,
+          "r": 29
+        },
+        "to": {
+          "q": 22,
+          "r": 27
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 27
+        },
+        "to": {
+          "q": 21,
+          "r": 25
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 25
+        },
+        "to": {
+          "q": 22,
+          "r": 22
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 22
+        },
+        "to": {
+          "q": 24,
+          "r": 20
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 24,
+          "r": 20
+        },
+        "to": {
+          "q": 27,
+          "r": 20
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 27,
+          "r": 20
+        },
+        "to": {
+          "q": 30,
+          "r": 21
+        },
+        "section": "S-Bahn内防御圈/街垒",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 23
+        },
+        "to": {
+          "q": 23,
+          "r": 22
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 22
+        },
+        "to": {
+          "q": 24,
+          "r": 22
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 24,
+          "r": 22
+        },
+        "to": {
+          "q": 25,
+          "r": 23
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 25,
+          "r": 23
+        },
+        "to": {
+          "q": 25,
+          "r": 25
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 25,
+          "r": 25
+        },
+        "to": {
+          "q": 24,
+          "r": 26
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 24,
+          "r": 26
+        },
+        "to": {
+          "q": 23,
+          "r": 26
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 26
+        },
+        "to": {
+          "q": 22,
+          "r": 25
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 25
+        },
+        "to": {
+          "q": 22,
+          "r": 23
+        },
+        "section": "Z区政府核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1100,
+        "maxHp": 1100
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 25
+        },
+        "to": {
+          "q": 22,
+          "r": 24
+        },
+        "section": "动物园防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 24
+        },
+        "to": {
+          "q": 23,
+          "r": 25
+        },
+        "section": "动物园防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 25
+        },
+        "to": {
+          "q": 22,
+          "r": 26
+        },
+        "section": "动物园防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 26
+        },
+        "to": {
+          "q": 21,
+          "r": 25
+        },
+        "section": "动物园防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 26,
+          "r": 20
+        },
+        "to": {
+          "q": 27,
+          "r": 19
+        },
+        "section": "洪堡海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 27,
+          "r": 19
+        },
+        "to": {
+          "q": 28,
+          "r": 20
+        },
+        "section": "洪堡海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 28,
+          "r": 20
+        },
+        "to": {
+          "q": 27,
+          "r": 21
+        },
+        "section": "洪堡海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 27,
+          "r": 21
+        },
+        "to": {
+          "q": 26,
+          "r": 20
+        },
+        "section": "洪堡海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 28,
+          "r": 23
+        },
+        "to": {
+          "q": 29,
+          "r": 22
+        },
+        "section": "腓特烈斯海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 29,
+          "r": 22
+        },
+        "to": {
+          "q": 30,
+          "r": 23
+        },
+        "section": "腓特烈斯海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 30,
+          "r": 23
+        },
+        "to": {
+          "q": 29,
+          "r": 24
+        },
+        "section": "腓特烈斯海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      },
+      {
+        "from": {
+          "q": 29,
+          "r": 24
+        },
+        "to": {
+          "q": 28,
+          "r": 23
+        },
+        "section": "腓特烈斯海恩防空塔近接防御",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1200,
+        "maxHp": 1200
+      }
+    ],
+    "urbanDefenseRules": {
+      "wallBlocksMovementUntilBreached": true,
+      "breachAtHp": 0,
+      "destroyedWallDisappears": true,
+      "showDurabilityInHexInfo": true
+    },
+    "berlinDefenseSystem": {
+      "enabled": true,
+      "description": "柏林城区纵深城防：外围障碍、街垒、反坦克支撑点、要点堡垒与三座重型防空塔。",
+      "flakTowersProvideAirDefense": true,
+      "version": "2.1-command-and-fortification",
+      "defenseLayers": [
+        "泽洛高地纵深阵地",
+        "柏林外围反坦克障碍带",
+        "东部城区街垒与支撑点",
+        "兰德韦尔运河防线",
+        "政府区内环街垒",
+        "政府区核心要塞群"
+      ],
+      "keyStrongpoints": [
+        "国会大厦",
+        "帝国总理府",
+        "毛奇桥",
+        "动物园防空塔",
+        "洪堡海恩防空塔",
+        "腓特烈斯海恩防空塔",
+        "滕珀尔霍夫机场",
+        "亚历山大广场",
+        "安哈尔特车站",
+        "波茨坦广场"
+      ],
+      "flakTowerRule": {
+        "airDefenseEnabled": true,
+        "zoneRadius": 6,
+        "fortificationLevel": 4,
+        "fixedPosition": true
+      },
+      "commandPostProtection": true,
+      "commandLossHooksPrepared": true,
+      "fortificationLabelsForKeyPositions": true
+    }
+  },
+  "victoryConditions": {
+    "deadlineTurn": 30,
+    "soviet": {
+      "eliminateEnemy": false,
+      "captureObjectives": {
+        "mode": "all",
+        "objectives": [
+          {
+            "id": "chancellery",
+            "name": "帝国总理府",
+            "q": 24,
+            "r": 25,
+            "nameZh": "帝国总理府"
+          }
+        ],
+        "successText": "苏军在第30回合结束前攻占帝国总理府，柏林战役胜利。"
+      }
+    },
+    "german": {
+      "eliminateEnemy": false,
+      "defendObjectivesUntilDeadline": {
+        "mode": "all",
+        "objectives": [
+          {
+            "id": "chancellery",
+            "name": "帝国总理府",
+            "q": 24,
+            "r": 25,
+            "nameZh": "帝国总理府"
+          }
+        ],
+        "successText": "德军成功坚守帝国总理府至第30回合结束。"
+      }
+    },
+    "deadlineFailureText": "苏军未能在30回合内攻占帝国总理府，德军防御成功。"
+  },
+  "nameZh": "柏林战役",
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "german": {
+      "enabled": true,
+      "deckId": "german_ww2",
+      "points": 3,
+      "uses": {
+        "ju87_dive": 2,
+        "ju52_supply": 1
+      },
+      "restrictions": {
+        "ju52_supply": {
+          "friendlyOnly": true
+        }
+      }
+    },
+    "soviet": {
+      "enabled": true,
+      "deckId": "soviet_tactical_ww2",
+      "points": 14,
+      "uses": {
+        "yak3_cap": 4,
+        "yak9t_armor": 3,
+        "il2_attack": 5,
+        "il10_attack": 3,
+        "pe2_dive": 4,
+        "tu2_bomb": 4,
+        "li2_supply": 2,
+        "li2_paradrop": 0
+      },
+      "restrictions": {
+        "li2_supply": {
+          "friendlyOnly": true
+        }
+      }
+    }
+  }
+}

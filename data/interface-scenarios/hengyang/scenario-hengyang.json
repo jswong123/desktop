@@ -1,0 +1,2493 @@
+{
+  "id": "hengyang_1944",
+  "key": "hengyang",
+  "name": "衡阳保卫战",
+  "scenario": "衡阳保卫战",
+  "date": "1944-06-23",
+  "startTime": "08:00",
+  "hoursPerTurn": 6,
+  "startingPhase": "japanese",
+  "map": {
+    "id": "hengyang_1944",
+    "name": "衡阳保卫战地图",
+    "width": 72,
+    "height": 48,
+    "hexSize": 24,
+    "terrain": [
+      {
+        "q": 29,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 32,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 33,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 34,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 35,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 36,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 37,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 38,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 39,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 40,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 23,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 28,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 41,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 21,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 22,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 24,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 25,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 26,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 27,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 29,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 30,
+        "type": "urban"
+      },
+      {
+        "q": 42,
+        "r": 31,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 5,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 41,
+        "type": "forest"
+      }
+    ],
+    "rivers": [
+      {
+        "id": "xiang",
+        "name": "湘江",
+        "nameZh": "湘江",
+        "width": 6,
+        "points": [
+          [
+            45,
+            0
+          ],
+          [
+            44,
+            8
+          ],
+          [
+            44,
+            16
+          ],
+          [
+            45,
+            24
+          ],
+          [
+            46,
+            32
+          ],
+          [
+            48,
+            40
+          ],
+          [
+            50,
+            47
+          ]
+        ]
+      },
+      {
+        "id": "zhengshui",
+        "name": "蒸水",
+        "nameZh": "蒸水",
+        "width": 4,
+        "points": [
+          [
+            10,
+            16
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            26,
+            18
+          ],
+          [
+            34,
+            18
+          ],
+          [
+            43,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "leishui",
+        "name": "耒水",
+        "nameZh": "耒水",
+        "width": 4,
+        "points": [
+          [
+            60,
+            5
+          ],
+          [
+            57,
+            12
+          ],
+          [
+            55,
+            20
+          ],
+          [
+            54,
+            28
+          ],
+          [
+            55,
+            36
+          ],
+          [
+            58,
+            44
+          ]
+        ]
+      }
+    ],
+    "roads": [
+      {
+        "id": "ns",
+        "name": "粤汉铁路/南北交通线",
+        "nameZh": "粤汉铁路",
+        "importance": "main",
+        "points": [
+          [
+            37,
+            0
+          ],
+          [
+            38,
+            10
+          ],
+          [
+            39,
+            20
+          ],
+          [
+            39,
+            30
+          ],
+          [
+            40,
+            40
+          ],
+          [
+            41,
+            47
+          ]
+        ]
+      },
+      {
+        "id": "west",
+        "name": "衡阳—西渡道路",
+        "nameZh": "衡阳—西渡道路",
+        "importance": "main",
+        "points": [
+          [
+            4,
+            25
+          ],
+          [
+            15,
+            25
+          ],
+          [
+            25,
+            25
+          ],
+          [
+            36,
+            25
+          ]
+        ]
+      },
+      {
+        "id": "east",
+        "name": "衡阳—机场道路",
+        "nameZh": "衡阳—机场道路",
+        "importance": "main",
+        "points": [
+          [
+            36,
+            25
+          ],
+          [
+            44,
+            24
+          ],
+          [
+            50,
+            23
+          ],
+          [
+            62,
+            22
+          ]
+        ]
+      }
+    ],
+    "railways": [
+      {
+        "id": "ns",
+        "name": "粤汉铁路/南北交通线",
+        "nameZh": "粤汉铁路",
+        "importance": "main",
+        "points": [
+          [
+            37,
+            0
+          ],
+          [
+            38,
+            10
+          ],
+          [
+            39,
+            20
+          ],
+          [
+            39,
+            30
+          ],
+          [
+            40,
+            40
+          ],
+          [
+            41,
+            47
+          ]
+        ]
+      }
+    ],
+    "settlements": [
+      {
+        "id": "hengyang",
+        "name": "衡阳城区",
+        "nameZh": "衡阳城区",
+        "q": 36,
+        "r": 25,
+        "type": "major_city"
+      },
+      {
+        "id": "zhangjiashan",
+        "name": "张家山",
+        "nameZh": "张家山",
+        "q": 27,
+        "r": 31,
+        "type": "position"
+      },
+      {
+        "id": "tingbingshan",
+        "name": "停兵山",
+        "nameZh": "停兵山",
+        "q": 31,
+        "r": 34,
+        "type": "position"
+      },
+      {
+        "id": "gaoling",
+        "name": "高岭",
+        "nameZh": "高岭",
+        "q": 34,
+        "r": 35,
+        "type": "position"
+      },
+      {
+        "id": "huangchaling",
+        "name": "黄茶岭",
+        "nameZh": "黄茶岭",
+        "q": 39,
+        "r": 34,
+        "type": "position"
+      },
+      {
+        "id": "hengyang_airfield",
+        "name": "衡阳机场",
+        "nameZh": "衡阳机场",
+        "q": 49,
+        "r": 23,
+        "type": "airfield"
+      },
+      {
+        "id": "rail_station",
+        "name": "衡阳火车站",
+        "nameZh": "衡阳火车站",
+        "q": 39,
+        "r": 24,
+        "type": "station"
+      },
+      {
+        "id": "huaiyanfeng",
+        "name": "回雁峰",
+        "nameZh": "回雁峰",
+        "q": 35,
+        "r": 30,
+        "type": "position"
+      },
+      {
+        "id": "waziping",
+        "name": "瓦子坪",
+        "nameZh": "瓦子坪",
+        "q": 25,
+        "r": 25,
+        "type": "position"
+      },
+      {
+        "id": "huxingshan",
+        "name": "虎形山",
+        "nameZh": "虎形山",
+        "q": 23,
+        "r": 22,
+        "type": "position"
+      }
+    ],
+    "fortifications": [
+      {
+        "q": 27,
+        "r": 31,
+        "type": "fieldwork",
+        "level": 3,
+        "owner": "chinese"
+      },
+      {
+        "q": 31,
+        "r": 34,
+        "type": "fieldwork",
+        "level": 3,
+        "owner": "chinese"
+      },
+      {
+        "q": 34,
+        "r": 35,
+        "type": "fieldwork",
+        "level": 3,
+        "owner": "chinese"
+      },
+      {
+        "q": 39,
+        "r": 34,
+        "type": "fieldwork",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 25,
+        "r": 25,
+        "type": "fieldwork",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 23,
+        "r": 22,
+        "type": "fieldwork",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 30,
+        "r": 29,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 33,
+        "r": 30,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 36,
+        "r": 31,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 40,
+        "r": 30,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 29,
+        "r": 22,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 32,
+        "r": 21,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 36,
+        "r": 20,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 40,
+        "r": 21,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      }
+    ],
+    "minefields": [],
+    "nameZh": "衡阳保卫战地图",
+    "wallEdges": [
+      {
+        "from": {
+          "q": 31,
+          "r": 30
+        },
+        "to": {
+          "q": 32,
+          "r": 30
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 32,
+          "r": 30
+        },
+        "to": {
+          "q": 33,
+          "r": 30
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 30
+        },
+        "to": {
+          "q": 34,
+          "r": 30
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 34,
+          "r": 30
+        },
+        "to": {
+          "q": 35,
+          "r": 30
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 35,
+          "r": 30
+        },
+        "to": {
+          "q": 36,
+          "r": 30
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 36,
+          "r": 30
+        },
+        "to": {
+          "q": 37,
+          "r": 29
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 29
+        },
+        "to": {
+          "q": 38,
+          "r": 28
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 28
+        },
+        "to": {
+          "q": 39,
+          "r": 27
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 27
+        },
+        "to": {
+          "q": 40,
+          "r": 26
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 40,
+          "r": 26
+        },
+        "to": {
+          "q": 41,
+          "r": 25
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 41,
+          "r": 25
+        },
+        "to": {
+          "q": 41,
+          "r": 24
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 41,
+          "r": 24
+        },
+        "to": {
+          "q": 41,
+          "r": 23
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 41,
+          "r": 23
+        },
+        "to": {
+          "q": 41,
+          "r": 22
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 41,
+          "r": 22
+        },
+        "to": {
+          "q": 41,
+          "r": 21
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 41,
+          "r": 21
+        },
+        "to": {
+          "q": 41,
+          "r": 20
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 41,
+          "r": 20
+        },
+        "to": {
+          "q": 40,
+          "r": 20
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 40,
+          "r": 20
+        },
+        "to": {
+          "q": 39,
+          "r": 20
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 20
+        },
+        "to": {
+          "q": 38,
+          "r": 20
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 20
+        },
+        "to": {
+          "q": 37,
+          "r": 20
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 20
+        },
+        "to": {
+          "q": 36,
+          "r": 20
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 36,
+          "r": 20
+        },
+        "to": {
+          "q": 35,
+          "r": 21
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 35,
+          "r": 21
+        },
+        "to": {
+          "q": 34,
+          "r": 22
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 34,
+          "r": 22
+        },
+        "to": {
+          "q": 33,
+          "r": 23
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 23
+        },
+        "to": {
+          "q": 32,
+          "r": 24
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 32,
+          "r": 24
+        },
+        "to": {
+          "q": 31,
+          "r": 25
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 25
+        },
+        "to": {
+          "q": 31,
+          "r": 26
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 26
+        },
+        "to": {
+          "q": 31,
+          "r": 27
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 27
+        },
+        "to": {
+          "q": 31,
+          "r": 28
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 28
+        },
+        "to": {
+          "q": 31,
+          "r": 29
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 31,
+          "r": 29
+        },
+        "to": {
+          "q": 31,
+          "r": 30
+        },
+        "section": "衡阳外围环形防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 28
+        },
+        "to": {
+          "q": 34,
+          "r": 28
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 34,
+          "r": 28
+        },
+        "to": {
+          "q": 35,
+          "r": 28
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 35,
+          "r": 28
+        },
+        "to": {
+          "q": 36,
+          "r": 28
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 36,
+          "r": 28
+        },
+        "to": {
+          "q": 37,
+          "r": 27
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 27
+        },
+        "to": {
+          "q": 38,
+          "r": 26
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 26
+        },
+        "to": {
+          "q": 39,
+          "r": 25
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 25
+        },
+        "to": {
+          "q": 39,
+          "r": 24
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 24
+        },
+        "to": {
+          "q": 39,
+          "r": 23
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 23
+        },
+        "to": {
+          "q": 39,
+          "r": 22
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 22
+        },
+        "to": {
+          "q": 38,
+          "r": 22
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 22
+        },
+        "to": {
+          "q": 37,
+          "r": 22
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 22
+        },
+        "to": {
+          "q": 36,
+          "r": 22
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 36,
+          "r": 22
+        },
+        "to": {
+          "q": 35,
+          "r": 23
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 35,
+          "r": 23
+        },
+        "to": {
+          "q": 34,
+          "r": 24
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 34,
+          "r": 24
+        },
+        "to": {
+          "q": 33,
+          "r": 25
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 25
+        },
+        "to": {
+          "q": 33,
+          "r": 26
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 26
+        },
+        "to": {
+          "q": 33,
+          "r": 27
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 33,
+          "r": 27
+        },
+        "to": {
+          "q": 33,
+          "r": 28
+        },
+        "section": "衡阳核心防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      }
+    ],
+    "urbanDefenseRules": {
+      "wallBlocksMovementUntilBreached": true,
+      "breachAtHp": 0,
+      "destroyedWallDisappears": true,
+      "showDurabilityInHexInfo": true
+    },
+    "urbanDefenseNote": "以衡阳守军环形野战工事、碉堡、壕沟和障碍带表现城防；并非传统砖石城墙。"
+  },
+  "victoryConditions": {
+    "japanese": {
+      "eliminateEnemy": true
+    },
+    "chinese": {
+      "eliminateEnemy": true
+    }
+  },
+  "nameZh": "衡阳保卫战",
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "chinese": {
+      "enabled": true,
+      "deckId": "china_allied_air",
+      "points": 6,
+      "uses": {
+        "recon": 2,
+        "p40_strafe": 2,
+        "b25_bomb": 2,
+        "supply": 2
+      },
+      "restrictions": {
+        "supply": {
+          "friendlyOnly": true
+        }
+      }
+    },
+    "japanese": {
+      "enabled": true,
+      "deckId": "japanese_ww2",
+      "points": 8,
+      "uses": {
+        "a6m2_cap": 3,
+        "a6m2_strafe": 2,
+        "ki43_cap": 3,
+        "ki43_strafe": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    >
+
+    <title>战线 1937-1945</title>
+
+    <link
+        rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%278%27 fill=%27%23252a24%27/%3E%3Ctext x=%2732%27 y=%2744%27 text-anchor=%27middle%27 font-size=%2738%27 fill=%27%23e5ddbd%27%3E%E6%88%98%3C/text%3E%3C/svg%3E"
+    >
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+    <style>
+
+        #topbar-right {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-left: auto;
+        }
+
+        #save-system-controls {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #save-system-controls button,
+        #save-system-controls select {
+            border: 1px solid #77715d;
+            background: #ded7bb;
+            color: #25271f;
+            padding: 4px 7px;
+            font: inherit;
+            font-size: 12px;
+        }
+
+        #save-system-controls button {
+            cursor: pointer;
+        }
+
+        #save-system-controls button:disabled {
+            opacity: .45;
+            cursor: default;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- ================================================== -->
+<!-- 主菜单 -->
+<!-- ================================================== -->
+
+<div
+    id="mainMenu"
+    class="game-overlay main-menu-overlay"
+>
+
+    <div class="main-menu-scene">
+
+
+        <!-- 游戏标题 -->
+
+        <div class="main-menu-brand">
+
+            <h1>
+                战线
+                <span>1937–1945</span>
+            </h1>
+
+            <div class="main-menu-tagline" id="mainMenuTagline">
+                从淞沪到柏林 · 在地图上重演决定战争走向的战役
+            </div>
+
+            <div class="main-menu-version" id="mainMenuVersion">
+                V0.27.0 · GROUP ARMY
+            </div>
+
+        </div>
+
+
+        <!-- 主菜单按钮 -->
+
+        <div class="main-menu-actions">
+
+            <button id="menuNewGame">
+                <b>战役模式</b>
+                <small>选择战场与历史战役</small>
+            </button>
+
+            <button id="menuContinue">
+                <b>继续战役</b>
+                <small>返回最近一次作战</small>
+            </button>
+
+            <button id="menuLoad">
+                <b>读取存档</b>
+                <small>从已有存档继续</small>
+            </button>
+
+            <button id="menuSettings">
+                <b>游戏设置</b>
+                <small>显示与操作选项</small>
+            </button>
+
+            <button id="menuAbout">
+                <b>制作信息</b>
+                <small>版本与开发说明</small>
+            </button>
+
+        </div>
+
+
+        <!-- 本次更新 -->
+
+        <div class="main-menu-feature">
+
+            <strong>
+                本次更新
+            </strong>
+
+            <span id="mainUpdateTitle">
+                砺剑系列红蓝军合成旅对抗演习
+            </span>
+
+            <em id="mainUpdateDetail">
+                大型全域联合训练场
+            </em>
+
+        </div>
+
+
+    </div>
+    <button id="menuDeveloper" class="main-dev-corner" title="开发者模式" aria-label="开发者模式">D</button>
+</div>
+
+
+<!-- ================================================== -->
+<!-- 游戏设置：仅管理现有地图显示/规则开关 -->
+<!-- ================================================== -->
+<div id="settingsModal" class="game-overlay modal-overlay" hidden>
+  <div class="save-modal-card settings-card">
+    <h2>游戏设置</h2>
+    <div class="settings-grid">
+      <label>默认控区
+        <select id="settingControlZone"><option value="on">开</option><option value="off">关</option></select>
+      </label>
+      <label>战争迷雾
+        <select id="settingFogOfWar"><option value="on">开</option><option value="off">关</option></select>
+      </label>
+      <label>地图模式
+        <select id="settingMapMode"><option value="2d">二维地图</option><option value="3d">三维地图</option></select>
+      </label>
+      <label>阴影投影位置
+        <select id="settingViewDirection"><option value="north">北</option><option value="east">东</option><option value="south">南</option><option value="west">西</option></select>
+      </label>
+      <label class="settings-wide">俯仰比例 <span id="settingPitchValue">52</span>
+        <input id="settingPitch" type="range" min="35" max="78" value="52" step="1">
+      </label>
+    </div>
+    <div class="settings-note">这些选项只设置现有顶部地图控制与战争迷雾的默认状态，不修改战斗、单位、AI、工程或支援系统。</div>
+    <div class="save-modal-actions">
+      <button id="settingsReset">恢复默认</button>
+      <button id="settingsSave">保存设置</button>
+      <button id="settingsClose">取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================== -->
+<!-- 制作信息 -->
+<!-- ================================================== -->
+
+<div
+    id="aboutModal"
+    class="game-overlay modal-overlay"
+    hidden
+>
+
+    <div class="save-modal-card about-card">
+
+        <h2>
+            制作信息
+        </h2>
+
+        <div class="about-placeholder" id="aboutContent">我想要放假</div>
+
+        <div class="save-modal-actions">
+
+            <button id="closeAboutModal">
+                返回
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================== -->
+<!-- 开发者模式 -->
+<!-- ================================================== -->
+
+<div
+    id="developerPanel"
+    hidden
+    style="
+        position: fixed;
+        left: 18px;
+        bottom: 18px;
+        z-index: 8500;
+        background: rgba(31,35,29,.94);
+        color: #eee7ca;
+        border: 1px solid #9d9575;
+        padding: 12px;
+        min-width: 260px;
+        font-family: FangSong, 仿宋, serif;
+        box-shadow: 0 4px 20px #0008;
+    "
+>
+
+    <div
+        style="
+            font-weight: 700;
+            font-size: 17px;
+            margin-bottom: 8px;
+        "
+    >
+        开发者模式
+        <button id="devExitMode" style="float:right;font:inherit;font-size:12px;">退出开发者模式</button>
+    </div>
+
+
+    <div
+        style="
+            font-size: 12px;
+            opacity: .75;
+            margin-bottom: 8px;
+        "
+    >
+        双方算子均可直接操控 · 不影响普通阵营模式
+    </div>
+
+
+    <div
+        style="
+            display: flex;
+            gap: 6px;
+            margin-bottom: 8px;
+        "
+    >
+
+        <button id="devEndPhase">
+            结束当前方
+        </button>
+
+        <button id="devNextTurn">
+            结束双方回合
+        </button>
+
+    </div>
+
+
+    <div
+        style="
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        "
+    >
+
+        <label>
+            回合
+        </label>
+
+        <input
+            id="devTurnInput"
+            type="number"
+            min="1"
+            style="width:70px;"
+        >
+
+        <button id="devSetTurn">
+            修改
+        </button>
+
+    </div>
+
+
+    <hr style="border:0;border-top:1px solid #77735f;margin:10px 0;">
+    <div style="font-weight:700;margin-bottom:6px;">地图编辑器</div>
+    <select id="devTool" style="width:100%;margin-bottom:6px;">
+      <option value="unit">移动算子（双方）</option><option value="deployment">添加/编辑正面战场单位</option><option value="terrain">修改地形</option>
+      <option value="fort">建造/删除工事</option><option value="wall">建造/删除城墙边</option><option value="gate">开放/关闭城门边</option>
+      <option value="placename">编辑地名</option><option value="node">编辑重要节点</option><option value="objective">编辑战术目标</option><option value="reinforcement">编辑战术增援</option>
+    </select>
+    <div id="devTerrainRow" style="display:flex;gap:5px;margin-bottom:6px;">
+      <select id="devTerrain" style="flex:1"><option value="plain">平地</option><option value="urban">城镇</option><option value="forest">森林</option><option value="hill">丘陵</option><option value="mountain">山地</option><option value="marsh">沼泽</option><option value="water">水域</option></select>
+      <select id="devFortType" style="flex:1">
+        <option value="foxhole">散兵坑</option><option value="trench">战壕</option><option value="strongpoint">加强阵地</option><option value="bunker">碉堡</option>
+        <option value="aa_position_1">一级防空阵地</option><option value="aa_position_2">二级防空阵地</option><option value="aa_position_3">三级防空阵地</option>
+        <option value="minefield">雷区</option><option value="pontoon">浮桥</option><option value="field_wall">野战防御墙</option><option value="delete">删除工事</option>
+      </select>
+      <select id="devFortLevel"><option value="1">工事1级</option><option value="2">工事2级</option><option value="3">工事3级</option></select>
+    </div>
+    <div style="margin:8px 0 6px;border-top:1px solid #77735f;padding-top:8px;font-weight:700;">支援卡组编辑器</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:6px;">
+      <select id="devSupportSide"><option value="pla">解放军</option><option value="tw_proxy">台伪军</option><option value="red">红方</option><option value="blue">蓝方</option><option value="chinese">中国军</option><option value="japanese">日军</option><option value="soviet">苏军</option><option value="german">德军</option></select>
+      <button id="devSupportLoad">读取当前卡组</button>
+    </div>
+    <div id="devSupportCards" style="max-height:220px;overflow:auto;border:1px solid #77735f;padding:6px;margin-bottom:6px;font-size:12px;"></div>
+    <div style="display:flex;gap:5px;margin-bottom:8px;"><button id="devSupportSave" style="flex:1">保存支援卡组</button><button id="devSupportClear" style="flex:1">清空该方卡组</button></div>
+    <div id="devEditorStatus" style="font-size:12px;line-height:1.5;min-height:34px;margin-bottom:6px;">选择工具后直接点击地图编辑。</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;">
+      <button id="devSaveDraft">保存浏览器草稿</button><button id="devLoadDraft">读取浏览器草稿</button>
+      <button id="devExportScenario">导出战役JSON</button><button id="devExportUnits">导出单位JSON</button>
+    </div>
+    <div style="font-size:11px;opacity:.72;margin-top:6px;line-height:1.45;">正式修改请导出 JSON 后替换 data 目录中的对应文件。地名/重要节点/战术目标写入战役 JSON；战术增援写入单位 JSON。</div>
+</div>
+
+
+
+<!-- 开发者：统一单位/战术增援编辑器 v0.20 -->
+<div id="devReinforcementEditor" hidden style="position:fixed;right:18px;top:55px;width:370px;max-height:calc(100vh - 75px);overflow:auto;z-index:12000;background:#eee9d8;border:2px solid #4f4b3d;box-shadow:0 8px 28px rgba(0,0,0,.35);padding:12px;color:#222;font-family:inherit;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b id="devUnitEditorTitle">单位 / 战术增援编辑器</b><button id="devReinfClose">×</button></div>
+  <label>单位名称</label><input id="devReinfName" style="width:100%;box-sizing:border-box;margin:3px 0 7px">
+  <label>单位种类（选择后载入默认值，可手动微调）</label><select id="devReinfType" style="width:100%;margin:3px 0 7px"><option value="infantry">步兵</option><option value="guard">警卫</option><option value="engineer">工兵</option><option value="machinegun">机枪</option><option value="artillery">炮兵</option><option value="antitank">反坦克</option><option value="anti_air">防空</option><option value="recon">侦察</option><option value="cavalry">骑兵</option><option value="motorized">摩托化</option><option value="armor">装甲</option><option value="tank">坦克</option><option value="headquarters">司令部</option></select>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:7px">
+    <label>单位规模<select id="devReinfScale" style="width:100%"><option value="squad">班</option><option value="platoon">排</option><option value="company">连</option><option value="battalion" selected>营</option><option value="regiment">团</option><option value="brigade">旅</option><option value="division">师</option><option value="corps">军</option><option value="army">集团军</option><option value="custom">其他/自定义</option></select></label>
+    <label>指挥官姓名<input id="devReinfCommander" placeholder="预留，可留空" style="width:100%;box-sizing:border-box"></label>
+    <label style="grid-column:1/3">指挥官军衔<input id="devReinfCommanderRank" placeholder="预留，可留空" style="width:100%;box-sizing:border-box"></label>
+  </div>
+  <button id="devReinfDefaults" style="width:100%;margin-bottom:7px">恢复该类型默认参数</button>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+    <label>兵力<input id="devReinfStrength" type="number" min="1" style="width:100%"></label><label>最大兵力<input id="devReinfMaxStrength" type="number" min="1" style="width:100%"></label>
+    <label>攻击力<input id="devReinfAttack" type="number" min="0" style="width:100%"></label><label>防御力<input id="devReinfDefense" type="number" min="0" style="width:100%"></label>
+    <label>移动力<input id="devReinfMovement" type="number" min="0" style="width:100%"></label><label>射程<input id="devReinfRange" type="number" min="1" style="width:100%"></label>
+    <label>士气<input id="devReinfMorale" type="number" min="0" max="100" style="width:100%"></label><label>弹药<input id="devReinfAmmo" type="number" min="0" max="100" style="width:100%"></label>
+  </div>
+  <hr><label>阵营</label><select id="devReinfFaction" style="width:100%;margin:3px 0 7px"><option value="chinese">中国军</option><option value="japanese">日军</option><option value="allied">盟军</option><option value="soviet">苏军</option><option value="german">德军</option><option value="rok_government">政府军</option><option value="new_military">新军部</option></select>
+  <label>出现回合（1=正面战场初始部署，>1=战术增援）</label><input id="devReinfTurn" type="number" min="1" style="width:100%;box-sizing:border-box;margin:3px 0 7px">
+  <label>出现方向</label><select id="devReinfEntry" style="width:100%;margin:3px 0 7px"><option value="AUTO">自动</option><option value="north">北</option><option value="northeast">东北</option><option value="east">东</option><option value="southeast">东南</option><option value="south">南</option><option value="southwest">西南</option><option value="west">西</option><option value="northwest">西北</option><option value="point">指定点击位置</option><option value="port">港口</option><option value="concession">租界</option></select>
+  <label>作战任务</label><select id="devReinfMission" style="width:100%;margin:3px 0 7px"><option value="attack">攻击</option><option value="defend">防守</option><option value="hold">坚守</option><option value="reserve">预备队</option></select>
+  <label>攻击 / 防守目标</label><select id="devReinfTarget" style="width:100%;margin:3px 0 7px"></select>
+  <label>增援批次名称</label><input id="devReinfGroupName" style="width:100%;box-sizing:border-box;margin:3px 0 7px">
+  <label>说明</label><textarea id="devReinfDetail" rows="2" style="width:100%;box-sizing:border-box;margin:3px 0 8px"></textarea>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px"><button id="devReinfSave">保存单位</button><button id="devReinfDelete">删除单位 / 增援设置</button></div>
+</div>
+
+<!-- 主界面开发者编辑器 -->
+<div id="mainDeveloperEditor" hidden style="position:fixed;inset:20px;z-index:200000;background:#d6cfb2;border:2px solid #514d3e;padding:18px;overflow:auto;color:#24251f;font-family:FangSong,STFangsong,SimSun,serif;">
+ <div style="display:flex;justify-content:space-between;align-items:center"><h2 style="margin:0">主界面开发者编辑器</h2><button id="mainDevClose">退出开发者模式</button></div>
+ <p>编辑主界面内容、制作信息、更新内容，以及战场 / 阶段 / 战役隶属关系与模块尺寸。</p>
+ <details open style="margin:12px 0;background:#e5dfc7;border:1px solid #716c58;padding:10px"><summary><b>主界面内容</b></summary><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px"><label>副标题<input id="mainDevTagline" style="width:100%"></label><label>版本显示<input id="mainDevVersionText" style="width:100%"></label><label>本次更新标题<input id="mainDevUpdateTitle" style="width:100%"></label><label>本次更新内容<input id="mainDevUpdateDetail" style="width:100%"></label><label style="grid-column:1/3">制作信息<textarea id="mainDevAbout" rows="4" style="width:100%;box-sizing:border-box"></textarea></label></div><button id="mainDevApplyContent" style="margin-top:8px">应用主界面内容</button></details>
+ <div style="display:grid;grid-template-columns:320px 1fr;gap:16px;min-height:600px">
+  <div><div style="display:flex;gap:5px;margin-bottom:8px"><button id="mainDevAddTheater">+战场</button><button id="mainDevAddPhase">+阶段</button><button id="mainDevAddScenario">+战役</button></div><div id="mainDevTree" style="background:#c7c0a4;border:1px solid #716c58;padding:8px;max-height:70vh;overflow:auto"></div></div>
+  <div id="mainDevProps" style="background:#e5dfc7;border:1px solid #716c58;padding:12px">从左侧选择一个模块。</div>
+ </div>
+ <div style="display:flex;gap:8px;margin-top:12px"><button id="mainDevSave">保存浏览器草稿</button><button id="mainDevExport">导出 campaigns.json</button><button id="mainDevExportUI">导出 main-ui.json</button><button id="mainDevReset">恢复代码内目录</button></div>
+</div>
+
+<!-- ================================================== -->
+<!-- 存档 / 读档窗口 -->
+<!-- ================================================== -->
+
+<div
+    id="saveLoadModal"
+    class="game-overlay modal-overlay"
+    hidden
+>
+
+    <div class="save-modal-card">
+
+        <h2 id="saveModalTitle">
+            存档
+        </h2>
+
+        <div id="saveSlotCards"></div>
+
+
+        <div class="save-modal-actions">
+
+            <button id="importSaveButton">
+                导入存档
+            </button>
+
+            <input
+                id="importSaveFile"
+                type="file"
+                accept="application/json,.json"
+                hidden
+            >
+
+            <button id="closeSaveModal">
+                关闭
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================== -->
+<!-- 暂停菜单 -->
+<!-- ================================================== -->
+
+<div
+    id="pauseMenu"
+    class="game-overlay modal-overlay"
+    hidden
+>
+
+    <div class="pause-card">
+
+        <h2>
+            游戏菜单
+        </h2>
+
+        <button id="pauseResume">
+            继续游戏
+        </button>
+
+        <button id="pauseSave">
+            保存游戏
+        </button>
+
+        <button id="pauseLoad">
+            读取游戏
+        </button>
+
+        <button id="pauseRestart">
+            重新开始对局
+        </button>
+
+        <button id="pauseMain">
+            返回主界面
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ================================================== -->
+<!-- 游戏主体 -->
+<!-- ================================================== -->
+
+<div id="game">
+
+
+    <!-- ============================================== -->
+    <!-- 顶部状态栏 -->
+    <!-- ============================================== -->
+
+    <header id="topbar">
+
+
+        <!-- 左侧标题 -->
+
+        <div>
+
+            <strong>
+                战线 1937-1945
+            </strong>
+
+            <span class="subtitle">
+                历史战争推演 · V0.27.0
+            </span>
+
+        </div>
+
+
+        <!-- 右侧状态 -->
+
+        <div id="topbar-right">
+
+
+            <!-- 当前回合 -->
+
+            <div id="turnInfo">
+                正在加载战役…
+            </div>
+
+
+            <!-- 存档系统 -->
+
+            <div
+                id="save-system-controls"
+                aria-label="存档与撤销"
+            >
+
+                <select
+                    id="save-slot-select"
+                    aria-label="存档槽位"
+                >
+
+                    <option value="1">
+                        存档 1
+                    </option>
+
+                    <option value="2">
+                        存档 2
+                    </option>
+
+                    <option value="3">
+                        存档 3
+                    </option>
+
+                </select>
+
+
+                <button
+                    id="save-game-button"
+                    type="button"
+                >
+                    保存
+                </button>
+
+
+                <button
+                    id="load-game-button"
+                    type="button"
+                >
+                    读取
+                </button>
+
+
+                <button
+                    id="undo-game-button"
+                    type="button"
+                >
+                    撤销
+                </button>
+
+
+                <button
+                    id="menu-game-button"
+                    type="button"
+                >
+                    ≡ 菜单
+                </button>
+
+                <div id="view25d-controls" aria-label="地图视图">
+                    <button id="control-zone-toggle" type="button" title="显示/隐藏双方控制区（进攻方红、守方蓝）">控区：开</button>
+                    <button id="view25d-toggle" type="button" title="切换二维地图/立体指挥沙盘">二维地图</button>
+                    <button id="view25d-left" type="button" title="逆时针改变观察方向">↶</button>
+                    <button id="view25d-direction" type="button" title="当前观察方向">南</button>
+                    <label id="sandtable-pitch-wrap" title="调整沙盘俯仰角">俯仰 <input id="sandtable-pitch" type="range" min="35" max="78" value="52" step="1"></label>
+                    <button id="sandtable-reset" type="button" title="恢复默认沙盘视角">复位</button>
+                    <button id="fullscreen-toggle" type="button" title="进入全屏模式" aria-pressed="false">全屏</button>
+                    <button id="view25d-right" type="button" title="顺时针改变观察方向">↷</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ============================================== -->
+    <!-- 游戏主区域 -->
+    <!-- ============================================== -->
+
+    <main id="main">
+
+
+        <!-- ========================================== -->
+        <!-- 地图 -->
+        <!-- ========================================== -->
+
+        <section id="mapArea">
+
+
+            <!-- 六角格地图 -->
+
+            <canvas id="game-canvas"></canvas>
+
+
+            <!-- ====================================== -->
+            <!-- 地块信息 -->
+            <!-- ====================================== -->
+
+            <section
+                id="terrainFloat"
+                aria-label="地块信息"
+            >
+
+                <h2>
+                    地块信息
+                </h2>
+
+                <div
+                    id="hexInfoPanel"
+                    class="hex-info-panel"
+                >
+
+                    <p class="hint">
+                        点击地块查看信息
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- ====================================== -->
+            <!-- 单位信息 -->
+            <!-- ====================================== -->
+
+            <section
+                id="unitFloat"
+                aria-label="单位信息"
+            >
+
+                <div class="unit-float-title">
+                    单位信息
+                </div>
+
+
+                <!-- 工兵操作 -->
+
+                <div
+                    id="engineerActions"
+                    class="engineer-actions"
+                    hidden
+                >
+
+                    <button
+                        id="buildFortButton"
+                        type="button"
+                    >
+                        构筑工事
+                    </button>
+
+
+                    <button
+                        id="layMineButton"
+                        type="button"
+                    >
+                        布置地雷
+                    </button>
+
+
+                    <button
+                        id="clearMineButton"
+                        type="button"
+                    >
+                        排除地雷
+                    </button>
+
+                    <button id="buildFoxholeButton" type="button">散兵坑（1回合）</button>
+                    <button id="buildBunkerButton" type="button">碉堡（4回合）</button>
+                    <button id="buildAA1Button" type="button">一级防空阵地</button>
+                    <button id="buildAA2Button" type="button">二级防空阵地</button>
+                    <button id="buildAA3Button" type="button">三级防空阵地</button>
+                    <button id="buildBridgeButton" type="button">架设浮桥（2回合）</button>
+                    <button id="repairBridgeButton" type="button">修复桥梁（2回合）</button>
+                    <button id="demolishBridgeButton" type="button">爆破工事（2行动点）</button>
+                    <button id="buildWallButton" type="button">建设防御墙（4回合）</button>
+                    <button id="demolishWallButton" type="button">拆毁墙体（3回合）</button>
+
+                </div>
+
+
+                <!-- 单位详细信息 -->
+
+                <div id="unitInfo">
+
+                    <p class="hint">
+                        点击地图上的单位查看详情
+                    </p>
+
+                </div>
+
+            </section>
+
+
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- 右侧作战信息 -->
+        <!-- ========================================== -->
+
+        <aside
+            id="operationPanel"
+            aria-label="作战信息"
+        >
+
+
+            <h2>
+                作战信息
+            </h2>
+
+
+            <!-- ====================================== -->
+            <!-- 回合信息 -->
+            <!-- ====================================== -->
+
+            <div id="turnPanel">
+
+
+                <div class="turn-row">
+
+                    <span>
+                        回合
+                    </span>
+
+                    <strong id="turnNumber">
+                        第1回合
+                    </strong>
+
+                </div>
+
+
+                <div class="turn-row">
+
+                    <span>
+                        时间
+                    </span>
+
+                    <strong id="turnTime">
+                        08:00—14:00
+                    </strong>
+
+                </div>
+
+
+                <div class="turn-row">
+
+                    <span>
+                        行动方
+                    </span>
+
+                    <strong id="turnPhase">
+                        正在加载…
+                    </strong>
+
+                </div>
+
+
+                <button
+                    id="endPhaseButton"
+                    type="button"
+                >
+                    结束回合
+                </button>
+
+
+            </div>
+
+
+            <!-- ====================================== -->
+            <!-- 战略目标 -->
+            <!-- ====================================== -->
+
+            <div id="strategicObjectives"></div>
+
+            <div id="casualtyPanel" class="casualty-panel"><h3>战损统计</h3><div class="hint">暂无战损</div></div>
+
+
+            <!-- ====================================== -->
+            <!-- 增援系统 -->
+            <!-- ====================================== -->
+
+            <div
+                id="reinforcementPanel"
+                class="reinforcement-panel"
+                hidden
+            >
+
+                <h3>
+                    增援
+                </h3>
+
+
+                <div class="reinforcement-scroll">
+
+
+                    <div class="reinforcement-section-label">
+                        待到达
+                    </div>
+
+
+                    <div id="reinforcementNext"></div>
+
+
+                    <div
+                        class="reinforcement-section-label reinforcement-log-label"
+                    >
+                        到达记录
+                    </div>
+
+
+                    <div id="reinforcementLog"></div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- ====================================== -->
+            <!-- 地图操作帮助 -->
+            <!-- ====================================== -->
+
+            <div class="operation-help">
+
+                <h3>
+                    地图操作
+                </h3>
+
+                <p>
+                    鼠标拖动：移动地图
+                </p>
+
+                <p>
+                    滚轮：缩放
+                </p>
+
+                <p>
+                    ESC：取消选择
+                </p>
+
+                <p>
+                    E：结束当前行动阶段
+                </p>
+
+            </div>
+
+
+        </aside>
+
+
+    </main>
+
+
+</div>
+
+
+<!-- ================================================== -->
+<!-- 游戏入口 -->
+<!-- ================================================== -->
+
+<script
+    type="module"
+    src="./src/main.js?v=1.5.5"
+>
+</script>
+
+
+</body>
+
+</html>

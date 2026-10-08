@@ -1,0 +1,29 @@
+{
+  "totalUnits": 443,
+  "alliedNavalUnits": 16,
+  "japaneseNavalUnits": 18,
+  "landUnitsInWater": [],
+  "navalUnitsOnLand": [],
+  "correctedSettlements": {
+    "Werribee": [
+      32,
+      55
+    ],
+    "Point Cook": [
+      39,
+      59
+    ],
+    "Laverton": [
+      43,
+      54
+    ],
+    "Williamstown": [
+      50,
+      56
+    ],
+    "Port Melbourne": [
+      60,
+      55
+    ]
+  }
+}

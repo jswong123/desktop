@@ -1,0 +1,6 @@
+战线 1937-1945 — v0.14 战损/控制区/医疗接口
+
+1. 战损统计：增加累计投入、当前有效兵力、累计损失、战损比例；按单位层级统计被消灭单位；指挥机构单列并记录具体名称。
+2. 控制区 ZoneControlSystem：普通作战单位默认投射1格ZOC；HQ、炮兵、防空、补给、医疗单位默认不向邻格投射；双方重叠为 contested。己方控制区接入 FogOfWarSystem，控制区内无战争迷雾。
+3. 野战医院 FieldHospitalSystem：加入野战医院/卫生连识别、医疗半径、容量、治疗率、treat() 与 getInterfaceState() 接口。当前不自动治疗，避免改变既有战役平衡。
+4. 全局接口：window.frontlineZoneControl / window.frontlineFieldHospital。

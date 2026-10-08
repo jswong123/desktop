@@ -1,0 +1,4 @@
+v0.9.7 开发者工程设施导出修复
+- 修复开发者模式放置/删除浮桥后，导出战役 JSON 未同步 map.bridges 的问题。
+- 开发者导出现在同步 fortifications、minefields、bridges、wallEdges、gates。
+- 导出同步后让 world.bridges / world.minefields 与 scenario.map 使用同一最新数组，保证连续编辑、删除和重复导出一致。

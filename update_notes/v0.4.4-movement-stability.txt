@@ -1,0 +1,7 @@
+v0.4.4 移动稳定性修复
+
+1. 修复回合/阶段开始时只恢复 actionPoints、却不恢复 movementPoints 的问题。
+2. 增加旧单位 movementClass 自动推断，避免缺少新字段的单位无法移动。
+3. 调整现代履带/两栖车辆山地移动成本为4，轮式车辆为6；陡峭高山仍禁止车辆通行。
+4. 保留水域分级、2.5D/3D渲染、单位屏幕空间选择、AI、ZOC、补给维修等既有功能。
+5. 玩家与AI仍共用 Pathfinding + TerrainMovementSystem。

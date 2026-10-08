@@ -1,0 +1,7 @@
+V0.8.3 Seoul 1979 — Han River Crossings
+- Added historically available 1979 Han River crossings to the expanded Seoul map.
+- Period names retained where appropriate: First/Second/Third Hangang Bridge and Seoul Bridge.
+- Added bridge-road movement rule: land units may cross water only on explicit road/bridge hexes.
+- Added compact ROK government bridge guard detachments as interface units; full historical OOB remains for a later version.
+- Added bridge crossing notes to New Military reinforcement events.
+- Large-scale terrain outline unchanged.

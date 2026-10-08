@@ -1,0 +1,4121 @@
+{
+  "id": "taierzhuang_1938",
+  "key": "taierzhuang",
+  "name": "台儿庄战役",
+  "scenario": "台儿庄战役",
+  "date": "1938-03-24",
+  "startTime": "08:00",
+  "hoursPerTurn": 2,
+  "startingPhase": "japanese",
+  "map": {
+    "id": "taierzhuang_1938",
+    "name": "台儿庄战役地图",
+    "width": 96,
+    "height": 60,
+    "hexSize": 24,
+    "terrain": [
+      {
+        "q": 7,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 26,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 28,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 31,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 32,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 33,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 44,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 48,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 50,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 55,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 66,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 78,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 84,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 85,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 86,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 29,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 32,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 33,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 35,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 36,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 40,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 55,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 79,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 85,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 28,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 33,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 34,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 36,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 37,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 47,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 55,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 58,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 77,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 81,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 83,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 34,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 37,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 40,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 44,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 50,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 55,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 77,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 81,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 85,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 26,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 28,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 32,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 35,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 40,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 44,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 66,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 76,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 80,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 83,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 85,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 86,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 29,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 35,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 37,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 40,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 42,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 45,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 48,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 51,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 54,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 76,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 77,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 78,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 79,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 80,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 81,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 83,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 85,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 26,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 31,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 33,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 38,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 43,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 54,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 79,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 81,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 83,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 30,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 31,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 33,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 34,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 35,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 37,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 42,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 43,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 45,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 49,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 54,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 58,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 77,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 80,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 85,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 86,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 29,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 54,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 76,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 78,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 79,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 26,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 48,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 50,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 58,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 66,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 54,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 66,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 48,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 58,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 79,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 81,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 33,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 77,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 38,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 47,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 84,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 31,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 79,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 27,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 27,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 26,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 76,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 4,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 5,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 5,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 6,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 6,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 8,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 8,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 8,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 9,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 11,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 11,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 12,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 13,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 14,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 14,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 15,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 15,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 15,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 16,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 16,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 17,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 17,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 18,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 22,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 22,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 23,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 24,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 32,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 33,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 33,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 33,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 34,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 35,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 35,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 36,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 36,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 37,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 38,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 39,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 40,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 40,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 41,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 42,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 43,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 44,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 45,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 46,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 46,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 47,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 47,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 48,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 48,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 49,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 49,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 49,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 50,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 51,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 52,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 53,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 53,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 53,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 54,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 54,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 55,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 56,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 57,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 58,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 58,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 59,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 59,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 61,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 62,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 63,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 64,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 65,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 66,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 66,
+        "r": 42,
+        "type": "marsh"
+      },
+      {
+        "q": 67,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 67,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 67,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 68,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 68,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 69,
+        "r": 37,
+        "type": "marsh"
+      },
+      {
+        "q": 70,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 70,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 71,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 71,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 72,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 73,
+        "r": 38,
+        "type": "marsh"
+      },
+      {
+        "q": 73,
+        "r": 43,
+        "type": "marsh"
+      },
+      {
+        "q": 74,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 76,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 76,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 77,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 77,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 79,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 79,
+        "r": 44,
+        "type": "marsh"
+      },
+      {
+        "q": 79,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 80,
+        "r": 39,
+        "type": "marsh"
+      },
+      {
+        "q": 81,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 82,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 82,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 83,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 84,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 84,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 85,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 86,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 86,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 86,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 87,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 87,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 89,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 89,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 90,
+        "r": 41,
+        "type": "marsh"
+      },
+      {
+        "q": 90,
+        "r": 45,
+        "type": "marsh"
+      },
+      {
+        "q": 92,
+        "r": 40,
+        "type": "marsh"
+      },
+      {
+        "q": 93,
+        "r": 46,
+        "type": "marsh"
+      },
+      {
+        "q": 45,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 46,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 47,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 48,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 49,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 50,
+        "r": 34,
+        "type": "urban"
+      },
+      {
+        "q": 44,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 45,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 46,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 47,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 48,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 49,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 50,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 51,
+        "r": 35,
+        "type": "urban"
+      },
+      {
+        "q": 44,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 45,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 46,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 47,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 48,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 49,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 50,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 51,
+        "r": 36,
+        "type": "urban"
+      },
+      {
+        "q": 45,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 47,
+        "r": 37,
+        "type": "urban"
+      },
+      {
+        "q": 50,
+        "r": 37,
+        "type": "urban"
+      }
+    ],
+    "rivers": [
+      {
+        "id": "grand_canal",
+        "name": "京杭大运河",
+        "nameZh": "京杭大运河",
+        "width": 7,
+        "points": [
+          [
+            0,
+            44
+          ],
+          [
+            12,
+            44
+          ],
+          [
+            24,
+            43
+          ],
+          [
+            36,
+            42
+          ],
+          [
+            48,
+            42
+          ],
+          [
+            60,
+            43
+          ],
+          [
+            72,
+            44
+          ],
+          [
+            84,
+            44
+          ],
+          [
+            95,
+            43
+          ]
+        ]
+      },
+      {
+        "id": "yihe",
+        "name": "沂河",
+        "nameZh": "沂河",
+        "width": 5,
+        "points": [
+          [
+            82,
+            0
+          ],
+          [
+            80,
+            8
+          ],
+          [
+            78,
+            16
+          ],
+          [
+            76,
+            24
+          ],
+          [
+            75,
+            32
+          ],
+          [
+            77,
+            40
+          ],
+          [
+            81,
+            48
+          ],
+          [
+            84,
+            59
+          ]
+        ]
+      }
+    ],
+    "roads": [
+      {
+        "id": "yixian_taierzhuang",
+        "nameZh": "峄县—台儿庄公路",
+        "importance": "main",
+        "points": [
+          [
+            46,
+            3
+          ],
+          [
+            47,
+            10
+          ],
+          [
+            48,
+            18
+          ],
+          [
+            48,
+            26
+          ],
+          [
+            48,
+            35
+          ]
+        ],
+        "name": "峄县—台儿庄公路"
+      },
+      {
+        "id": "taierzhuang_linyi",
+        "nameZh": "台儿庄—临沂方向公路",
+        "importance": "main",
+        "points": [
+          [
+            48,
+            35
+          ],
+          [
+            57,
+            30
+          ],
+          [
+            66,
+            25
+          ],
+          [
+            75,
+            20
+          ],
+          [
+            84,
+            15
+          ],
+          [
+            95,
+            11
+          ]
+        ],
+        "name": "台儿庄—临沂方向公路"
+      },
+      {
+        "id": "taierzhuang_hanzhuang",
+        "nameZh": "台儿庄—韩庄公路",
+        "importance": "main",
+        "points": [
+          [
+            48,
+            35
+          ],
+          [
+            55,
+            39
+          ],
+          [
+            62,
+            43
+          ],
+          [
+            69,
+            47
+          ],
+          [
+            76,
+            51
+          ]
+        ],
+        "name": "台儿庄—韩庄公路"
+      },
+      {
+        "id": "taierzhuang_xuzhou",
+        "nameZh": "台儿庄—徐州方向公路",
+        "importance": "main",
+        "points": [
+          [
+            48,
+            35
+          ],
+          [
+            43,
+            40
+          ],
+          [
+            38,
+            45
+          ],
+          [
+            33,
+            50
+          ],
+          [
+            27,
+            55
+          ],
+          [
+            22,
+            59
+          ]
+        ],
+        "name": "台儿庄—徐州方向公路"
+      },
+      {
+        "id": "yixian_linyi",
+        "nameZh": "峄县—临沂方向道路",
+        "importance": "secondary",
+        "points": [
+          [
+            46,
+            3
+          ],
+          [
+            57,
+            7
+          ],
+          [
+            68,
+            10
+          ],
+          [
+            80,
+            12
+          ],
+          [
+            95,
+            11
+          ]
+        ],
+        "name": "峄县—临沂方向道路"
+      }
+    ],
+    "railways": [
+      {
+        "id": "jinpu_railway",
+        "nameZh": "津浦铁路",
+        "points": [
+          [
+            76,
+            0
+          ],
+          [
+            76,
+            10
+          ],
+          [
+            75,
+            20
+          ],
+          [
+            74,
+            30
+          ],
+          [
+            74,
+            40
+          ],
+          [
+            76,
+            51
+          ],
+          [
+            78,
+            59
+          ]
+        ],
+        "name": "津浦铁路"
+      }
+    ],
+    "settlements": [
+      {
+        "id": "taierzhuang",
+        "name": "台儿庄",
+        "nameZh": "台儿庄",
+        "q": 48,
+        "r": 35,
+        "type": "major_city",
+        "strategicObjective": true
+      },
+      {
+        "id": "yixian",
+        "name": "峄县",
+        "nameZh": "峄县",
+        "q": 46,
+        "r": 5,
+        "type": "city"
+      },
+      {
+        "id": "hanzhuang",
+        "name": "韩庄",
+        "nameZh": "韩庄",
+        "q": 76,
+        "r": 51,
+        "type": "city"
+      },
+      {
+        "id": "linyi_direction",
+        "name": "临沂方向",
+        "nameZh": "临沂方向",
+        "q": 92,
+        "r": 12,
+        "type": "city"
+      },
+      {
+        "id": "xuzhou_direction",
+        "name": "徐州方向",
+        "nameZh": "徐州方向",
+        "q": 22,
+        "r": 57,
+        "type": "city"
+      },
+      {
+        "id": "nanzhuang",
+        "name": "南庄",
+        "nameZh": "南庄",
+        "q": 37,
+        "r": 31,
+        "type": "town"
+      },
+      {
+        "id": "liujiahu",
+        "name": "刘家湖",
+        "nameZh": "刘家湖",
+        "q": 57,
+        "r": 31,
+        "type": "town"
+      },
+      {
+        "id": "beiluozhuang",
+        "name": "北洛庄",
+        "nameZh": "北洛庄",
+        "q": 42,
+        "r": 27,
+        "type": "town"
+      },
+      {
+        "id": "dunshang",
+        "name": "顿庄",
+        "nameZh": "顿庄",
+        "q": 55,
+        "r": 24,
+        "type": "town"
+      }
+    ],
+    "fortifications": [
+      {
+        "q": 45,
+        "r": 34,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 47,
+        "r": 34,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 49,
+        "r": 34,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 51,
+        "r": 35,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 44,
+        "r": 35,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 44,
+        "r": 36,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 46,
+        "r": 37,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 48,
+        "r": 37,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 50,
+        "r": 37,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 52,
+        "r": 36,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 46,
+        "r": 33,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 48,
+        "r": 33,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 50,
+        "r": 33,
+        "type": "fortified_urban",
+        "level": 2,
+        "owner": "chinese"
+      },
+      {
+        "q": 43,
+        "r": 30,
+        "type": "field_fortification",
+        "level": 1,
+        "owner": "chinese"
+      },
+      {
+        "q": 46,
+        "r": 29,
+        "type": "field_fortification",
+        "level": 1,
+        "owner": "chinese"
+      },
+      {
+        "q": 49,
+        "r": 29,
+        "type": "field_fortification",
+        "level": 1,
+        "owner": "chinese"
+      },
+      {
+        "q": 52,
+        "r": 30,
+        "type": "field_fortification",
+        "level": 1,
+        "owner": "chinese"
+      },
+      {
+        "q": 40,
+        "r": 32,
+        "type": "field_fortification",
+        "level": 1,
+        "owner": "chinese"
+      },
+      {
+        "q": 55,
+        "r": 32,
+        "type": "field_fortification",
+        "level": 1,
+        "owner": "chinese"
+      }
+    ],
+    "nameZh": "台儿庄战役地图",
+    "wallEdges": [
+      {
+        "from": {
+          "q": 44,
+          "r": 36
+        },
+        "to": {
+          "q": 43,
+          "r": 36
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 36
+        },
+        "to": {
+          "q": 43,
+          "r": 37
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 46,
+          "r": 33
+        },
+        "to": {
+          "q": 46,
+          "r": 32
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 46,
+          "r": 33
+        },
+        "to": {
+          "q": 45,
+          "r": 33
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 46,
+          "r": 39
+        },
+        "to": {
+          "q": 45,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 46,
+          "r": 39
+        },
+        "to": {
+          "q": 46,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 39
+        },
+        "to": {
+          "q": 43,
+          "r": 39
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 39
+        },
+        "to": {
+          "q": 43,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 39
+        },
+        "to": {
+          "q": 44,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 39
+        },
+        "to": {
+          "q": 49,
+          "r": 39
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 39
+        },
+        "to": {
+          "q": 47,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 39
+        },
+        "to": {
+          "q": 48,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 49,
+          "r": 38
+        },
+        "to": {
+          "q": 50,
+          "r": 38
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 49,
+          "r": 38
+        },
+        "to": {
+          "q": 49,
+          "r": 39
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 45,
+          "r": 34
+        },
+        "to": {
+          "q": 45,
+          "r": 33
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 45,
+          "r": 34
+        },
+        "to": {
+          "q": 44,
+          "r": 34
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 33
+        },
+        "to": {
+          "q": 53,
+          "r": 33
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 33
+        },
+        "to": {
+          "q": 53,
+          "r": 32
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 51,
+          "r": 31
+        },
+        "to": {
+          "q": 52,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 51,
+          "r": 31
+        },
+        "to": {
+          "q": 51,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 35
+        },
+        "to": {
+          "q": 44,
+          "r": 34
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 35
+        },
+        "to": {
+          "q": 43,
+          "r": 35
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 35
+        },
+        "to": {
+          "q": 43,
+          "r": 36
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 50,
+          "r": 37
+        },
+        "to": {
+          "q": 51,
+          "r": 37
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 50,
+          "r": 37
+        },
+        "to": {
+          "q": 50,
+          "r": 38
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 38
+        },
+        "to": {
+          "q": 43,
+          "r": 38
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 38
+        },
+        "to": {
+          "q": 43,
+          "r": 39
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 49,
+          "r": 31
+        },
+        "to": {
+          "q": 50,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 49,
+          "r": 31
+        },
+        "to": {
+          "q": 49,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 39
+        },
+        "to": {
+          "q": 46,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 39
+        },
+        "to": {
+          "q": 47,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 45,
+          "r": 39
+        },
+        "to": {
+          "q": 44,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 45,
+          "r": 39
+        },
+        "to": {
+          "q": 45,
+          "r": 40
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 32
+        },
+        "to": {
+          "q": 53,
+          "r": 32
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 32
+        },
+        "to": {
+          "q": 53,
+          "r": 31
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 51,
+          "r": 36
+        },
+        "to": {
+          "q": 52,
+          "r": 36
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 51,
+          "r": 36
+        },
+        "to": {
+          "q": 51,
+          "r": 37
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 35
+        },
+        "to": {
+          "q": 53,
+          "r": 35
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 35
+        },
+        "to": {
+          "q": 53,
+          "r": 34
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 35
+        },
+        "to": {
+          "q": 52,
+          "r": 36
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 37
+        },
+        "to": {
+          "q": 43,
+          "r": 37
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 44,
+          "r": 37
+        },
+        "to": {
+          "q": 43,
+          "r": 38
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 31
+        },
+        "to": {
+          "q": 49,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 31
+        },
+        "to": {
+          "q": 48,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 31
+        },
+        "to": {
+          "q": 47,
+          "r": 31
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 32
+        },
+        "to": {
+          "q": 47,
+          "r": 31
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 32
+        },
+        "to": {
+          "q": 46,
+          "r": 32
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 50,
+          "r": 31
+        },
+        "to": {
+          "q": 51,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 50,
+          "r": 31
+        },
+        "to": {
+          "q": 50,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 31
+        },
+        "to": {
+          "q": 53,
+          "r": 31
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 31
+        },
+        "to": {
+          "q": 53,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 31
+        },
+        "to": {
+          "q": 52,
+          "r": 30
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 34
+        },
+        "to": {
+          "q": 53,
+          "r": 34
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      },
+      {
+        "from": {
+          "q": 52,
+          "r": 34
+        },
+        "to": {
+          "q": 53,
+          "r": 33
+        },
+        "section": "台儿庄城防围墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 800,
+        "maxHp": 800
+      }
+    ],
+    "urbanDefenseRules": {
+      "wallBlocksMovementUntilBreached": true,
+      "breachAtHp": 0,
+      "destroyedWallDisappears": true,
+      "showDurabilityInHexInfo": true
+    },
+    "gates": [
+      {
+        "id": "north_gate",
+        "name": "北门（中正门）",
+        "nameZh": "北门（中正门）",
+        "from": {
+          "q": 48,
+          "r": 31
+        },
+        "to": {
+          "q": 48,
+          "r": 30
+        },
+        "open": true,
+        "type": "gate"
+      },
+      {
+        "id": "small_north_gate",
+        "name": "小北门",
+        "nameZh": "小北门",
+        "from": {
+          "q": 46,
+          "r": 33
+        },
+        "to": {
+          "q": 46,
+          "r": 32
+        },
+        "open": true,
+        "type": "gate"
+      },
+      {
+        "id": "east_gate",
+        "name": "东门",
+        "nameZh": "东门",
+        "from": {
+          "q": 52,
+          "r": 35
+        },
+        "to": {
+          "q": 53,
+          "r": 35
+        },
+        "open": true,
+        "type": "gate"
+      },
+      {
+        "id": "south_gate",
+        "name": "南门",
+        "nameZh": "南门",
+        "from": {
+          "q": 48,
+          "r": 39
+        },
+        "to": {
+          "q": 49,
+          "r": 39
+        },
+        "open": true,
+        "type": "gate"
+      },
+      {
+        "id": "small_south_gate",
+        "name": "小南门",
+        "nameZh": "小南门",
+        "from": {
+          "q": 49,
+          "r": 38
+        },
+        "to": {
+          "q": 50,
+          "r": 38
+        },
+        "open": true,
+        "type": "gate"
+      },
+      {
+        "id": "west_gate",
+        "name": "西门",
+        "nameZh": "西门",
+        "from": {
+          "q": 44,
+          "r": 35
+        },
+        "to": {
+          "q": 43,
+          "r": 35
+        },
+        "open": true,
+        "type": "gate"
+      }
+    ]
+  },
+  "victoryConditions": {
+    "deadlineTurn": 48,
+    "japanese": {
+      "eliminateEnemy": true,
+      "captureObjectives": {
+        "mode": "all",
+        "successText": "日军在规定时间内攻占台儿庄并控制运河北岸主要通路。",
+        "objectives": [
+          {
+            "id": "taierzhuang",
+            "name": "台儿庄",
+            "q": 48,
+            "r": 35,
+            "nameZh": "台儿庄"
+          }
+        ]
+      }
+    },
+    "chinese": {
+      "eliminateEnemy": true,
+      "defendObjectivesUntilDeadline": {
+        "mode": "all",
+        "successText": "中国军队成功坚守台儿庄至规定时间。",
+        "objectives": [
+          {
+            "id": "taierzhuang",
+            "name": "台儿庄",
+            "q": 48,
+            "r": 35,
+            "nameZh": "台儿庄"
+          }
+        ]
+      }
+    },
+    "deadlineFailureText": "日军未能在规定时间内完全夺取台儿庄，中国军队防御成功。"
+  },
+  "nameZh": "台儿庄战役",
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "japanese": {
+      "enabled": true,
+      "deckId": "japanese_china_early",
+      "points": 4,
+      "uses": {
+        "a5m_cap": 2,
+        "a5m_strafe": 2,
+        "ki27_cap": 1
+      }
+    }
+  }
+}

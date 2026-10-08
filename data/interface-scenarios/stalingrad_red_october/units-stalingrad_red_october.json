@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "scenario": "stalingrad_red_october_draft",
+  "date": "1942-01-01",
+  "notes": "接口占位单位文件：仅一个测试单位。",
+  "units": [
+    {
+      "id": "STALINGRAD_RED_OCTOBER_DRAFT_001",
+      "name": "红十月工厂争夺战测试单位",
+      "fullName": "红十月工厂争夺战测试单位",
+      "faction": "soviet",
+      "type": "infantry",
+      "echelon": "battalion",
+      "q": 6,
+      "r": 5,
+      "strength": 300,
+      "maxStrength": 300,
+      "attack": 6,
+      "defense": 6,
+      "movement": 4,
+      "range": 1,
+      "morale": 80,
+      "suppression": 0,
+      "fatigue": 0,
+      "ammo": 100
+    }
+  ]
+}

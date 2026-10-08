@@ -1,0 +1,7 @@
+v0.15.0 诺曼底接口 / 奥马哈海滩
+
+新增可玩关卡：西欧战场 > 1944：诺曼底登陆 > 奥马哈海滩。
+地图：Dog Green / Dog White / Dog Red / Easy Green / Easy Red / Fox Green，D-1/D-3/E-1/E-3出口，滨海维耶维尔、圣洛朗、滨海科勒维尔。
+单位：美第1/29步兵师首波、工兵、DD坦克、后续波次、游骑兵；德第352步兵师WN支撑点、预备队、炮兵、师指挥部与警卫。
+预留接口：landingZone、disembarking、beachObstacle、navalSupport、scatteredDrop、airborneZone、bridgeDemolition、commandEffect、controlZone、medical、casualtyTracking、ddTank。
+注意：预留接口采用数据驱动结构；当前核心引擎未强行启用所有新规则，以保证v0.14已有ZOC/战损/医疗等功能不被破坏。后续可逐项接入系统实现。

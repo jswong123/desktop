@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "scenario": "myitkyina_1944_draft",
+  "date": "1937-01-01",
+  "notes": "接口占位单位文件：仅一个测试单位。",
+  "units": [
+    {
+      "id": "MYITKYINA_1944_DRAFT_001",
+      "name": "密支那战役测试单位",
+      "fullName": "密支那战役测试单位",
+      "faction": "chinese",
+      "type": "infantry",
+      "echelon": "battalion",
+      "q": 6,
+      "r": 5,
+      "strength": 300,
+      "maxStrength": 300,
+      "attack": 6,
+      "defense": 6,
+      "movement": 4,
+      "range": 1,
+      "morale": 80,
+      "suppression": 0,
+      "fatigue": 0,
+      "ammo": 100
+    }
+  ]
+}

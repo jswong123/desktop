@@ -1,0 +1,7 @@
+V0.7.5 墨尔本地图与部署修正版
+- 重绘Port Phillip北岸/东岸海岸线
+- 修正Werribee、Point Cook、Williamstown、Port Melbourne等位置关系
+- Geelong/Werribee/Point Cook防御群重新部署
+- 陆军强制部署陆地，海军强制部署水域
+- 日军按西/北/东北/东南多轴进攻重新展开
+- 战略目标坐标同步更新

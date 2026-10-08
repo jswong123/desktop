@@ -1,0 +1,4302 @@
+{
+  "id": "sihang",
+  "key": "sihang",
+  "name": "四行仓库保卫战",
+  "nameZh": "四行仓库保卫战",
+  "scenario": "四行仓库保卫战",
+  "date": "1937-10-26",
+  "startTime": "20:00",
+  "hoursPerTurn": 4,
+  "startingPhase": "japanese",
+  "map": {
+    "id": "sihang",
+    "name": "四行仓库保卫战",
+    "nameZh": "四行仓库保卫战",
+    "width": 36,
+    "height": 28,
+    "hexSize": 28,
+    "terrain": [
+      {
+        "q": 0,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 0,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 0,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 0,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 0,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 0,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 1,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 1,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 1,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 1,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 1,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 1,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 3,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 3,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 3,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 3,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 3,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 3,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 4,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 4,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 4,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 4,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 4,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 4,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 5,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 5,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 5,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 5,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 5,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 5,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 6,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 6,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 6,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 6,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 6,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 6,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 7,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 7,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 7,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 7,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 7,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 7,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 8,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 8,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 8,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 8,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 8,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 8,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 9,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 9,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 9,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 9,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 9,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 9,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 9,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 10,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 10,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 10,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 10,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 10,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 10,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 10,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 11,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 11,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 11,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 11,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 11,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 11,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 12,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 12,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 12,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 12,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 12,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 12,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 12,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 13,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 13,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 13,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 13,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 13,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 13,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 13,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 14,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 14,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 14,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 14,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 14,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 14,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 14,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 15,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 15,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 15,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 15,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 15,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 15,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 15,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 16,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 16,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 16,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 16,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 16,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 16,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 16,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 17,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 17,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 17,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 17,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 17,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 17,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 17,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 18,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 18,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 18,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 18,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 18,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 18,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 18,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 19,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 19,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 19,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 19,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 19,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 19,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 19,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 20,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 20,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 20,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 20,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 20,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 20,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 21,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 21,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 21,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 21,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 21,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 21,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 22,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 22,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 22,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 22,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 22,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 22,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 23,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 23,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 23,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 23,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 23,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 23,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 24,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 24,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 24,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 24,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 24,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 25,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 26,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 27,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 28,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 29,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 30,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 31,
+        "r": 4,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 5,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 6,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 7,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 8,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 9,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 10,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 11,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 12,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 13,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 14,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 31,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 31,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 31,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 31,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 31,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 31,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 32,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 32,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 32,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 32,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 32,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 33,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 33,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 33,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 33,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 33,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 33,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 34,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 34,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 34,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 34,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 34,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 34,
+        "r": 27,
+        "type": "concession"
+      },
+      {
+        "q": 35,
+        "r": 22,
+        "type": "concession"
+      },
+      {
+        "q": 35,
+        "r": 23,
+        "type": "concession"
+      },
+      {
+        "q": 35,
+        "r": 24,
+        "type": "concession"
+      },
+      {
+        "q": 35,
+        "r": 25,
+        "type": "concession"
+      },
+      {
+        "q": 35,
+        "r": 26,
+        "type": "concession"
+      },
+      {
+        "q": 35,
+        "r": 27,
+        "type": "concession"
+      }
+    ],
+    "rivers": [
+      {
+        "id": "suzhou",
+        "name": "苏州河",
+        "nameZh": "苏州河",
+        "width": 4,
+        "points": [
+          [
+            0,
+            20
+          ],
+          [
+            8,
+            20
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            24,
+            20
+          ],
+          [
+            35,
+            20
+          ]
+        ]
+      }
+    ],
+    "roads": [
+      {
+        "id": "xizangroad",
+        "name": "西藏路",
+        "nameZh": "西藏路",
+        "importance": "main",
+        "points": [
+          [
+            12,
+            3
+          ],
+          [
+            13,
+            10
+          ],
+          [
+            14,
+            18
+          ],
+          [
+            15,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "warehouse_road",
+        "name": "仓库外围道路",
+        "nameZh": "仓库外围道路",
+        "importance": "main",
+        "points": [
+          [
+            5,
+            12
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            25,
+            13
+          ],
+          [
+            31,
+            12
+          ]
+        ]
+      }
+    ],
+    "railways": [],
+    "settlements": [
+      {
+        "id": "sihang",
+        "name": "四行仓库",
+        "nameZh": "四行仓库",
+        "q": 18,
+        "r": 15,
+        "type": "major_city",
+        "strategicObjective": true
+      },
+      {
+        "id": "north_gate",
+        "name": "仓库北侧",
+        "nameZh": "四行仓库北侧",
+        "q": 18,
+        "r": 13,
+        "type": "town"
+      },
+      {
+        "id": "west_gate",
+        "name": "仓库西侧",
+        "nameZh": "四行仓库西侧",
+        "q": 15,
+        "r": 15,
+        "type": "town"
+      },
+      {
+        "id": "east_gate",
+        "name": "仓库东侧",
+        "nameZh": "四行仓库东侧",
+        "q": 21,
+        "r": 15,
+        "type": "town"
+      },
+      {
+        "id": "xizang",
+        "name": "西藏路",
+        "nameZh": "西藏路",
+        "q": 13,
+        "r": 12,
+        "type": "town"
+      },
+      {
+        "id": "new_bridge",
+        "name": "新垃圾桥",
+        "nameZh": "新垃圾桥",
+        "q": 18,
+        "r": 20,
+        "type": "bridge"
+      },
+      {
+        "id": "concession",
+        "name": "公共租界",
+        "nameZh": "公共租界（中立区）",
+        "q": 18,
+        "r": 24,
+        "type": "major_city"
+      }
+    ],
+    "fortifications": [
+      {
+        "q": 17,
+        "r": 14,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 18,
+        "r": 14,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 19,
+        "r": 14,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 16,
+        "r": 15,
+        "type": "fortified_building",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 17,
+        "r": 15,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 18,
+        "r": 15,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 19,
+        "r": 15,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 20,
+        "r": 15,
+        "type": "fortified_building",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 16,
+        "r": 16,
+        "type": "fortified_building",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 17,
+        "r": 16,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 18,
+        "r": 16,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 19,
+        "r": 16,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 20,
+        "r": 16,
+        "type": "fortified_building",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 17,
+        "r": 17,
+        "type": "fortified_building",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 18,
+        "r": 17,
+        "type": "permanent_fortress",
+        "level": 4,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 19,
+        "r": 17,
+        "type": "fortified_building",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 14,
+        "r": 14,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 14,
+        "r": 15,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 15,
+        "r": 13,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 16,
+        "r": 13,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 20,
+        "r": 13,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 21,
+        "r": 14,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 21,
+        "r": 15,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 15,
+        "r": 17,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 16,
+        "r": 18,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 20,
+        "r": 18,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 21,
+        "r": 17,
+        "type": "urban_barricade",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      }
+    ],
+    "minefields": [],
+    "wallEdges": [
+      {
+        "from": {
+          "q": 19,
+          "r": 14
+        },
+        "to": {
+          "q": 20,
+          "r": 14
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 14
+        },
+        "to": {
+          "q": 20,
+          "r": 13
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 14
+        },
+        "to": {
+          "q": 19,
+          "r": 13
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 16
+        },
+        "to": {
+          "q": 16,
+          "r": 16
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 16
+        },
+        "to": {
+          "q": 16,
+          "r": 17
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 16
+        },
+        "to": {
+          "q": 17,
+          "r": 17
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 16
+        },
+        "to": {
+          "q": 19,
+          "r": 16
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 16
+        },
+        "to": {
+          "q": 17,
+          "r": 17
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 16
+        },
+        "to": {
+          "q": 18,
+          "r": 17
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 15
+        },
+        "to": {
+          "q": 17,
+          "r": 14
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 15
+        },
+        "to": {
+          "q": 16,
+          "r": 15
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 15
+        },
+        "to": {
+          "q": 16,
+          "r": 16
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 15
+        },
+        "to": {
+          "q": 20,
+          "r": 15
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 15
+        },
+        "to": {
+          "q": 20,
+          "r": 14
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 15
+        },
+        "to": {
+          "q": 19,
+          "r": 16
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 14
+        },
+        "to": {
+          "q": 19,
+          "r": 13
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 14
+        },
+        "to": {
+          "q": 18,
+          "r": 13
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 14
+        },
+        "to": {
+          "q": 17,
+          "r": 14
+        },
+        "section": "四行仓库外墙",
+        "status": "intact",
+        "type": "wall",
+        "hp": 850,
+        "maxHp": 850
+      },
+      {
+        "from": {
+          "q": 15,
+          "r": 13
+        },
+        "to": {
+          "q": 16,
+          "r": 13
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 16,
+          "r": 13
+        },
+        "to": {
+          "q": 17,
+          "r": 12
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 17,
+          "r": 12
+        },
+        "to": {
+          "q": 18,
+          "r": 12
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 18,
+          "r": 12
+        },
+        "to": {
+          "q": 19,
+          "r": 12
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 12
+        },
+        "to": {
+          "q": 20,
+          "r": 12
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 12
+        },
+        "to": {
+          "q": 20,
+          "r": 13
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 13
+        },
+        "to": {
+          "q": 21,
+          "r": 13
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 14,
+          "r": 14
+        },
+        "to": {
+          "q": 15,
+          "r": 13
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 14,
+          "r": 14
+        },
+        "to": {
+          "q": 14,
+          "r": 15
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 14,
+          "r": 15
+        },
+        "to": {
+          "q": 14,
+          "r": 16
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 14,
+          "r": 16
+        },
+        "to": {
+          "q": 15,
+          "r": 16
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 13
+        },
+        "to": {
+          "q": 22,
+          "r": 13
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 13
+        },
+        "to": {
+          "q": 22,
+          "r": 14
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 14
+        },
+        "to": {
+          "q": 22,
+          "r": 15
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 15
+        },
+        "to": {
+          "q": 21,
+          "r": 16
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 15,
+          "r": 16
+        },
+        "to": {
+          "q": 16,
+          "r": 16
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 16,
+          "r": 16
+        },
+        "to": {
+          "q": 16,
+          "r": 17
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 16,
+          "r": 17
+        },
+        "to": {
+          "q": 16,
+          "r": 18
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 16,
+          "r": 18
+        },
+        "to": {
+          "q": 17,
+          "r": 18
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 18
+        },
+        "to": {
+          "q": 20,
+          "r": 17
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 17
+        },
+        "to": {
+          "q": 21,
+          "r": 16
+        },
+        "section": "四行仓库外围街垒防线",
+        "status": "intact",
+        "type": "wall",
+        "hp": 420,
+        "maxHp": 420
+      }
+    ],
+    "urbanDefenseRules": {
+      "wallBlocksMovementUntilBreached": true,
+      "breachAtHp": 0,
+      "destroyedWallDisappears": true,
+      "showDurabilityInHexInfo": true
+    },
+    "urbanDefenseNote": "仓库主体为高耐久外墙；外围以街垒和临时防御障碍表现，南侧保留公共租界方向通道。",
+    "gates": [
+      {
+        "id": "guangfu_south_entrance",
+        "name": "光复路南门",
+        "nameZh": "光复路南门",
+        "from": {
+          "q": 18,
+          "r": 16
+        },
+        "to": {
+          "q": 18,
+          "r": 17
+        },
+        "open": true,
+        "type": "gate"
+      }
+    ]
+  },
+  "victoryConditions": {
+    "deadlineTurn": 20,
+    "chinese": {
+      "eliminateEnemy": true,
+      "defendObjectivesUntilDeadline": {
+        "mode": "all",
+        "objectives": [
+          {
+            "q": 17,
+            "r": 15,
+            "id": "sihang_west",
+            "nameZh": "四行仓库西翼",
+            "name": "四行仓库西翼"
+          },
+          {
+            "q": 18,
+            "r": 15,
+            "id": "sihang_core",
+            "name": "四行仓库核心",
+            "nameZh": "四行仓库核心"
+          },
+          {
+            "q": 19,
+            "r": 15,
+            "id": "sihang_east",
+            "nameZh": "四行仓库东翼",
+            "name": "四行仓库东翼"
+          }
+        ],
+        "successText": "中国守军坚守四行仓库至战役时限，完成保卫任务。"
+      }
+    },
+    "japanese": {
+      "eliminateEnemy": true,
+      "captureObjectives": {
+        "mode": "all",
+        "objectives": [
+          {
+            "q": 17,
+            "r": 15,
+            "id": "sihang_west",
+            "nameZh": "四行仓库西翼",
+            "name": "四行仓库西翼"
+          },
+          {
+            "q": 18,
+            "r": 15,
+            "id": "sihang_core",
+            "name": "四行仓库核心",
+            "nameZh": "四行仓库核心"
+          },
+          {
+            "q": 19,
+            "r": 15,
+            "id": "sihang_east",
+            "nameZh": "四行仓库东翼",
+            "name": "四行仓库东翼"
+          }
+        ],
+        "successText": "日军攻占四行仓库核心区域。"
+      }
+    }
+  },
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  }
+}

@@ -1,0 +1,1561 @@
+{
+  "id": "wuhan_1938",
+  "key": "wuhan_1938",
+  "name": "武汉会战",
+  "nameZh": "武汉会战",
+  "scenario": "wuhan_1938",
+  "date": "1938-06-11",
+  "startTime": "06:00",
+  "hoursPerTurn": 24,
+  "startingPhase": "japanese",
+  "victoryConditions": {
+    "deadlineTurn": 48,
+    "chinese": {
+      "eliminateEnemy": false,
+      "defendObjectivesUntilDeadline": {
+        "mode": "all",
+        "objectives": [
+          {
+            "q": 21,
+            "r": 24,
+            "id": "hankou",
+            "name": "Hankou",
+            "nameZh": "汉口"
+          },
+          {
+            "q": 20,
+            "r": 29,
+            "id": "hanyang",
+            "name": "Hanyang",
+            "nameZh": "汉阳"
+          },
+          {
+            "q": 24,
+            "r": 29,
+            "id": "wuchang",
+            "name": "Wuchang",
+            "nameZh": "武昌"
+          }
+        ],
+        "successText": "中国军坚持至会战规定期限，完成武汉会战的战略迟滞与主力转移任务。"
+      }
+    },
+    "japanese": {
+      "eliminateEnemy": false,
+      "captureObjectives": {
+        "mode": "all",
+        "objectives": [
+          {
+            "q": 21,
+            "r": 24,
+            "id": "hankou",
+            "name": "Hankou",
+            "nameZh": "汉口"
+          },
+          {
+            "q": 20,
+            "r": 29,
+            "id": "hanyang",
+            "name": "Hanyang",
+            "nameZh": "汉阳"
+          },
+          {
+            "q": 24,
+            "r": 29,
+            "id": "wuchang",
+            "name": "Wuchang",
+            "nameZh": "武昌"
+          }
+        ],
+        "successText": "日军在规定期限前控制武汉三镇，取得武汉会战战术胜利。"
+      }
+    }
+  },
+  "version": "0.11.1",
+  "notes": [
+    "武汉会战主战役按1938年6月至10月的战略态势更新。",
+    "修正开局胜利：中方使用坚持至期限的防守目标，不再把开局已控制的武汉三镇作为占领目标。",
+    "田家镇为高耐久永久要塞；九江、武穴、黄石、大冶与武汉三镇配置防御阵地。",
+    "武汉三镇的城防表现为1938年核心防御阵地，不等同于传统砖石城墙。"
+  ],
+  "map": {
+    "id": "wuhan_1938",
+    "name": "Wuhan Campaign",
+    "nameZh": "武汉会战",
+    "width": 96,
+    "height": 64,
+    "hexSize": 28,
+    "terrain": [
+      [
+        81,
+        41,
+        "urban"
+      ],
+      [
+        81,
+        42,
+        "urban"
+      ],
+      [
+        81,
+        43,
+        "urban"
+      ],
+      [
+        82,
+        41,
+        "urban"
+      ],
+      [
+        82,
+        42,
+        "urban"
+      ],
+      [
+        82,
+        43,
+        "urban"
+      ],
+      [
+        83,
+        41,
+        "urban"
+      ],
+      [
+        83,
+        42,
+        "urban"
+      ],
+      [
+        83,
+        43,
+        "urban"
+      ],
+      [
+        57,
+        43,
+        "urban"
+      ],
+      [
+        57,
+        44,
+        "urban"
+      ],
+      [
+        57,
+        45,
+        "urban"
+      ],
+      [
+        58,
+        43,
+        "urban"
+      ],
+      [
+        58,
+        44,
+        "urban"
+      ],
+      [
+        58,
+        45,
+        "urban"
+      ],
+      [
+        59,
+        43,
+        "urban"
+      ],
+      [
+        59,
+        44,
+        "urban"
+      ],
+      [
+        59,
+        45,
+        "urban"
+      ],
+      [
+        37,
+        29,
+        "urban"
+      ],
+      [
+        37,
+        30,
+        "urban"
+      ],
+      [
+        37,
+        31,
+        "urban"
+      ],
+      [
+        38,
+        29,
+        "urban"
+      ],
+      [
+        38,
+        30,
+        "urban"
+      ],
+      [
+        38,
+        31,
+        "urban"
+      ],
+      [
+        39,
+        29,
+        "urban"
+      ],
+      [
+        39,
+        30,
+        "urban"
+      ],
+      [
+        39,
+        31,
+        "urban"
+      ],
+      [
+        23,
+        28,
+        "urban"
+      ],
+      [
+        23,
+        29,
+        "urban"
+      ],
+      [
+        23,
+        30,
+        "urban"
+      ],
+      [
+        24,
+        28,
+        "urban"
+      ],
+      [
+        24,
+        29,
+        "urban"
+      ],
+      [
+        24,
+        30,
+        "urban"
+      ],
+      [
+        25,
+        28,
+        "urban"
+      ],
+      [
+        25,
+        29,
+        "urban"
+      ],
+      [
+        25,
+        30,
+        "urban"
+      ],
+      [
+        20,
+        23,
+        "urban"
+      ],
+      [
+        20,
+        24,
+        "urban"
+      ],
+      [
+        20,
+        25,
+        "urban"
+      ],
+      [
+        21,
+        23,
+        "urban"
+      ],
+      [
+        21,
+        24,
+        "urban"
+      ],
+      [
+        21,
+        25,
+        "urban"
+      ],
+      [
+        22,
+        23,
+        "urban"
+      ],
+      [
+        22,
+        24,
+        "urban"
+      ],
+      [
+        22,
+        25,
+        "urban"
+      ],
+      [
+        19,
+        28,
+        "urban"
+      ],
+      [
+        19,
+        29,
+        "urban"
+      ],
+      [
+        19,
+        30,
+        "urban"
+      ],
+      [
+        20,
+        28,
+        "urban"
+      ],
+      [
+        20,
+        29,
+        "urban"
+      ],
+      [
+        20,
+        30,
+        "urban"
+      ],
+      [
+        21,
+        28,
+        "urban"
+      ],
+      [
+        21,
+        29,
+        "urban"
+      ],
+      [
+        21,
+        30,
+        "urban"
+      ],
+      [
+        42,
+        47,
+        "hill"
+      ],
+      [
+        42,
+        48,
+        "hill"
+      ],
+      [
+        42,
+        50,
+        "hill"
+      ],
+      [
+        45,
+        47,
+        "hill"
+      ],
+      [
+        45,
+        48,
+        "hill"
+      ],
+      [
+        45,
+        50,
+        "hill"
+      ],
+      [
+        48,
+        47,
+        "hill"
+      ],
+      [
+        48,
+        48,
+        "hill"
+      ],
+      [
+        48,
+        50,
+        "hill"
+      ],
+      [
+        51,
+        47,
+        "hill"
+      ],
+      [
+        51,
+        48,
+        "hill"
+      ],
+      [
+        51,
+        50,
+        "hill"
+      ],
+      [
+        54,
+        47,
+        "hill"
+      ],
+      [
+        54,
+        48,
+        "hill"
+      ],
+      [
+        54,
+        50,
+        "hill"
+      ],
+      [
+        57,
+        47,
+        "hill"
+      ],
+      [
+        57,
+        48,
+        "hill"
+      ],
+      [
+        57,
+        50,
+        "hill"
+      ]
+    ],
+    "rivers": [
+      {
+        "id": "yangtze",
+        "name": "Yangtze",
+        "nameZh": "长江",
+        "width": 5,
+        "points": [
+          [
+            90,
+            43
+          ],
+          [
+            82,
+            42
+          ],
+          [
+            70,
+            41
+          ],
+          [
+            58,
+            44
+          ],
+          [
+            48,
+            35
+          ],
+          [
+            38,
+            30
+          ],
+          [
+            24,
+            29
+          ],
+          [
+            10,
+            30
+          ]
+        ]
+      },
+      {
+        "id": "han",
+        "name": "Han River",
+        "nameZh": "汉水",
+        "width": 3,
+        "points": [
+          [
+            21,
+            24
+          ],
+          [
+            20,
+            29
+          ],
+          [
+            15,
+            36
+          ],
+          [
+            10,
+            42
+          ]
+        ]
+      }
+    ],
+    "roads": [
+      {
+        "id": "yangtze_axis",
+        "name": "长江进攻轴线",
+        "nameZh": "长江进攻轴线",
+        "importance": "main",
+        "points": [
+          [
+            82,
+            42
+          ],
+          [
+            66,
+            36
+          ],
+          [
+            58,
+            44
+          ],
+          [
+            48,
+            31
+          ],
+          [
+            38,
+            30
+          ],
+          [
+            24,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "south_axis",
+        "name": "赣北进攻轴线",
+        "nameZh": "赣北进攻轴线",
+        "importance": "main",
+        "points": [
+          [
+            58,
+            44
+          ],
+          [
+            52,
+            49
+          ],
+          [
+            45,
+            43
+          ],
+          [
+            37,
+            37
+          ],
+          [
+            24,
+            29
+          ]
+        ]
+      }
+    ],
+    "railways": [],
+    "settlements": [
+      {
+        "id": "anqing",
+        "name": "安庆",
+        "nameZh": "安庆",
+        "q": 82,
+        "r": 42,
+        "type": "city",
+        "strategicObjective": true
+      },
+      {
+        "id": "susong",
+        "name": "宿松",
+        "nameZh": "宿松",
+        "q": 73,
+        "r": 38,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "huangmei",
+        "name": "黄梅",
+        "nameZh": "黄梅",
+        "q": 66,
+        "r": 36,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "jiujiang",
+        "name": "九江",
+        "nameZh": "九江",
+        "q": 58,
+        "r": 44,
+        "type": "city",
+        "strategicObjective": true
+      },
+      {
+        "id": "ruichang",
+        "name": "瑞昌",
+        "nameZh": "瑞昌",
+        "q": 51,
+        "r": 39,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "wanjialing",
+        "name": "万家岭",
+        "nameZh": "万家岭",
+        "q": 52,
+        "r": 49,
+        "type": "hill",
+        "strategicObjective": false
+      },
+      {
+        "id": "wuxue",
+        "name": "武穴",
+        "nameZh": "武穴",
+        "q": 58,
+        "r": 34,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "tianjiazhen",
+        "name": "田家镇要塞",
+        "nameZh": "田家镇要塞",
+        "q": 48,
+        "r": 31,
+        "type": "fortress",
+        "strategicObjective": true
+      },
+      {
+        "id": "huangshi",
+        "name": "黄石",
+        "nameZh": "黄石",
+        "q": 38,
+        "r": 30,
+        "type": "city",
+        "strategicObjective": true
+      },
+      {
+        "id": "daye",
+        "name": "大冶",
+        "nameZh": "大冶",
+        "q": 37,
+        "r": 37,
+        "type": "town",
+        "strategicObjective": false
+      },
+      {
+        "id": "wuchang",
+        "name": "武昌",
+        "nameZh": "武昌",
+        "q": 24,
+        "r": 29,
+        "type": "major_city",
+        "strategicObjective": true
+      },
+      {
+        "id": "hankou",
+        "name": "汉口",
+        "nameZh": "汉口",
+        "q": 21,
+        "r": 24,
+        "type": "major_city",
+        "strategicObjective": true
+      },
+      {
+        "id": "hanyang",
+        "name": "汉阳",
+        "nameZh": "汉阳",
+        "q": 20,
+        "r": 29,
+        "type": "major_city",
+        "strategicObjective": true
+      }
+    ],
+    "fortifications": [
+      {
+        "q": 58,
+        "r": 44,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 58,
+        "r": 34,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 48,
+        "r": 31,
+        "type": "permanent_fortress",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 38,
+        "r": 30,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 37,
+        "r": 37,
+        "type": "fieldworks",
+        "level": 1,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 24,
+        "r": 29,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 21,
+        "r": 24,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 20,
+        "r": 29,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100
+      }
+    ],
+    "minefields": [],
+    "wallEdges": [
+      {
+        "from": {
+          "q": 57,
+          "r": 45
+        },
+        "to": {
+          "q": 58,
+          "r": 45
+        },
+        "section": "九江外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 650,
+        "maxHp": 650
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 45
+        },
+        "to": {
+          "q": 59,
+          "r": 44
+        },
+        "section": "九江外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 650,
+        "maxHp": 650
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 44
+        },
+        "to": {
+          "q": 59,
+          "r": 43
+        },
+        "section": "九江外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 650,
+        "maxHp": 650
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 43
+        },
+        "to": {
+          "q": 58,
+          "r": 43
+        },
+        "section": "九江外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 650,
+        "maxHp": 650
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 43
+        },
+        "to": {
+          "q": 57,
+          "r": 44
+        },
+        "section": "九江外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 650,
+        "maxHp": 650
+      },
+      {
+        "from": {
+          "q": 57,
+          "r": 44
+        },
+        "to": {
+          "q": 57,
+          "r": 45
+        },
+        "section": "九江外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 650,
+        "maxHp": 650
+      },
+      {
+        "from": {
+          "q": 57,
+          "r": 35
+        },
+        "to": {
+          "q": 58,
+          "r": 35
+        },
+        "section": "武穴沿江防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 35
+        },
+        "to": {
+          "q": 59,
+          "r": 34
+        },
+        "section": "武穴沿江防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 34
+        },
+        "to": {
+          "q": 59,
+          "r": 33
+        },
+        "section": "武穴沿江防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 59,
+          "r": 33
+        },
+        "to": {
+          "q": 58,
+          "r": 33
+        },
+        "section": "武穴沿江防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 58,
+          "r": 33
+        },
+        "to": {
+          "q": 57,
+          "r": 34
+        },
+        "section": "武穴沿江防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 57,
+          "r": 34
+        },
+        "to": {
+          "q": 57,
+          "r": 35
+        },
+        "section": "武穴沿江防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 32
+        },
+        "to": {
+          "q": 48,
+          "r": 32
+        },
+        "section": "田家镇要塞永久工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1400,
+        "maxHp": 1400
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 32
+        },
+        "to": {
+          "q": 49,
+          "r": 31
+        },
+        "section": "田家镇要塞永久工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1400,
+        "maxHp": 1400
+      },
+      {
+        "from": {
+          "q": 49,
+          "r": 31
+        },
+        "to": {
+          "q": 49,
+          "r": 30
+        },
+        "section": "田家镇要塞永久工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1400,
+        "maxHp": 1400
+      },
+      {
+        "from": {
+          "q": 49,
+          "r": 30
+        },
+        "to": {
+          "q": 48,
+          "r": 30
+        },
+        "section": "田家镇要塞永久工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1400,
+        "maxHp": 1400
+      },
+      {
+        "from": {
+          "q": 48,
+          "r": 30
+        },
+        "to": {
+          "q": 47,
+          "r": 31
+        },
+        "section": "田家镇要塞永久工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1400,
+        "maxHp": 1400
+      },
+      {
+        "from": {
+          "q": 47,
+          "r": 31
+        },
+        "to": {
+          "q": 47,
+          "r": 32
+        },
+        "section": "田家镇要塞永久工事",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1400,
+        "maxHp": 1400
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 31
+        },
+        "to": {
+          "q": 38,
+          "r": 31
+        },
+        "section": "黄石外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 31
+        },
+        "to": {
+          "q": 39,
+          "r": 30
+        },
+        "section": "黄石外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 30
+        },
+        "to": {
+          "q": 39,
+          "r": 29
+        },
+        "section": "黄石外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 39,
+          "r": 29
+        },
+        "to": {
+          "q": 38,
+          "r": 29
+        },
+        "section": "黄石外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 29
+        },
+        "to": {
+          "q": 37,
+          "r": 30
+        },
+        "section": "黄石外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 30
+        },
+        "to": {
+          "q": 37,
+          "r": 31
+        },
+        "section": "黄石外围防御阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 700,
+        "maxHp": 700
+      },
+      {
+        "from": {
+          "q": 36,
+          "r": 38
+        },
+        "to": {
+          "q": 37,
+          "r": 38
+        },
+        "section": "大冶阻击阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 500,
+        "maxHp": 500
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 38
+        },
+        "to": {
+          "q": 38,
+          "r": 37
+        },
+        "section": "大冶阻击阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 500,
+        "maxHp": 500
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 37
+        },
+        "to": {
+          "q": 38,
+          "r": 36
+        },
+        "section": "大冶阻击阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 500,
+        "maxHp": 500
+      },
+      {
+        "from": {
+          "q": 38,
+          "r": 36
+        },
+        "to": {
+          "q": 37,
+          "r": 36
+        },
+        "section": "大冶阻击阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 500,
+        "maxHp": 500
+      },
+      {
+        "from": {
+          "q": 37,
+          "r": 36
+        },
+        "to": {
+          "q": 36,
+          "r": 37
+        },
+        "section": "大冶阻击阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 500,
+        "maxHp": 500
+      },
+      {
+        "from": {
+          "q": 36,
+          "r": 37
+        },
+        "to": {
+          "q": 36,
+          "r": 38
+        },
+        "section": "大冶阻击阵地",
+        "status": "intact",
+        "type": "wall",
+        "hp": 500,
+        "maxHp": 500
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 25
+        },
+        "to": {
+          "q": 21,
+          "r": 25
+        },
+        "section": "汉口核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 25
+        },
+        "to": {
+          "q": 22,
+          "r": 24
+        },
+        "section": "汉口核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 24
+        },
+        "to": {
+          "q": 22,
+          "r": 23
+        },
+        "section": "汉口核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 22,
+          "r": 23
+        },
+        "to": {
+          "q": 21,
+          "r": 23
+        },
+        "section": "汉口核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 23
+        },
+        "to": {
+          "q": 20,
+          "r": 24
+        },
+        "section": "汉口核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 24
+        },
+        "to": {
+          "q": 20,
+          "r": 25
+        },
+        "section": "汉口核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 30
+        },
+        "to": {
+          "q": 20,
+          "r": 30
+        },
+        "section": "汉阳核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 30
+        },
+        "to": {
+          "q": 21,
+          "r": 29
+        },
+        "section": "汉阳核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 29
+        },
+        "to": {
+          "q": 21,
+          "r": 28
+        },
+        "section": "汉阳核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 21,
+          "r": 28
+        },
+        "to": {
+          "q": 20,
+          "r": 28
+        },
+        "section": "汉阳核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 20,
+          "r": 28
+        },
+        "to": {
+          "q": 19,
+          "r": 29
+        },
+        "section": "汉阳核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 19,
+          "r": 29
+        },
+        "to": {
+          "q": 19,
+          "r": 30
+        },
+        "section": "汉阳核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 30
+        },
+        "to": {
+          "q": 24,
+          "r": 30
+        },
+        "section": "武昌核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 24,
+          "r": 30
+        },
+        "to": {
+          "q": 25,
+          "r": 29
+        },
+        "section": "武昌核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 25,
+          "r": 29
+        },
+        "to": {
+          "q": 25,
+          "r": 28
+        },
+        "section": "武昌核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 25,
+          "r": 28
+        },
+        "to": {
+          "q": 24,
+          "r": 28
+        },
+        "section": "武昌核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 24,
+          "r": 28
+        },
+        "to": {
+          "q": 23,
+          "r": 29
+        },
+        "section": "武昌核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      },
+      {
+        "from": {
+          "q": 23,
+          "r": 29
+        },
+        "to": {
+          "q": 23,
+          "r": 30
+        },
+        "section": "武昌核心防御圈",
+        "status": "intact",
+        "type": "wall",
+        "hp": 1000,
+        "maxHp": 1000
+      }
+    ],
+    "urbanDefenseRules": {
+      "wallBlocksMovementUntilBreached": true,
+      "breachAtHp": 0,
+      "destroyedWallDisappears": true,
+      "showDurabilityInHexInfo": true
+    }
+  },
+  "strategicObjectives": {
+    "chinese": [
+      {
+        "id": "hold_wuhan",
+        "title": "坚守武汉三镇",
+        "description": "迟滞日军至第48回合；汉口、汉阳、武昌不能在期限前全部失守。",
+        "priority": "primary",
+        "deadlineTurn": 48,
+        "action": "defend"
+      },
+      {
+        "id": "hold_tianjiazhen",
+        "title": "迟滞：田家镇要塞",
+        "description": "利用田家镇要塞与沿江阵地迟滞日军西进。",
+        "priority": "secondary",
+        "q": 48,
+        "r": 31,
+        "action": "defend"
+      }
+    ],
+    "japanese": [
+      {
+        "id": "capture_wuhan",
+        "title": "攻占武汉三镇",
+        "description": "在第48回合前夺取汉口、汉阳、武昌。",
+        "priority": "primary",
+        "deadlineTurn": 48,
+        "action": "capture"
+      },
+      {
+        "id": "break_tianjiazhen",
+        "title": "突破田家镇要塞",
+        "description": "突破长江北岸要塞防御。",
+        "priority": "secondary",
+        "q": 48,
+        "r": 31,
+        "action": "capture"
+      }
+    ]
+  },
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "chinese": {
+      "enabled": true,
+      "deckId": "soviet_volunteer_china",
+      "points": 7,
+      "uses": {
+        "i15_strafe": 2,
+        "i16_cap": 3,
+        "sb2_bomb": 3,
+        "db3_bomb": 1
+      }
+    },
+    "japanese": {
+      "enabled": true,
+      "deckId": "japanese_china_early",
+      "points": 8,
+      "uses": {
+        "a5m_cap": 3,
+        "a5m_strafe": 3,
+        "ki27_cap": 3
+      }
+    }
+  }
+}

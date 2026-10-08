@@ -1,0 +1,335 @@
+{
+  "id": "twlib_00_prologue",
+  "key": "twlib_00_prologue",
+  "name": "海峡风云",
+  "scenario": "海峡风云",
+  "date": "2026-01-01",
+  "startTime": "08:00",
+  "hoursPerTurn": 2,
+  "startingPhase": "pla",
+  "description": "台湾解放系列现代单位系统测试关。地图、部署与目标均为架空，用于测试现代装甲、装步、炮兵、防空、侦察、工兵、指挥、维修、补给和卫勤系统。",
+  "map": {
+    "id": "twlib_fictional_test",
+    "name": "架空滨海综合测试区",
+    "width": 32,
+    "height": 22,
+    "hexSize": 24,
+    "terrain": [
+      {
+        "q": 15,
+        "r": 0,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 0,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 1,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 1,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 2,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 2,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 3,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 3,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 4,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 4,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 5,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 5,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 6,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 6,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 7,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 7,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 8,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 8,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 9,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 9,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 10,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 10,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 13,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 13,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 14,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 14,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 15,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 15,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 16,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 16,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 17,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 17,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 18,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 18,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 19,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 19,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 20,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 20,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 21,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 21,
+        "type": "water"
+      },
+      {
+        "q": 5,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 6,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 7,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 11,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 20,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 21,
+        "r": 15,
+        "type": "urban"
+      }
+    ],
+    "roads": [],
+    "bridges": []
+  },
+  "objectives": [],
+  "reinforcements": [],
+  "victoryConditions": {
+    "deadlineTurn": 30,
+    "pla": {
+      "eliminateEnemy": true
+    },
+    "tw_proxy": {
+      "eliminateEnemy": true
+    }
+  },
+  "airSupport": {
+    "pla": {
+      "enabled": true,
+      "deckId": "pla_modern_2026",
+      "points": 99,
+      "cards": [
+        "jh7a_strike",
+        "helo_z20_air_assault",
+        "helo_z8b_air_assault"
+      ],
+      "uses": {
+        "jh7a_strike": 6,
+        "helo_z20_air_assault": 4,
+        "helo_z8b_air_assault": 3
+      }
+    },
+    "tw_proxy": {
+      "enabled": true,
+      "deckId": "tw_proxy_modern_2026",
+      "points": 99
+    }
+  }
+}

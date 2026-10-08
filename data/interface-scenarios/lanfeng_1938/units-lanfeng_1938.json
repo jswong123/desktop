@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "scenario": "lanfeng_1938_draft",
+  "date": "1937-01-01",
+  "notes": "接口占位单位文件：仅一个测试单位。",
+  "units": [
+    {
+      "id": "LANFENG_1938_DRAFT_001",
+      "name": "兰封会战测试单位",
+      "fullName": "兰封会战测试单位",
+      "faction": "chinese",
+      "type": "infantry",
+      "echelon": "battalion",
+      "q": 6,
+      "r": 5,
+      "strength": 300,
+      "maxStrength": 300,
+      "attack": 6,
+      "defense": 6,
+      "movement": 4,
+      "range": 1,
+      "morale": 80,
+      "suppression": 0,
+      "fatigue": 0,
+      "ammo": 100
+    }
+  ]
+}

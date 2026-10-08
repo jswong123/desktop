@@ -1,0 +1,16 @@
+Melbourne 1943 Naval & Geography v4
+========================================
+基于当前 Melbourne v2 数据更新。
+
+主要修改：
+1. 重绘 Port Phillip Bay 北/西/东岸关键海岸段。
+2. Werribee 改为内陆位置；Point Cook 改到 Werribee 东南沿海；同步 Laverton、Williamstown、Port Melbourne。
+3. 自动检查并重新安置全部单位：陆军不得初始部署在 water，海军不得初始部署在 land。
+4. 联军海军扩充到 16 个海上算子；日军海军扩充到 18 个海上算子。
+5. 新增 MelbourneTerrainRules.js，可用于 MovementSystem 强制执行陆海移动限制。
+6. 保留既有战略目标，并同步 Port Melbourne 目标坐标。
+
+安装：
+- scenario-melbourne.json -> data/interface-scenarios/melbourne/scenario-melbourne.json
+- units-melbourne.json -> data/interface-scenarios/melbourne/units-melbourne.json
+- MelbourneTerrainRules.js -> src/systems/MelbourneTerrainRules.js（可选；需要在 MovementSystem 中接入）

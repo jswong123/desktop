@@ -1,0 +1,1992 @@
+{
+  "id": "system_test_range",
+  "key": "system_test_range",
+  "name": "综合系统测试场",
+  "scenario": "综合系统测试场",
+  "date": "1945-01-01",
+  "startTime": "08:00",
+  "hoursPerTurn": 6,
+  "startingPhase": "chinese",
+  "description": "版本回归测试专用关卡。无战略目标、无历史胜负条件，用于检查地形、单位、工兵、桥梁、公路、防空阵地、航空支援、空降和战斗系统。",
+  "map": {
+    "id": "system_test_range",
+    "name": "综合系统测试场",
+    "width": 34,
+    "height": 24,
+    "hexSize": 24,
+    "terrain": [
+      {
+        "q": 2,
+        "r": 2,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 2,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 2,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 2,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 2,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 2,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 2,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 2,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 2,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 2,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 2,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 2,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 2,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 2,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 2,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 2,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 2,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 2,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 2,
+        "type": "marsh"
+      },
+      {
+        "q": 25,
+        "r": 2,
+        "type": "marsh"
+      },
+      {
+        "q": 26,
+        "r": 2,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 2,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 2,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 2,
+        "type": "marsh"
+      },
+      {
+        "q": 2,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 3,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 3,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 3,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 3,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 3,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 3,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 3,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 3,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 3,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 3,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 3,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 3,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 3,
+        "type": "marsh"
+      },
+      {
+        "q": 25,
+        "r": 3,
+        "type": "marsh"
+      },
+      {
+        "q": 26,
+        "r": 3,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 3,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 3,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 3,
+        "type": "marsh"
+      },
+      {
+        "q": 2,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 4,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 4,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 4,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 4,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 4,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 4,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 4,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 4,
+        "type": "marsh"
+      },
+      {
+        "q": 25,
+        "r": 4,
+        "type": "marsh"
+      },
+      {
+        "q": 26,
+        "r": 4,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 4,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 4,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 4,
+        "type": "marsh"
+      },
+      {
+        "q": 2,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 5,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 5,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 5,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 5,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 5,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 5,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 5,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 5,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 5,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 5,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 5,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 5,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 25,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 26,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 5,
+        "type": "marsh"
+      },
+      {
+        "q": 2,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 25,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 26,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 6,
+        "type": "marsh"
+      },
+      {
+        "q": 2,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 25,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 26,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 27,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 28,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 29,
+        "r": 7,
+        "type": "marsh"
+      },
+      {
+        "q": 0,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 1,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 2,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 3,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 4,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 5,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 6,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 7,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 8,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 9,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 10,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 11,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 12,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 13,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 14,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 17,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 18,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 19,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 20,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 21,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 22,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 23,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 24,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 25,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 26,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 27,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 28,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 29,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 30,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 31,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 32,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 33,
+        "r": 11,
+        "type": "water"
+      },
+      {
+        "q": 0,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 1,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 2,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 3,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 4,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 5,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 6,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 7,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 8,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 9,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 10,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 11,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 12,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 13,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 14,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 15,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 16,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 17,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 18,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 19,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 20,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 21,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 22,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 23,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 24,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 25,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 26,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 27,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 28,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 29,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 30,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 31,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 32,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 33,
+        "r": 12,
+        "type": "water"
+      },
+      {
+        "q": 2,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 3,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 4,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 15,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 15,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 3,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 4,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 16,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 16,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 3,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 4,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 17,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 17,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 3,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 4,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 18,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 18,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 3,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 4,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 19,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 19,
+        "type": "concession"
+      },
+      {
+        "q": 2,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 3,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 4,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 5,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 6,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 7,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 8,
+        "r": 20,
+        "type": "urban"
+      },
+      {
+        "q": 24,
+        "r": 20,
+        "type": "concession"
+      },
+      {
+        "q": 25,
+        "r": 20,
+        "type": "concession"
+      },
+      {
+        "q": 26,
+        "r": 20,
+        "type": "concession"
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "concession"
+      },
+      {
+        "q": 28,
+        "r": 20,
+        "type": "concession"
+      },
+      {
+        "q": 29,
+        "r": 20,
+        "type": "concession"
+      },
+      {
+        "q": 30,
+        "r": 20,
+        "type": "concession"
+      }
+    ],
+    "settlements": [
+      {
+        "id": "test_city",
+        "name": "测试城区",
+        "nameZh": "测试城区",
+        "q": 5,
+        "r": 18,
+        "type": "city"
+      },
+      {
+        "id": "test_base",
+        "name": "测试基地",
+        "nameZh": "测试基地",
+        "q": 27,
+        "r": 18,
+        "type": "town"
+      }
+    ],
+    "roads": [
+      {
+        "id": "road_north_bank",
+        "name": "北岸测试公路",
+        "nameZh": "北岸测试公路",
+        "importance": "main",
+        "points": [
+          [
+            1,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            16,
+            9
+          ],
+          [
+            24,
+            9
+          ],
+          [
+            32,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "road_bridge_west",
+        "name": "西桥纵向公路",
+        "nameZh": "西桥纵向公路",
+        "importance": "main",
+        "points": [
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            8,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "road_bridge_center",
+        "name": "中央桥纵向公路",
+        "nameZh": "中央桥纵向公路",
+        "importance": "main",
+        "points": [
+          [
+            17,
+            7
+          ],
+          [
+            17,
+            10
+          ],
+          [
+            17,
+            11
+          ],
+          [
+            17,
+            12
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            17,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "road_bridge_east",
+        "name": "东桥纵向公路",
+        "nameZh": "东桥纵向公路",
+        "importance": "main",
+        "points": [
+          [
+            26,
+            7
+          ],
+          [
+            26,
+            10
+          ],
+          [
+            26,
+            11
+          ],
+          [
+            26,
+            12
+          ],
+          [
+            26,
+            15
+          ],
+          [
+            26,
+            20
+          ]
+        ]
+      },
+      {
+        "id": "road_south_bank",
+        "name": "南岸测试公路",
+        "nameZh": "南岸测试公路",
+        "importance": "secondary",
+        "points": [
+          [
+            1,
+            15
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            26,
+            15
+          ],
+          [
+            32,
+            15
+          ]
+        ]
+      }
+    ],
+    "bridges": [
+      {
+        "id": "test_bridge_west",
+        "name": "西侧永久桥",
+        "q": 8,
+        "r": 11,
+        "status": "intact",
+        "bridgeClass": "permanent",
+        "capacity": "heavy",
+        "orientation": "vertical",
+        "crossingCells": [
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "test_bridge_center_destroyed",
+        "name": "中央被毁桥",
+        "q": 17,
+        "r": 11,
+        "status": "destroyed",
+        "bridgeClass": "permanent",
+        "capacity": "heavy",
+        "orientation": "vertical",
+        "crossingCells": [
+          [
+            17,
+            11
+          ],
+          [
+            17,
+            12
+          ]
+        ]
+      },
+      {
+        "id": "test_bridge_east",
+        "name": "东侧木桥",
+        "q": 26,
+        "r": 11,
+        "status": "intact",
+        "bridgeClass": "field",
+        "capacity": "light",
+        "orientation": "vertical",
+        "crossingCells": [
+          [
+            26,
+            11
+          ],
+          [
+            26,
+            12
+          ]
+        ]
+      }
+    ],
+    "fortifications": [
+      {
+        "id": "f1",
+        "q": 10,
+        "r": 16,
+        "type": "foxhole",
+        "level": 1,
+        "owner": "chinese",
+        "progress": 100,
+        "maxHp": 30,
+        "hp": 30,
+        "integrity": 100,
+        "status": "intact"
+      },
+      {
+        "id": "f2",
+        "q": 12,
+        "r": 16,
+        "type": "trench",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "maxHp": 60,
+        "hp": 60,
+        "integrity": 100,
+        "status": "intact"
+      },
+      {
+        "id": "f3",
+        "q": 14,
+        "r": 16,
+        "type": "strongpoint",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "maxHp": 90,
+        "hp": 90,
+        "integrity": 100,
+        "status": "intact"
+      },
+      {
+        "id": "f4",
+        "q": 16,
+        "r": 16,
+        "type": "bunker",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "maxHp": 150,
+        "hp": 150,
+        "integrity": 100,
+        "status": "intact"
+      },
+      {
+        "q": 18,
+        "r": 7,
+        "type": "aa_position_1",
+        "level": 1,
+        "owner": "chinese",
+        "progress": 100,
+        "airDefensePosition": true,
+        "maxHp": 50,
+        "hp": 50,
+        "integrity": 100,
+        "status": "intact"
+      },
+      {
+        "q": 20,
+        "r": 7,
+        "type": "aa_position_2",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100,
+        "airDefensePosition": true,
+        "maxHp": 80,
+        "hp": 80,
+        "integrity": 100,
+        "status": "intact"
+      },
+      {
+        "q": 22,
+        "r": 7,
+        "type": "aa_position_3",
+        "level": 3,
+        "owner": "chinese",
+        "progress": 100,
+        "airDefensePosition": true,
+        "maxHp": 120,
+        "hp": 120,
+        "integrity": 100,
+        "status": "intact"
+      }
+    ],
+    "minefields": [
+      {
+        "id": "m1",
+        "q": 20,
+        "r": 16,
+        "owner": "japanese",
+        "strength": 100,
+        "discoveredBy": [
+          "chinese",
+          "japanese"
+        ]
+      }
+    ],
+    "wallEdges": [
+      {
+        "from": {
+          "q": 9,
+          "r": 19
+        },
+        "to": {
+          "q": 10,
+          "r": 19
+        },
+        "type": "historic_wall",
+        "owner": "chinese",
+        "hp": 200,
+        "maxHp": 200,
+        "status": "intact"
+      },
+      {
+        "from": {
+          "q": 10,
+          "r": 19
+        },
+        "to": {
+          "q": 11,
+          "r": 19
+        },
+        "type": "field_wall",
+        "owner": "chinese",
+        "hp": 100,
+        "maxHp": 100,
+        "status": "intact"
+      }
+    ],
+    "gates": [
+      {
+        "id": "gate_test",
+        "name": "测试城门",
+        "from": {
+          "q": 11,
+          "r": 19
+        },
+        "to": {
+          "q": 12,
+          "r": 19
+        },
+        "status": "open"
+      }
+    ],
+    "urbanDefenseRules": {
+      "enabled": true
+    },
+    "aviationTest": "v0.23.0: air support deck + airborne + AA positions L1/L2/L3"
+  },
+  "victoryConditions": {
+    "deadlineTurn": 999999,
+    "chinese": [],
+    "japanese": [],
+    "disabled": true
+  },
+  "strategicObjectives": {
+    "chinese": [],
+    "japanese": []
+  },
+  "mapRevision": {
+    "version": "2026-09-29-test-range-01",
+    "scope": "test_only",
+    "notes": "固定版本回归测试地图，不设置战略目标。",
+    "engineeringTest": "v0.22.6: explicit roads, intact/destroyed bridges, bridge target-mode regression tests"
+  },
+  "airSupport": {
+    "chinese": {
+      "enabled": true,
+      "deckId": "system_test_air",
+      "points": 999,
+      "uses": {
+        "recon": 99,
+        "hawk3_cap": 99,
+        "hawk3_strafe": 99,
+        "a5m_cap": 99,
+        "a5m_strafe": 99,
+        "ki27_cap": 99,
+        "ki43_cap": 99,
+        "ki43_strafe": 99,
+        "p40_strafe": 99,
+        "ju87_dive": 99,
+        "b25_bomb": 99,
+        "b29_heavy": 99,
+        "cap": 99,
+        "supply": 99,
+        "paradrop": 99,
+        "a6m2_cap": 99,
+        "a6m2_strafe": 99,
+        "i15_strafe": 99,
+        "i16_cap": 99,
+        "yak3_cap": 99,
+        "yak9t_armor": 99,
+        "il2_attack": 99,
+        "il10_attack": 99,
+        "sb2_bomb": 99,
+        "db3_bomb": 99,
+        "pe2_dive": 99,
+        "tu2_bomb": 99,
+        "li2_supply": 99,
+        "li2_paradrop": 99,
+        "mig15_cap": 99
+      }
+    },
+    "japanese": {
+      "enabled": true,
+      "deckId": "system_test_air",
+      "points": 999,
+      "uses": {
+        "recon": 99,
+        "hawk3_cap": 99,
+        "hawk3_strafe": 99,
+        "a5m_cap": 99,
+        "a5m_strafe": 99,
+        "ki27_cap": 99,
+        "ki43_cap": 99,
+        "ki43_strafe": 99,
+        "p40_strafe": 99,
+        "ju87_dive": 99,
+        "b25_bomb": 99,
+        "b29_heavy": 99,
+        "cap": 99,
+        "supply": 99,
+        "paradrop": 99,
+        "a6m2_cap": 99,
+        "a6m2_strafe": 99,
+        "i15_strafe": 99,
+        "i16_cap": 99,
+        "yak3_cap": 99,
+        "yak9t_armor": 99,
+        "il2_attack": 99,
+        "il10_attack": 99,
+        "sb2_bomb": 99,
+        "db3_bomb": 99,
+        "pe2_dive": 99,
+        "tu2_bomb": 99,
+        "li2_supply": 99,
+        "li2_paradrop": 99,
+        "mig15_cap": 99
+      }
+    }
+  },
+  "testFeatures": {
+    "sovietAir": "v0.24.0 Soviet aircraft/cards + fortification damage targets"
+  },
+  "aiMode": "passive",
+  "specialRules": {
+    "testRange": true,
+    "disableVictory": true,
+    "autoSkipPassiveAI": true
+  }
+}

@@ -1,0 +1,1 @@
+const {contextBridge,ipcRenderer}=require('electron');contextBridge.exposeInMainWorld('frontlineDesktop',Object.freeze({appendAIRecord:(record)=>ipcRenderer.invoke('ai:append',record),openAIDataFolder:()=>ipcRenderer.invoke('ai:folder'),exportAIData:()=>ipcRenderer.invoke('ai:export')}));

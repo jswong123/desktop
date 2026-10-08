@@ -1,0 +1,5 @@
+v1.1.6 红蓝方控制与日志统一修复
+1. 动态合成旅单位同时保存 faction=RED/BLUE 与 side=red/blue。
+2. AI与玩家共用 MovementSystem，底层日志不再误写“玩家移动成功”，改为“[移动系统]”。
+3. 玩家实际操作由 main.js 单独输出“[玩家][红方/蓝方]”，以 GameState 实际选择为准。
+4. playerCanControlUnit 继续严格要求单位阵营=玩家阵营=当前行动阵营。

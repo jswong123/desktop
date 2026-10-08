@@ -1,0 +1,10 @@
+砺剑-26 v0.4.6 攻击链与战术符号修复
+
+1. 恢复 CombatSystem.getAttackableUnits() 兼容接口，AI 与玩家共用 getAttackEligibility()，修复 AI 行动阶段 TypeError。
+2. 非法攻击返回真实失败原因，不再统一显示“射程或已经攻击”。
+3. 每个新行动阶段同时重置 hasAttacked 与 hasBombarded，避免炮击单位后续回合永久无法攻击。
+4. resetFaction 使用阵营标准化比较，兼容 red/blue 与历史阵营别名。
+5. 修复特战空降完成后的 updateUnitInfo 未定义错误，改用现有 showUnitInfo()。
+6. air_defense / anti_air / antiair / aa 统一绘制野战防空标识。
+7. infantry / mechanized_infantry / wheeled_infantry 使用标准步兵 X 标识；motorized_infantry 保留步兵 X 并叠加摩托化标识。
+8. 保留 v0.4.5 既有移动、浮渡、补给、维修、航空支援、立体地形和现代战损系统。

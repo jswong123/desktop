@@ -1,0 +1,12 @@
+v0.8.7 — 墨尔本CBD战术地图重制
+
+- CBD战役改为独立64×56战术级地图，整张地图以CBD与紧邻城区为主体。
+- 保留墨尔本大学与Carlton Gardens联军控制突出部，CBD外围并未完全被日军占领。
+- 真实街网方向：Victoria / La Trobe / Lonsdale / Bourke / Collins / Flinders，以及Spencer至Spring主要南北道路。
+- 亚拉河位于地图南缘，保留王子桥与斯宾塞街桥走廊。
+- 重要地标：墨尔本大学、Carlton Gardens、皇家展览馆、Queen Victoria Market、RMIT、州立图书馆、议会大厦、市政厅、Flinders Street Station、Southern Cross等。
+- 联军与日军所有参战单位均调整为残兵：非满员、弹药不足、疲劳和士气损耗。
+- 移除CBD战役中不适合城区战的海军单位。
+- 联军部署为多层纵深防御；日军主要从西、东及外围突破口攻击，南部仅少量穿插/牵制兵力。
+- 城区加入大量街垒、坚固建筑、永固据点与少量外围雷区，共115处工事。
+- 保留v0.8.6 iPad Pro响应式与触控适配。

@@ -1,0 +1,9 @@
+战线 1937-1945 / 砺剑-26 v0.4.5 攻击检查统一修复
+
+1. CombatSystem 新增统一 getAttackEligibility()，玩家与 AI 共用 canAttack() 判定。
+2. 修复红/蓝、RED/BLUE、PLA_RED/PLA_BLUE 等阵营字段大小写/别名不一致导致的敌我判定异常。
+3. 补齐现代单位兵种的默认攻击/射程兼容：tank、mechanized_infantry、wheeled_infantry、motorized_infantry、amphibious_armor、special_forces、support、supply、air_defense、recon。
+4. 射程优先读取单位明确的 minRange/maxRange/range；缺失字段不再使新兵种错误落入旧兵种规则。
+5. 攻击失败时显示具体原因：本阶段已攻击、弹药耗尽、过近、超射程、坐标异常、无攻击能力、非敌军等。
+6. 仅在 CombatSystem.attack() 真正成功后写入 hasAttacked=true，失败检查不会消耗攻击机会。
+7. 保留 v0.4.4 的移动稳定性、浮渡、立体地图、补给维修、人员/装备战损、航空/直升机支援、AI 等已有功能。

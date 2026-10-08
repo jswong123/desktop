@@ -1,0 +1,162 @@
+{
+  "databaseId": "tw_proxy_force_templates_v1",
+  "displayFaction": "台伪军",
+  "machineFaction": "TW_PROXY",
+  "note": "现代架空战役单位模板库。数值为游戏平衡值，不表示现实装备性能、部署或战备状态。",
+  "eras": [
+    {
+      "id": "TW_1950",
+      "name": "1950年代模板",
+      "units": [
+        "台伪军步兵营",
+        "台伪军轻型战车营",
+        "台伪军炮兵营",
+        "台伪军工兵连",
+        "台伪军营指挥部",
+        "台伪军补给分队"
+      ]
+    },
+    {
+      "id": "TW_1970",
+      "name": "1970年代模板",
+      "units": [
+        "台伪军步兵营",
+        "台伪军机械化步兵营",
+        "台伪军战车营",
+        "台伪军炮兵营",
+        "台伪军防空连",
+        "台伪军工兵连",
+        "台伪军营指挥部",
+        "台伪军维修分队"
+      ]
+    },
+    {
+      "id": "TW_1990",
+      "name": "1990年代模板",
+      "units": [
+        "台伪军机械化步兵营",
+        "台伪军装甲步兵营",
+        "台伪军战车营",
+        "台伪军自行炮兵营",
+        "台伪军防空连",
+        "台伪军侦察连",
+        "台伪军工兵连",
+        "台伪军旅指挥部",
+        "台伪军维修连",
+        "台伪军野战医院"
+      ]
+    },
+    {
+      "id": "TW_2010",
+      "name": "2010年代模板",
+      "units": [
+        "台伪军步兵营",
+        "台伪军机械化步兵营",
+        "台伪军轮式装甲步兵营",
+        "台伪军战车营",
+        "台伪军炮兵营",
+        "台伪军防空单位",
+        "台伪军侦察单位",
+        "台伪军工兵单位",
+        "台伪军旅指挥部",
+        "台伪军维修单位",
+        "台伪军补给单位",
+        "台伪军野战医院"
+      ]
+    },
+    {
+      "id": "TW_2026",
+      "name": "2026现代模板",
+      "units": [
+        "台伪军步兵营",
+        "台伪军机械化步兵营",
+        "台伪军装甲步兵营",
+        "台伪军战车营",
+        "台伪军轮式装甲营",
+        "台伪军炮兵营",
+        "台伪军防空单位",
+        "台伪军无人侦察单位",
+        "台伪军工兵单位",
+        "台伪军旅指挥部",
+        "台伪军通信单位",
+        "台伪军维修单位",
+        "台伪军补给单位",
+        "台伪军野战医院"
+      ]
+    }
+  ],
+  "baseStats": {
+    "infantry": {
+      "attack": 20,
+      "defense": 28,
+      "movement": 5,
+      "range": 1
+    },
+    "mechanized_infantry": {
+      "attack": 28,
+      "defense": 34,
+      "movement": 7,
+      "range": 1
+    },
+    "armor": {
+      "attack": 40,
+      "defense": 42,
+      "movement": 7,
+      "range": 1
+    },
+    "artillery": {
+      "attack": 38,
+      "defense": 18,
+      "movement": 5,
+      "range": 5
+    },
+    "air_defense": {
+      "attack": 16,
+      "defense": 24,
+      "movement": 5,
+      "range": 3
+    },
+    "engineer": {
+      "attack": 14,
+      "defense": 24,
+      "movement": 5,
+      "range": 1
+    },
+    "recon": {
+      "attack": 12,
+      "defense": 18,
+      "movement": 8,
+      "range": 1
+    },
+    "headquarters": {
+      "attack": 8,
+      "defense": 24,
+      "movement": 5,
+      "range": 1
+    },
+    "repair": {
+      "attack": 4,
+      "defense": 16,
+      "movement": 5,
+      "range": 1
+    },
+    "supply": {
+      "attack": 2,
+      "defense": 14,
+      "movement": 5,
+      "range": 1
+    },
+    "medical": {
+      "attack": 0,
+      "defense": 12,
+      "movement": 5,
+      "range": 1
+    }
+  },
+  "implementation": {
+    "playableScenario": "twlib_00_prologue",
+    "unitsPath": "./data/interface-scenarios/twlib-00-prologue/units-twlib-00-prologue.json",
+    "era": "TW_2026",
+    "status": "connected"
+  }
+}

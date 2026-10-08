@@ -1,0 +1,6 @@
+v0.4.7 攻击链/空降后AI/战术符号稳定性修复
+1. 恢复 CombatSystem.calculateDamage()，玩家与 AI 共用伤害计算，修复空降后敌军靠近并攻击空降单位时触发的 this.calculateDamage is not a function。
+2. 保留 getAttackableUnits / getAttackEligibility / attack 统一攻击链，现代单位伤害继续进入人员+装备损失系统。
+3. 野战防空符号识别扩展到 type/unitType/branch/equipment/name，并识别“防空/高射/地空导弹/自行高炮”等实际数据命名。
+4. 步兵符号识别扩展到普通步兵、机械化步兵、轮式装步以及中文“步兵/装步/步战”命名。
+5. 修复 drawInfantry 缺少 stroke() 导致 X 步兵标识路径创建但未真正绘制的问题。

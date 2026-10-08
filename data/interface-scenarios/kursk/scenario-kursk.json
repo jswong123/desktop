@@ -1,0 +1,3458 @@
+{
+  "id": "kursk_1943",
+  "key": "kursk_1943",
+  "name": "库尔斯克会战",
+  "nameZh": "库尔斯克会战",
+  "scenario": "库尔斯克会战",
+  "date": "1943-07-05",
+  "startTime": "04:30",
+  "hoursPerTurn": 6,
+  "startingPhase": "german",
+  "map": {
+    "id": "kursk_1943",
+    "name": "库尔斯克突出部",
+    "nameZh": "库尔斯克突出部",
+    "width": 110,
+    "height": 72,
+    "hexSize": 22,
+    "terrain": [
+      {
+        "q": 10,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 93,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 97,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 3,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 80,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 98,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 4,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 5,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 37,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 57,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 83,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 84,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 35,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 92,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 11,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 93,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 29,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 46,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 16,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 16,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 92,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 93,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 98,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 25,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 27,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 27,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 27,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 27,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 28,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 92,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 98,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 29,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 97,
+        "r": 30,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 31,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 31,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 32,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 32,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 32,
+        "type": "forest"
+      },
+      {
+        "q": 98,
+        "r": 32,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 32,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 34,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 34,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 35,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 36,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 97,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 40,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 40,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 40,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 93,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 6,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 45,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 45,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 7,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 98,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 93,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 51,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 51,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 51,
+        "type": "forest"
+      },
+      {
+        "q": 98,
+        "r": 51,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 51,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 51,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 52,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 53,
+        "type": "forest"
+      },
+      {
+        "q": 93,
+        "r": 53,
+        "type": "forest"
+      },
+      {
+        "q": 105,
+        "r": 53,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 54,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 54,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 54,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 54,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 55,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 56,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 56,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 56,
+        "type": "forest"
+      },
+      {
+        "q": 99,
+        "r": 56,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 56,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 92,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 57,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 58,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 58,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 58,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 58,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 47,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 86,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 92,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 59,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 60,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 60,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 60,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 60,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 39,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 50,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 76,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 101,
+        "r": 61,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 8,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 40,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 52,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 60,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 62,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 31,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 84,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 91,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 103,
+        "r": 63,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 83,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 92,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 96,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 97,
+        "r": 64,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 28,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 42,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 87,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 89,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 65,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 26,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 28,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 49,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 82,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 90,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 95,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 102,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 106,
+        "r": 66,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 4,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 36,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 41,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 78,
+        "r": 67,
+        "type": "forest"
+      },
+      {
+        "q": 3,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 5,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 32,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 45,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 88,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 94,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 100,
+        "r": 68,
+        "type": "forest"
+      },
+      {
+        "q": 104,
+        "r": 68,
+        "type": "forest"
+      }
+    ],
+    "settlements": [
+      {
+        "name": "Orel",
+        "nameZh": "奥廖尔",
+        "q": 55,
+        "r": 5,
+        "type": "major_city"
+      },
+      {
+        "name": "Ponyri",
+        "nameZh": "波内里",
+        "q": 53,
+        "r": 18,
+        "type": "town"
+      },
+      {
+        "name": "Kursk",
+        "nameZh": "库尔斯克",
+        "q": 55,
+        "r": 36,
+        "type": "major_city"
+      },
+      {
+        "name": "Oboyan",
+        "nameZh": "奥博扬",
+        "q": 58,
+        "r": 51,
+        "type": "town"
+      },
+      {
+        "name": "Prokhorovka",
+        "nameZh": "普罗霍罗夫卡",
+        "q": 74,
+        "r": 55,
+        "type": "town"
+      },
+      {
+        "name": "Belgorod",
+        "nameZh": "别尔哥罗德",
+        "q": 62,
+        "r": 66,
+        "type": "major_city"
+      },
+      {
+        "name": "Tomarovka",
+        "nameZh": "托马罗夫卡",
+        "q": 43,
+        "r": 62,
+        "type": "town"
+      },
+      {
+        "name": "Fatezh",
+        "nameZh": "法捷日",
+        "q": 38,
+        "r": 26,
+        "type": "town"
+      }
+    ],
+    "roads": [
+      {
+        "name": "Orel–Kursk Road",
+        "nameZh": "奥廖尔—库尔斯克公路",
+        "points": [
+          {
+            "q": 55,
+            "r": 5
+          },
+          {
+            "q": 53,
+            "r": 18
+          },
+          {
+            "q": 55,
+            "r": 36
+          }
+        ]
+      },
+      {
+        "name": "Kursk–Belgorod Road",
+        "nameZh": "库尔斯克—别尔哥罗德公路",
+        "points": [
+          {
+            "q": 55,
+            "r": 36
+          },
+          {
+            "q": 58,
+            "r": 51
+          },
+          {
+            "q": 62,
+            "r": 66
+          }
+        ]
+      },
+      {
+        "name": "Oboyan–Prokhorovka Road",
+        "nameZh": "奥博扬—普罗霍罗夫卡公路",
+        "points": [
+          {
+            "q": 58,
+            "r": 51
+          },
+          {
+            "q": 74,
+            "r": 55
+          }
+        ]
+      }
+    ],
+    "rivers": [],
+    "fortifications": [
+      {
+        "q": 38,
+        "r": 15,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 40,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 42,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 44,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 46,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 48,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 50,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 52,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 54,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 56,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 58,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 60,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 62,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 64,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 66,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 68,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 70,
+        "r": 14,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 72,
+        "r": 15,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 34,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 36,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 38,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 40,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 42,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 44,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 46,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 48,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 50,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 52,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 54,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 56,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 58,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 60,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 62,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 64,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 66,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 68,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 70,
+        "r": 20,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 72,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 74,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 76,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 31,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 33,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 35,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 37,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 39,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 41,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 43,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 45,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 47,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 49,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 51,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 53,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 55,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 57,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 59,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 61,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 63,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 65,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 67,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 69,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 71,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 73,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 75,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 77,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 79,
+        "r": 28,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 36,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 38,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 40,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 42,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 44,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 46,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 48,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 50,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 52,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 54,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 56,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 58,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 60,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 62,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 64,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 66,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 68,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 70,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 72,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 74,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 76,
+        "r": 61,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 78,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 80,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 82,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 84,
+        "r": 60,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 39,
+        "r": 55,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 41,
+        "r": 55,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 43,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 45,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 47,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 49,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 51,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 53,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 55,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 57,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 59,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 61,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 63,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 65,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 67,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 69,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 71,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 73,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 75,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 77,
+        "r": 56,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 79,
+        "r": 55,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 81,
+        "r": 55,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 43,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 45,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 47,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 49,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 51,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 53,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 55,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 57,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 59,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 61,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 63,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 65,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 67,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 69,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 71,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 73,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 75,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      },
+      {
+        "q": 77,
+        "r": 49,
+        "type": "fieldworks",
+        "level": 3,
+        "owner": "soviet",
+        "progress": 100
+      }
+    ],
+    "minefields": [
+      {
+        "q": 38,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 42,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 46,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 50,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 54,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 58,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 66,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 70,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 78,
+        "r": 13,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 38,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 42,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 46,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 50,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 54,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 58,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 66,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 74,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 78,
+        "r": 19,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 38,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 42,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 50,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 54,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 58,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 62,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 70,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 74,
+        "r": 26,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 42,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 46,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 50,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 54,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 58,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 62,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 66,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 74,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 78,
+        "r": 62,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 42,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 46,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 50,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 58,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 62,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 66,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 70,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 74,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 78,
+        "r": 57,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 42,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 46,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 54,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 58,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 62,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 66,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 74,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      },
+      {
+        "q": 78,
+        "r": 50,
+        "owner": "soviet",
+        "strength": 75
+      }
+    ]
+  },
+  "victoryConditions": {
+    "deadlineTurn": 30,
+    "deadlineFailureText": "德军未能在规定时间内切断库尔斯克突出部，堡垒行动失败。",
+    "german": {
+      "eliminateEnemy": true,
+      "captureObjectives": {
+        "mode": "all",
+        "objectives": [
+          {
+            "id": "kursk",
+            "name": "Kursk",
+            "nameZh": "库尔斯克",
+            "q": 55,
+            "r": 36
+          }
+        ],
+        "successText": "德军南北钳形攻势会师并夺取库尔斯克。"
+      }
+    },
+    "soviet": {
+      "eliminateEnemy": true,
+      "defendObjectivesUntilDeadline": {
+        "mode": "all",
+        "objectives": [
+          {
+            "id": "kursk",
+            "name": "Kursk",
+            "nameZh": "库尔斯克",
+            "q": 55,
+            "r": 36
+          }
+        ],
+        "successText": "苏军依托纵深防御体系守住库尔斯克至第30回合结束。"
+      }
+    }
+  },
+  "strategicObjectives": {
+    "german": [
+      {
+        "id": "kursk",
+        "title": "夺取：库尔斯克",
+        "description": "突破苏军纵深防御并从南北方向切断突出部。",
+        "priority": "primary",
+        "deadlineTurn": 30,
+        "q": 55,
+        "r": 36,
+        "action": "capture"
+      },
+      {
+        "id": "pony",
+        "title": "突破：波内里",
+        "description": "第9集团军突破北部防御带。",
+        "priority": "secondary",
+        "q": 53,
+        "r": 18,
+        "action": "capture"
+      },
+      {
+        "id": "oboyan",
+        "title": "突破：奥博扬",
+        "description": "第4装甲集团军向奥博扬推进。",
+        "priority": "secondary",
+        "q": 58,
+        "r": 51,
+        "action": "capture"
+      }
+    ],
+    "soviet": [
+      {
+        "id": "kursk",
+        "title": "坚守：库尔斯克",
+        "description": "依托多层防御带阻止德军钳形合围。",
+        "priority": "primary",
+        "deadlineTurn": 30,
+        "q": 55,
+        "r": 36,
+        "action": "defend"
+      }
+    ]
+  },
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "german": {
+      "enabled": true,
+      "deckId": "german_ww2",
+      "points": 9,
+      "uses": {
+        "ju87_dive": 6,
+        "ju52_supply": 1
+      },
+      "restrictions": {
+        "ju52_supply": {
+          "friendlyOnly": true
+        }
+      }
+    },
+    "soviet": {
+      "enabled": true,
+      "deckId": "soviet_tactical_ww2",
+      "points": 11,
+      "uses": {
+        "yak3_cap": 3,
+        "yak9t_armor": 3,
+        "il2_attack": 5,
+        "il10_attack": 0,
+        "pe2_dive": 3,
+        "tu2_bomb": 2,
+        "li2_supply": 1,
+        "li2_paradrop": 0
+      },
+      "restrictions": {
+        "li2_supply": {
+          "friendlyOnly": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2198 @@
+/* ============================================================
+   东线 1941
+   style.css
+   V0.4
+   ============================================================ */
+
+
+/* ============================================================
+   全局
+   ============================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    font-family:
+        "FangSong",
+        "仿宋",
+        "SimSun",
+        serif;
+
+    background: #20231f;
+}
+
+
+/* ============================================================
+   游戏整体
+   ============================================================ */
+
+#game {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+
+/* ============================================================
+   顶部状态栏
+   ============================================================ */
+
+#topbar {
+    height: 52px;
+
+    flex: 0 0 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 18px;
+
+    background: #252a25;
+    color: #e8e3d5;
+
+    border-bottom: 1px solid #555;
+
+    user-select: none;
+}
+
+
+#topbar strong {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.subtitle {
+    margin-left: 14px;
+
+    font-size: 14px;
+
+    opacity: 0.7;
+}
+
+
+#turnInfo {
+    font-size: 14px;
+
+    white-space: nowrap;
+}
+
+
+/* ============================================================
+   游戏主体
+   ============================================================ */
+
+#main {
+    flex: 1 1 auto;
+
+    min-width: 0;
+    min-height: 0;
+
+    display: flex;
+
+    overflow: hidden;
+}
+
+
+/* ============================================================
+   地图区域
+   ============================================================ */
+
+#mapArea {
+    position: relative;
+
+    flex: 1 1 auto;
+
+    min-width: 0;
+    min-height: 0;
+
+    overflow: hidden;
+
+    background: #87866e;
+}
+
+
+/* ============================================================
+   Canvas
+
+   注意：
+   HTML / CSS / JavaScript 统一使用 game-canvas
+   ============================================================ */
+
+#game-canvas {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background: #87866e;
+
+    cursor: default;
+
+    user-select: none;
+    touch-action: none;
+}
+
+
+/* 拖动地图时可以由 JS 添加该 class */
+
+#game-canvas.dragging {
+    cursor: grabbing;
+}
+
+
+/* ============================================================
+   右侧信息栏
+   ============================================================ */
+
+#sidebar {
+    width: 300px;
+
+    flex: 0 0 300px;
+
+    min-width: 300px;
+
+    padding: 18px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background: #e3ddc9;
+    color: #25251f;
+
+    border-left: 2px solid #4c4b40;
+}
+
+
+/* ============================================================
+   信息面板
+   ============================================================ */
+
+#info-panel {
+    width: 100%;
+}
+
+
+#sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+
+    font-size: 24px;
+}
+
+
+#sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+
+    font-size: 18px;
+}
+
+
+#sidebar p {
+    margin: 10px 0;
+
+    line-height: 1.5;
+}
+
+
+#sidebar hr {
+    margin: 20px 0;
+
+    border: none;
+
+    border-top: 1px solid #aaa58f;
+}
+
+
+/* ============================================================
+   提示文字
+   ============================================================ */
+
+.hint {
+    opacity: 0.75;
+
+    line-height: 1.6;
+}
+
+
+/* ============================================================
+   单位信息
+   ============================================================ */
+
+.unit-title {
+    margin-bottom: 10px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.unit-row {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    margin: 7px 0;
+
+    line-height: 1.4;
+}
+
+
+.unit-row span {
+    opacity: 0.75;
+}
+
+
+.unit-row strong {
+    text-align: right;
+
+    font-weight: bold;
+}
+
+
+/* ============================================================
+   滚动条
+   ============================================================ */
+
+#sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+#sidebar::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+#sidebar::-webkit-scrollbar-thumb {
+    background: rgba(70, 70, 60, 0.35);
+
+    border-radius: 4px;
+}
+
+
+#sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(70, 70, 60, 0.55);
+}
+
+
+/* ============================================================
+   小屏幕
+   ============================================================ */
+
+@media (max-width: 900px) {
+
+    #sidebar {
+        width: 250px;
+
+        flex-basis: 250px;
+
+        min-width: 250px;
+
+        padding: 14px;
+    }
+
+
+    #topbar {
+        padding: 0 12px;
+    }
+
+
+    #topbar strong {
+        font-size: 18px;
+    }
+
+
+    .subtitle {
+        margin-left: 8px;
+
+        font-size: 12px;
+    }
+
+}
+/* =========================================================
+   回合系统
+   ========================================================= */
+
+#turnPanel {
+    margin-top: 18px;
+}
+
+#turnPanel h3 {
+    margin-bottom: 14px;
+}
+
+.turn-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 8px 0;
+
+    font-size: 15px;
+}
+
+.turn-row span {
+    opacity: 0.75;
+}
+
+.turn-row strong {
+    font-weight: bold;
+}
+
+
+#endPhaseButton {
+    width: 100%;
+
+    margin-top: 16px;
+    padding: 11px 12px;
+
+    font-family:
+        "FangSong",
+        "仿宋",
+        "SimSun",
+        serif;
+
+    font-size: 16px;
+
+    color: #eee8d8;
+    background: #343a34;
+
+    border: 1px solid #676b5d;
+
+    cursor: pointer;
+}
+
+#endPhaseButton:hover {
+    background: #454c43;
+}
+
+#endPhaseButton:active {
+    transform: translateY(1px);
+}
+/* ============================================================
+   战役结束弹窗
+   ============================================================ */
+
+#victory-modal {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 99999;
+
+}
+
+
+/* ============================================================
+   半透明战场遮罩
+   ============================================================ */
+
+.victory-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 30px;
+
+    background:
+        rgba(
+            20,
+            24,
+            20,
+            0.72
+        );
+
+    backdrop-filter:
+        blur(2px);
+
+}
+
+
+/* ============================================================
+   结算窗口
+   ============================================================ */
+
+.victory-window {
+
+    width: 520px;
+
+    max-width:
+        calc(
+            100vw - 60px
+        );
+
+    padding:
+        34px
+        42px
+        32px;
+
+    background:
+        #e3ddc9;
+
+    color:
+        #25251f;
+
+    border:
+        3px solid
+        #252a25;
+
+    box-shadow:
+        0
+        14px
+        45px
+        rgba(
+            0,
+            0,
+            0,
+            0.48
+        );
+
+    text-align: center;
+
+    font-family:
+        "FangSong",
+        "仿宋",
+        "SimSun",
+        serif;
+
+}
+
+
+/* ============================================================
+   顶部小标题
+   ============================================================ */
+
+.victory-decoration {
+
+    margin-bottom:
+        18px;
+
+    font-size:
+        14px;
+
+    letter-spacing:
+        5px;
+
+    color:
+        #686552;
+
+}
+
+
+/* ============================================================
+   胜利标题
+   ============================================================ */
+
+.victory-title {
+
+    margin-bottom:
+        8px;
+
+    font-size:
+        38px;
+
+    font-weight:
+        bold;
+
+    letter-spacing:
+        8px;
+
+    color:
+        #20251f;
+
+}
+
+
+/* ============================================================
+   外文标题
+   ============================================================ */
+
+.victory-subtitle {
+
+    font-size:
+        13px;
+
+    letter-spacing:
+        4px;
+
+    color:
+        #77725f;
+
+}
+
+
+/* ============================================================
+   分隔线
+   ============================================================ */
+
+.victory-line {
+
+    width:
+        72%;
+
+    height:
+        1px;
+
+    margin:
+        24px
+        auto;
+
+    background:
+        #8a846d;
+
+}
+
+
+/* ============================================================
+   胜负原因
+   ============================================================ */
+
+.victory-reason {
+
+    min-height:
+        48px;
+
+    margin-bottom:
+        22px;
+
+    font-size:
+        18px;
+
+    line-height:
+        1.8;
+
+    color:
+        #282b25;
+
+}
+
+
+/* ============================================================
+   战役信息
+   ============================================================ */
+
+.victory-details {
+
+    width:
+        82%;
+
+    margin:
+        0 auto 26px;
+
+    padding:
+        14px 0;
+
+    border-top:
+        1px solid
+        #aaa58f;
+
+    border-bottom:
+        1px solid
+        #aaa58f;
+
+}
+
+
+/* ============================================================
+   战役信息行
+   ============================================================ */
+
+.victory-detail-row {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        20px;
+
+    margin:
+        7px 0;
+
+    font-size:
+        14px;
+
+}
+
+
+.victory-detail-row span {
+
+    color:
+        #77725f;
+
+}
+
+
+.victory-detail-row strong {
+
+    color:
+        #25251f;
+
+    font-weight:
+        bold;
+
+}
+
+
+/* ============================================================
+   查看战场按钮
+   ============================================================ */
+
+.victory-button {
+
+    width:
+        190px;
+
+    padding:
+        11px
+        20px;
+
+    border:
+        1px solid
+        #20251f;
+
+    background:
+        #293029;
+
+    color:
+        #eee8d2;
+
+    font-family:
+        "FangSong",
+        "仿宋",
+        "SimSun",
+        serif;
+
+    font-size:
+        16px;
+
+    letter-spacing:
+        3px;
+
+    cursor:
+        pointer;
+
+    transition:
+        background
+        0.15s ease;
+
+}
+
+
+.victory-button:hover {
+
+    background:
+        #3a4339;
+
+}
+
+
+.victory-button:active {
+
+    transform:
+        translateY(
+            1px
+        );
+
+}
+
+
+/* ============================================================
+   战役结束后禁用按钮
+   ============================================================ */
+
+#endPhaseButton:disabled {
+
+    opacity:
+        0.45;
+
+    cursor:
+        not-allowed;
+
+}
+
+
+/* ============================================================
+   小屏幕适配
+   ============================================================ */
+
+@media (
+    max-width: 700px
+) {
+
+    .victory-window {
+
+        width:
+            100%;
+
+        padding:
+            28px
+            24px;
+
+    }
+
+
+    .victory-title {
+
+        font-size:
+            30px;
+
+        letter-spacing:
+            5px;
+
+    }
+
+
+    .victory-details {
+
+        width:
+            100%;
+
+    }
+
+}
+
+
+/* ============================================================
+   增援面板
+   ============================================================ */
+.reinforcement-panel { margin-top:16px; padding-top:14px; border-top:1px solid #8f8874; }
+.reinforcement-panel[hidden] { display:none !important; }
+.reinforcement-section-label { margin:8px 0 7px; font-size:13px; font-weight:bold; letter-spacing:2px; color:#555044; }
+.reinforcement-item { margin-bottom:9px; padding:9px 10px; border:1px solid #aaa18b; background:#eee8d6; }
+.reinforcement-title { font-weight:bold; font-size:14px; }
+.reinforcement-detail { margin-top:4px; font-size:12px; line-height:1.45; }
+.reinforcement-meta { margin-top:5px; font-size:12px; color:#6b3e34; }
+.reinforcement-log-label { margin-top:13px; }
+.reinforcement-log-item { padding:5px 0; border-bottom:1px dotted #aaa18b; font-size:12px; line-height:1.4; }
+.reinforcement-empty { padding:8px 0; font-size:12px; color:#777064; }
+
+/* 万家岭：地块信息与工程行动 */
+#mapArea{position:relative;}
+.hex-info-panel{position:absolute;left:12px;top:12px;z-index:12;min-width:210px;max-width:280px;padding:10px 12px;background:rgba(31,34,29,.90);border:1px solid #777463;color:#eee8d4;font-size:13px;line-height:1.55;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+.hex-info-title{font-weight:bold;font-size:15px;margin-bottom:4px;border-bottom:1px solid #666253;padding-bottom:4px}
+.engineer-actions{display:grid;grid-template-columns:1fr;gap:6px;margin:8px 0 12px}.engineer-actions button{padding:7px;background:#5d5f50;color:#f2eddc;border:1px solid #777463;cursor:pointer}.engineer-actions button:disabled{opacity:.45;cursor:default}
+
+/* ===== V0.2 主界面 / 存档界面 ===== */
+.game-overlay{position:fixed;inset:0;z-index:5000;display:flex;align-items:center;justify-content:center;background:linear-gradient(rgba(20,24,20,.90),rgba(20,24,20,.94)),radial-gradient(circle at 50% 35%,#4b4b3b,#1b1e1a 70%);font-family:inherit;color:#eee8d0}
+.game-overlay[hidden]{display:none!important}.main-menu-card,.save-modal-card,.pause-card{width:min(560px,88vw);padding:38px;border:1px solid #8d866d;background:rgba(39,42,34,.96);box-shadow:0 20px 60px #0008;text-align:center}
+.main-menu-card h1{font-size:42px;letter-spacing:8px;margin:8px 0}.main-menu-kicker{letter-spacing:4px;color:#bdb69a}.main-menu-version{font-size:12px;color:#918b75;margin-bottom:28px}
+.main-menu-card button,.pause-card button,.save-modal-card button{display:block;width:100%;margin:9px 0;padding:11px 16px;border:1px solid #8d866d;background:#d8d0b1;color:#22261e;font:inherit;cursor:pointer}.main-menu-card button:hover,.pause-card button:hover,.save-modal-card button:hover{filter:brightness(1.08)}
+.main-menu-card button:disabled{opacity:.4;cursor:default}.modal-overlay{background:#111a}.save-modal-card{text-align:left;max-height:82vh;overflow:auto}.save-modal-card h2,.pause-card h2{text-align:center}.save-slot-card{border:1px solid #77715d;padding:12px;margin:10px 0;background:#20241e}.save-slot-title{font-weight:bold}.save-slot-meta{font-size:12px;color:#c3bda5;margin:5px 0 9px}.save-slot-buttons{display:flex;gap:6px}.save-slot-buttons button{display:inline-block;width:auto;flex:1;margin:0;padding:7px}.save-modal-actions{display:flex;gap:8px}.save-modal-actions button{flex:1}.pause-card{width:min(360px,85vw)}
+
+/* ============================================================
+   V0.5.3 衡阳 HUD 修正版
+   左上：地块信息；中上：单位信息；右侧：作战信息
+   ============================================================ */
+
+/* 主体继续使用稳定的左右 flex：地图 + 右侧作战栏 */
+#main {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* 地图填满除右侧栏以外的所有区域 */
+#mapArea {
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    overflow: hidden;
+    background: #87866e;
+}
+
+#game-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* 左上地块信息：黑色小浮窗 */
+#terrainFloat {
+    position: absolute;
+    z-index: 30;
+    left: 12px;
+    top: 12px;
+    width: 205px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    background: rgba(25, 28, 24, .91);
+    color: #eee8d4;
+    border: 1px solid #676658;
+    box-shadow: 0 3px 10px rgba(0,0,0,.45);
+    pointer-events: none;
+}
+#terrainFloat h2 {
+    margin: 0 0 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #676658;
+    font-size: 15px;
+}
+#terrainFloat #hexInfoPanel.hex-info-panel {
+    position: static;
+    display: block;
+    min-width: 0;
+    max-width: none;
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    border: 0;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.45;
+    pointer-events: none;
+}
+#terrainFloat #hexInfoPanel[hidden] { display: block !important; }
+
+/* 中上单位信息：更宽、更清晰 */
+#unitFloat {
+    position: absolute;
+    z-index: 31;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1040px, calc(100% - 250px));
+    max-width: calc(100% - 250px);
+    min-height: 126px;
+    max-height: 178px;
+    box-sizing: border-box;
+    padding: 9px 16px 11px;
+    overflow: hidden;
+    background: rgba(232,225,201,.96);
+    color: #25251f;
+    border: 1px solid #77715e;
+    box-shadow: 0 3px 10px rgba(0,0,0,.32);
+}
+.unit-float-title {
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa28b;
+}
+#unitFloat #unitInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 20px;
+    max-height: 116px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 1.35;
+}
+#unitFloat .unit-title {
+    flex: 1 0 100%;
+    margin: 0 0 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.35;
+}
+#unitFloat .unit-row {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    min-width: 135px;
+    margin: 0;
+    line-height: 1.35;
+}
+#unitFloat .unit-row span { opacity: .72; }
+#unitFloat .unit-row strong { white-space: nowrap; font-size: 14px; }
+#unitFloat .unit-commander { font-weight: bold; }
+#unitFloat .engineer-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 4px 0 6px;
+}
+#unitFloat .engineer-actions[hidden] { display: none !important; }
+#unitFloat .engineer-actions button { padding: 4px 10px; font-size: 13px; }
+
+/* 右侧作战信息：稳定的固定宽度竖栏 */
+#operationPanel {
+    position: relative;
+    flex: 0 0 300px;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 100%;
+    min-height: 0;
+    box-sizing: border-box;
+    padding: 16px 16px 24px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #e3ddc9;
+    color: #25251f;
+    border-left: 2px solid #4c4b40;
+    z-index: 20;
+}
+#operationPanel h2 { margin: 0 0 14px; font-size: 24px; }
+#operationPanel h3 {
+    margin: 18px 0 8px;
+    padding-top: 12px;
+    border-top: 1px solid #aaa58f;
+    font-size: 17px;
+}
+#operationPanel .turn-row { font-size: 14px; }
+#operationPanel #endPhaseButton { margin-top: 16px; }
+#operationPanel .reinforcement-panel { margin-top: 10px; padding-top: 0; }
+#operationPanel .reinforcement-scroll { max-height: none; overflow: visible; }
+#operationPanel .operation-help { font-size: 13px; line-height: 1.55; }
+
+/* 兼容旧面板：不参与布局 */
+#infoDeck, #sidebar { display: none !important; }
+
+@media (max-width: 1200px) {
+    #operationPanel { flex-basis: 270px; width: 270px; min-width: 270px; max-width: 270px; }
+    #unitFloat { width: min(900px, calc(100% - 235px)); max-width: calc(100% - 235px); }
+}
+
+/* ============================================================
+   V0.5.4 最终 HUD 定位修正
+   地图与作战信息采用绝对定位，避免 Flex 将作战栏挤到左下角。
+   ============================================================ */
+#main {
+    position: relative !important;
+    display: block !important;
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+#mapArea {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    right: 300px !important;
+    bottom: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    background: #87866e;
+}
+
+#game-canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#operationPanel {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    width: 300px !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #e3ddc9;
+    border-left: 2px solid #4c4b40;
+    z-index: 40;
+}
+
+/* 单位信息横条只以地图可视区域为基准，不伸入右侧作战栏。 */
+#unitFloat {
+    width: min(1080px, calc(100% - 250px));
+    max-width: calc(100% - 250px);
+}
+
+@media (max-width: 1200px) {
+    #mapArea { right: 270px !important; }
+    #operationPanel {
+        width: 270px !important;
+        min-width: 270px !important;
+        max-width: 270px !important;
+    }
+}
+
+/* V0.5.5 战斗反馈：攻击结果在单位信息区持续显示，避免攻击后被详情刷新覆盖 */
+.battle-message {
+  margin-top: 6px;
+  padding: 7px 9px;
+  border: 1px solid rgba(255,255,255,.35);
+  background: rgba(20,20,16,.88);
+  color: #f3e7b3;
+  font-weight: 700;
+  line-height: 1.45;
+  white-space: normal;
+}
+
+/* ===== V0.6 战略目标系统 ===== */
+#strategicObjectives{width:100%;box-sizing:border-box}.strategic-objectives-panel{margin-top:14px;padding-top:12px;border-top:1px solid #8f8874;color:#343329}.strategic-objectives-title-row{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}.strategic-objectives-title-row h3{margin:0;font-size:18px;letter-spacing:2px}.strategic-objectives-faction{font-size:12px;font-weight:700;padding:2px 6px;border:1px solid rgba(80,77,59,.45);background:rgba(229,223,193,.65)}.strategic-objective{box-sizing:border-box;padding:8px 9px;margin:8px 0;border:1px solid rgba(119,112,84,.48);background:rgba(242,237,208,.62)}.objective-primary{border-left:4px solid #45483b}.objective-secondary{border-left:3px solid #7d7961}.objective-optional{border-left:3px dashed #969078}.objective-header{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}.objective-name{font-size:14px;font-weight:700;line-height:1.45}.objective-symbol{display:inline-block;width:15px;margin-right:2px}.objective-status{flex-shrink:0;padding:1px 5px;font-size:11px;border:1px solid rgba(80,76,59,.35);background:rgba(225,220,194,.65)}.objective-meta{margin-top:2px;font-size:11px;color:#79745f}.objective-description{margin-top:5px;font-size:12px;line-height:1.5;color:#4e4b3e}.objective-turn{margin-top:6px;padding-top:5px;border-top:1px dotted rgba(100,95,74,.32);font-size:12px;font-weight:700}.objective-completed{background:rgba(221,228,202,.65)}.objective-failed{background:rgba(229,211,197,.55)}.status-completed,.objective-turn.completed{color:#3f553b}.status-failed,.objective-turn.failed{color:#773f38}.objective-progress{margin-top:7px}.objective-progress-info{display:flex;justify-content:space-between;font-size:10px;color:#696553}.objective-progress-bar{height:4px;background:rgba(84,81,65,.18);margin-top:3px}.objective-progress-fill{height:100%;background:#626653}.strategic-objectives-empty{padding:9px;font-size:12px;text-align:center;color:#77715d;border:1px dashed rgba(100,95,74,.35)}
+
+
+/* ============================================================
+   V0.8.6 iPad Pro / 触屏自适应
+   - iPad 横屏：地图 + 紧凑右栏
+   - iPad 竖屏：地图在上，作战信息在下
+   - 安全区适配刘海/圆角；触控目标 >= 44px
+   ============================================================ */
+:root { --safe-top: env(safe-area-inset-top, 0px); --safe-right: env(safe-area-inset-right, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px); --safe-left: env(safe-area-inset-left, 0px); }
+html, body, #game { width:100%; height:100%; height:100dvh; }
+body { overscroll-behavior:none; -webkit-text-size-adjust:100%; }
+#topbar { padding-left:max(12px,var(--safe-left)); padding-right:max(12px,var(--safe-right)); }
+#game-canvas { -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; touch-action:none; }
+button, select { touch-action:manipulation; }
+
+/* iPad Pro / 中等宽度横屏 */
+@media (hover:none) and (pointer:coarse), (max-width:1366px) {
+  #topbar { height:48px; flex-basis:48px; padding-top:var(--safe-top); gap:8px; }
+  #topbar strong { font-size:17px; }
+  .subtitle { display:none; }
+  #topbar-right { gap:7px !important; min-width:0; }
+  #turnInfo { font-size:12px; overflow:hidden; text-overflow:ellipsis; max-width:180px; }
+  #save-system-controls { gap:4px !important; }
+  #save-system-controls button, #save-system-controls select { min-height:36px; padding:5px 8px !important; font-size:12px !important; }
+  #mapArea { right:260px !important; }
+  #operationPanel { width:260px !important; min-width:260px !important; max-width:260px !important; padding:12px 12px calc(18px + var(--safe-bottom)) !important; }
+  #operationPanel h2 { font-size:20px; margin-bottom:9px; }
+  #operationPanel h3 { font-size:15px; margin-top:12px; padding-top:8px; }
+  #operationPanel #endPhaseButton { min-height:44px; width:100%; }
+  #unitFloat { top:8px; width:calc(100% - 210px); max-width:calc(100% - 210px); min-height:104px; max-height:150px; padding:7px 10px; }
+  #unitFloat #unitInfo { font-size:12px; max-height:94px; gap:3px 12px; }
+  #unitFloat .unit-title { font-size:14px; }
+  #unitFloat .unit-row strong { font-size:12px; }
+  #unitFloat .engineer-actions button { min-height:40px; padding:6px 10px; }
+  #terrainFloat { left:8px; top:8px; width:190px; padding:8px 9px; }
+  .operation-help { display:none; }
+}
+
+/* iPad Pro 11/12.9 竖屏：右栏改为底栏，保留地图宽度 */
+@media (orientation:portrait) and (max-width:1100px) {
+  #topbar { min-height:50px; height:auto; flex-basis:auto; flex-wrap:wrap; padding-bottom:5px; }
+  #topbar-right { flex:1 1 100%; justify-content:space-between; }
+  #turnInfo { max-width:38vw; }
+  #save-system-controls button, #save-system-controls select { min-height:38px; }
+  #main { position:relative !important; }
+  #mapArea { left:0 !important; right:0 !important; top:0 !important; bottom:34vh !important; }
+  #operationPanel { left:0 !important; right:0 !important; top:auto !important; bottom:0 !important; width:100% !important; min-width:0 !important; max-width:none !important; height:34vh !important; border-left:0 !important; border-top:2px solid #4c4b40; padding:10px max(14px,var(--safe-right)) calc(10px + var(--safe-bottom)) max(14px,var(--safe-left)) !important; display:grid; grid-template-columns:minmax(210px,.8fr) minmax(0,1.8fr); grid-auto-rows:min-content; column-gap:16px; align-content:start; }
+  #operationPanel > h2 { grid-column:1; margin:0 0 5px; }
+  #turnPanel { grid-column:1; }
+  #strategicObjectives { grid-column:2; grid-row:1 / span 3; min-height:0; overflow:auto; padding-right:4px; }
+  #reinforcementPanel { grid-column:1; }
+  #operationPanel .operation-help { display:none; }
+  #unitFloat { width:calc(100% - 215px); max-width:calc(100% - 215px); }
+}
+
+/* 更窄的竖屏：顶部只保留关键按钮，避免挤压 */
+@media (orientation:portrait) and (max-width:850px) {
+  #save-game-button, #load-game-button, #undo-game-button { display:none; }
+  #turnInfo { max-width:55vw; }
+  #operationPanel { grid-template-columns:190px minmax(0,1fr); }
+}
+
+/* ===== V0.9.1 cinematic main menu ===== */
+.main-menu-overlay{align-items:stretch!important;justify-content:stretch!important;background:#111!important;overflow:hidden}
+.main-menu-overlay:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,12,10,.96) 0%,rgba(15,18,15,.88) 38%,rgba(19,22,18,.52) 68%,rgba(8,10,8,.80) 100%),repeating-linear-gradient(0deg,transparent 0 35px,rgba(214,204,163,.045) 36px),repeating-linear-gradient(90deg,transparent 0 35px,rgba(214,204,163,.045) 36px),radial-gradient(circle at 75% 42%,#69654e 0,#34372d 26%,#171a16 63%);}
+.main-menu-overlay:after{content:"KURSK  ·  MELBOURNE  ·  BERLIN  ·  SHANGHAI";position:absolute;right:-90px;bottom:90px;transform:rotate(-90deg);font-size:13px;letter-spacing:7px;color:#d6cfaa55}
+.main-menu-scene{position:relative;z-index:1;width:100%;height:100%;box-sizing:border-box;padding:clamp(34px,6vh,78px) clamp(32px,7vw,110px);display:grid;grid-template-columns:minmax(360px,1fr) minmax(320px,430px);grid-template-rows:auto 1fr auto;gap:28px 70px;align-items:center}
+.main-menu-brand{grid-column:1;align-self:end}.main-menu-brand h1{margin:8px 0 12px;font-size:clamp(50px,7vw,96px);line-height:.95;letter-spacing:.10em;color:#eee8d0;text-shadow:0 4px 20px #000}.main-menu-brand h1 span{display:block;font-size:.42em;letter-spacing:.32em;color:#b7ad82;margin-top:18px}.main-menu-kicker{font-size:12px;letter-spacing:5px;color:#9f987c}.main-menu-tagline{max-width:650px;margin-top:20px;color:#c9c2a7;font-size:16px;letter-spacing:2px;line-height:1.8}.main-menu-version{margin-top:16px;color:#817b66;font-size:12px;letter-spacing:2px}
+.main-menu-actions{grid-column:2;grid-row:1/4;align-self:center;border-left:1px solid #8d866d66;padding-left:34px}.main-menu-actions button{display:block;width:100%;margin:10px 0;padding:15px 18px;text-align:left;border:1px solid #77715d;background:linear-gradient(90deg,rgba(218,210,179,.96),rgba(190,183,153,.92));color:#22261e;font:inherit;cursor:pointer;transition:.16s transform,.16s filter}.main-menu-actions button:hover{transform:translateX(-5px);filter:brightness(1.1)}.main-menu-actions button b{display:block;font-size:18px;letter-spacing:2px}.main-menu-actions button small{display:block;margin-top:5px;font-size:11px;color:#5c5a4d;letter-spacing:1px}.main-menu-actions button:disabled{opacity:.4;cursor:default;transform:none}
+.main-menu-feature{grid-column:1;align-self:end;display:flex;gap:16px;align-items:baseline;padding-top:16px;border-top:1px solid #8d866d55;color:#c8c1a4}.main-menu-feature strong{font-size:12px;letter-spacing:3px;color:#8e876c}.main-menu-feature span{font-size:20px;font-weight:bold}.main-menu-feature em{font-size:12px;font-style:normal;color:#8e876c}
+@media(max-width:900px){.main-menu-scene{grid-template-columns:1fr;grid-template-rows:auto auto auto;padding:30px 7vw;gap:18px}.main-menu-brand{grid-column:1;grid-row:1;align-self:auto}.main-menu-actions{grid-column:1;grid-row:2;border-left:0;border-top:1px solid #8d866d66;padding:14px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}.main-menu-actions button{margin:0;padding:12px 14px}.main-menu-feature{grid-column:1;grid-row:3}.main-menu-brand h1{font-size:52px}.main-menu-tagline{font-size:13px}}
+@media(max-width:620px){.main-menu-actions{grid-template-columns:1fr}.main-menu-feature em{display:none}.main-menu-brand h1{font-size:42px}}
+
+/* ===== V0.9.4 user-supplied main-menu background ===== */
+.main-menu-overlay{
+  background:#050706 url('./assets/main-menu-airforce.webp') center center/cover no-repeat!important;
+}
+.main-menu-overlay:before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(3,5,4,.82) 0%,rgba(3,5,4,.60) 43%,rgba(3,5,4,.48) 67%,rgba(3,5,4,.70) 100%),linear-gradient(0deg,rgba(0,0,0,.40),rgba(0,0,0,.10) 50%,rgba(0,0,0,.30));
+}
+.main-menu-actions button{background:rgba(218,210,179,.88);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+.main-menu-brand h1{text-shadow:0 3px 16px #000,0 1px 2px #000}
+@media(max-width:900px){.main-menu-overlay{background-position:center center!important}}
+
+/* ===== V0.9.5 full-poster main-menu composition ===== */
+.main-menu-overlay{
+  background-color:#050706!important;
+  background-image:url('./assets/main-menu-airforce.webp')!important;
+  background-repeat:no-repeat!important;
+  background-position:center center!important;
+  background-size:contain!important;
+}
+.main-menu-overlay:before{
+  background:linear-gradient(90deg,rgba(4,7,7,.52) 0%,rgba(4,7,7,.30) 43%,rgba(5,5,5,.18) 57%,rgba(5,5,5,.42) 100%)!important;
+}
+@media (orientation:landscape){
+  .main-menu-overlay{background-size:auto 92vh!important;}
+}
+@media (max-width:900px) and (orientation:landscape){
+  .main-menu-overlay{background-size:auto 88vh!important;background-position:center center!important;}
+}
+@media (orientation:portrait){
+  .main-menu-overlay{background-size:100% auto!important;background-position:center center!important;}
+}
+/* =========================================================
+   V0.9.6 MAIN MENU FINAL
+   !!! 后续战役更新禁止修改此区域 !!!
+   ========================================================= */
+
+.main-menu-overlay {
+    background-color:#050706 !important;
+    background-image:url('./assets/main-menu-airforce.webp') !important;
+    background-repeat:no-repeat !important;
+
+    /* 海报固定在左侧，不进入菜单区 */
+    background-size:auto 82vh !important;
+    background-position:4% 42% !important;
+}
+
+/* 主标题 */
+.main-menu-brand {
+    position:absolute !important;
+    left:6% !important;
+    top:7% !important;
+    width:30% !important;
+    z-index:10 !important;
+}
+
+/* 右侧菜单彻底脱离原来的 Grid */
+.main-menu-actions {
+    position:absolute !important;
+
+    left:auto !important;
+    right:5% !important;
+
+    top:50% !important;
+    bottom:auto !important;
+
+    transform:translateY(-50%) !important;
+
+    grid-column:auto !important;
+    grid-row:auto !important;
+
+    width:360px !important;
+    max-width:24vw !important;
+    min-width:300px !important;
+
+    display:flex !important;
+    flex-direction:column !important;
+    gap:10px !important;
+
+    z-index:20 !important;
+}
+
+.main-menu-actions button {
+    width:100% !important;
+    height:72px !important;
+
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:flex-start !important;
+    justify-content:center !important;
+
+    padding:12px 18px !important;
+    box-sizing:border-box !important;
+
+    text-align:left !important;
+}
+
+.main-menu-actions button b {
+    font-size:20px !important;
+    line-height:1.2 !important;
+    white-space:nowrap !important;
+}
+
+.main-menu-actions button small {
+    margin-top:5px !important;
+    font-size:11px !important;
+    white-space:nowrap !important;
+}
+
+/* 更新信息独立放在海报下面 */
+.main-menu-feature {
+    position:absolute !important;
+
+    left:6% !important;
+    bottom:2.5% !important;
+
+    width:52% !important;
+
+    grid-column:auto !important;
+    grid-row:auto !important;
+
+    z-index:10 !important;
+}
+
+/* iPad Pro / 较窄横屏 */
+@media (max-width:1200px) and (orientation:landscape) {
+
+    .main-menu-overlay {
+        background-size:auto 74vh !important;
+        background-position:2% 40% !important;
+    }
+
+    .main-menu-actions {
+        right:3% !important;
+        width:280px !important;
+        min-width:250px !important;
+        max-width:27vw !important;
+    }
+
+    .main-menu-actions button {
+        height:62px !important;
+        padding:9px 14px !important;
+    }
+
+    .main-menu-actions button b {
+        font-size:17px !important;
+    }
+
+    .main-menu-actions button small {
+        font-size:10px !important;
+    }
+
+    .main-menu-feature {
+        left:4% !important;
+        width:52% !important;
+        bottom:2% !important;
+    }
+}
+
+/* v0.21 主界面右下角开发者入口 */
+.main-dev-corner{position:absolute;right:18px;bottom:18px;z-index:30;width:34px;height:34px;padding:0;border:1px solid #8d866d;background:rgba(30,34,28,.82);color:#bcb597;font:700 13px FangSong,serif;cursor:pointer;opacity:.55}.main-dev-corner:hover{opacity:1;background:#d8d0b1;color:#22261e}
+
+/* v0.22 通用工兵工程菜单 */
+.engineer-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin:8px 0}.engineer-actions[hidden]{display:none}.engineer-actions button{font-size:12px;line-height:1.2;min-height:30px;padding:5px 6px}
+
+
+/* v0.25.1 — 2.5D tabletop view controls */
+#view25d-controls { display:flex; align-items:center; gap:3px; margin-left:6px; padding-left:6px; border-left:1px solid rgba(255,255,255,.18); }
+#view25d-controls button { min-width:30px; height:30px; padding:2px 7px; border:1px solid #5f6257; background:#343a34; color:#eee8d8; font:inherit; font-size:12px; cursor:pointer; }
+#view25d-controls button:hover { background:#454c44; }
+#view25d-toggle.active { background:#6b684f; border-color:#aaa27d; }
+#view25d-direction { min-width:34px !important; }
+
+
+/* v0.25.2 — Command Sand Table */
+#view25d-controls { flex-wrap:wrap; }
+#sandtable-pitch-wrap { display:flex; align-items:center; gap:4px; padding:0 5px; color:#ddd6c4; font-size:11px; white-space:nowrap; }
+#sandtable-pitch { width:76px; accent-color:#9b936d; }
+#view25d-toggle.active { background:#756d4d !important; box-shadow: inset 0 0 0 1px rgba(230,216,160,.3); }
+#game-canvas { box-shadow: 0 10px 28px rgba(0,0,0,.42); }
+body:has(#view25d-toggle.active) #game-canvas {
+  outline: 8px solid #403a2d;
+  outline-offset: -8px;
+  box-shadow: 0 18px 36px rgba(0,0,0,.58), inset 0 0 28px rgba(0,0,0,.20);
+}
+body:has(#view25d-toggle.active) #game-area {
+  background: linear-gradient(#29271f,#1e1d18);
+}
+/* v0.26.6 战损统计 */
+.casualty-panel{margin-top:12px;padding-top:10px;border-top:1px solid #aaa;font-size:12px;line-height:1.65}.casualty-panel h3{margin:0 0 7px}.casualty-side{padding:6px 0;border-bottom:1px solid rgba(80,78,65,.22)}
+
+/* ============================================================
+   V0.26.7 HUD 响应式修正
+   - 桌面：单位信息面板加高
+   - 平板横屏：保持地图 + 右侧作战栏
+   - 平板竖屏：地图在上，作战栏在下
+   - 手机：紧凑 HUD，作战栏底部显示
+   ============================================================ */
+
+/* 桌面单位信息：比旧版 178px 明显加高，但不过度遮挡地图 */
+#unitFloat {
+    min-height: 150px;
+    max-height: 240px;
+}
+#unitFloat #unitInfo {
+    max-height: 178px;
+}
+
+/* 平板横屏（含 iPad / Android 平板） */
+@media (orientation: landscape) and (max-width: 1366px) {
+    #mapArea { right: 260px !important; }
+    #operationPanel {
+        width: 260px !important;
+        min-width: 260px !important;
+        max-width: 260px !important;
+    }
+    #unitFloat {
+        top: 8px;
+        width: calc(100% - 210px);
+        max-width: calc(100% - 210px);
+        min-height: 132px;
+        max-height: 205px;
+        padding: 8px 11px 10px;
+    }
+    #unitFloat #unitInfo {
+        max-height: 148px;
+        overflow-y: auto;
+    }
+}
+
+/* 平板竖屏 */
+@media (orientation: portrait) and (min-width: 601px) and (max-width: 1100px) {
+    #mapArea {
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+        bottom: 36vh !important;
+    }
+    #operationPanel {
+        left: 0 !important;
+        right: 0 !important;
+        top: auto !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        height: 36vh !important;
+        overflow-y: auto !important;
+    }
+    #unitFloat {
+        left: auto;
+        right: 10px;
+        transform: none;
+        width: calc(100% - 225px);
+        max-width: calc(100% - 225px);
+        min-height: 125px;
+        max-height: 190px;
+    }
+    #unitFloat #unitInfo { max-height: 134px; }
+}
+
+/* 手机：优先保证地图、结束回合和基本单位信息可操作 */
+@media (max-width: 600px) {
+    #topbar {
+        min-height: 44px;
+        height: auto;
+        flex-basis: auto;
+        padding: max(4px,var(--safe-top)) max(6px,var(--safe-right)) 4px max(6px,var(--safe-left));
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+    #topbar strong { font-size: 15px; }
+    #turnInfo {
+        max-width: 58vw;
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #save-system-controls button,
+    #save-system-controls select {
+        min-height: 34px;
+        padding: 4px 6px !important;
+        font-size: 10px !important;
+    }
+
+    #main { position: relative !important; }
+    #mapArea {
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+        bottom: 38vh !important;
+    }
+    #operationPanel {
+        left: 0 !important;
+        right: 0 !important;
+        top: auto !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+        height: 38vh !important;
+        padding: 8px max(8px,var(--safe-right)) calc(8px + var(--safe-bottom)) max(8px,var(--safe-left)) !important;
+        border-left: 0 !important;
+        border-top: 2px solid #4c4b40;
+        display: block !important;
+        overflow-y: auto !important;
+    }
+    #operationPanel h2 { font-size: 17px; margin: 0 0 5px; }
+    #operationPanel h3 { font-size: 14px; margin: 9px 0 5px; padding-top: 6px; }
+    #operationPanel .turn-row { margin: 3px 0; font-size: 12px; }
+    #operationPanel #endPhaseButton { min-height: 44px; margin-top: 7px; }
+    #operationPanel .operation-help { display: none !important; }
+
+    #terrainFloat {
+        left: 5px;
+        top: 5px;
+        width: 142px;
+        padding: 6px 7px;
+    }
+    #terrainFloat h2 { font-size: 12px; margin-bottom: 3px; }
+    #terrainFloat #hexInfoPanel.hex-info-panel { font-size: 10px; line-height: 1.3; }
+
+    #unitFloat {
+        top: 5px;
+        left: auto;
+        right: 5px;
+        transform: none;
+        width: calc(100% - 157px);
+        max-width: calc(100% - 157px);
+        min-height: 96px;
+        max-height: 145px;
+        padding: 5px 7px 7px;
+    }
+    .unit-float-title { font-size: 12px; margin-bottom: 3px; padding-bottom: 2px; }
+    #unitFloat #unitInfo {
+        max-height: 105px;
+        gap: 2px 7px;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+    #unitFloat .unit-title { font-size: 11px; margin-bottom: 2px; }
+    #unitFloat .unit-row { min-width: 105px; gap: 3px; }
+    #unitFloat .unit-row strong { font-size: 10px; }
+    #unitFloat .engineer-actions { gap: 3px; }
+    #unitFloat .engineer-actions button {
+        min-height: 36px;
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+
+    .strategic-objective { padding: 6px; margin: 5px 0; }
+    .objective-name { font-size: 12px; }
+    .objective-description, .objective-turn { font-size: 10px; }
+    .reinforcement-item { padding: 6px 7px; margin-bottom: 5px; }
+    .reinforcement-title { font-size: 12px; }
+    .reinforcement-detail, .reinforcement-meta { font-size: 10px; }
+}
+
+/* 极窄手机：进一步缩减浮窗，避免互相覆盖 */
+@media (max-width: 420px) {
+    #terrainFloat { width: 124px; }
+    #unitFloat {
+        width: calc(100% - 139px);
+        max-width: calc(100% - 139px);
+        max-height: 132px;
+    }
+    #unitFloat #unitInfo { max-height: 93px; }
+    #mapArea { bottom: 40vh !important; }
+    #operationPanel { height: 40vh !important; }
+}
+
+
+
+/* ============================================================
+   V0.26.8 iPad / Tablet HUD collision fix
+   1. 回合信息不再被 180px 限制截断
+   2. 地块信息与单位信息改为左右分栏，不再重叠
+   3. 保留 V0.26.7 的单位信息加高与手机布局
+   ============================================================ */
+
+/* 常规桌面仍保持居中的单位信息框 */
+@media (min-width: 1367px) {
+    #unitFloat {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+}
+
+/* iPad / Android 平板横屏 */
+@media (orientation: landscape) and (min-width: 601px) and (max-width: 1366px) {
+    /* 顶栏：给日期/时间/回合/行动方更高优先级 */
+    #topbar {
+        gap: 5px !important;
+    }
+
+    #turnInfo {
+        flex: 1 1 245px !important;
+        min-width: 220px !important;
+        max-width: none !important;
+        width: auto !important;
+        white-space: nowrap !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        font-size: 11px !important;
+    }
+
+    #save-system-controls {
+        flex: 0 1 auto !important;
+        gap: 3px !important;
+    }
+
+    #save-system-controls button,
+    #save-system-controls select {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+    }
+
+    /* 左侧地块信息固定占位 */
+    #terrainFloat {
+        left: 8px !important;
+        right: auto !important;
+        top: 8px !important;
+        width: 190px !important;
+        max-width: 190px !important;
+        box-sizing: border-box !important;
+        z-index: 31 !important;
+    }
+
+    /* 单位信息从地块信息右侧开始，彻底取消居中定位 */
+    #unitFloat {
+        left: 206px !important;
+        right: 8px !important;
+        top: 8px !important;
+        transform: none !important;
+
+        width: auto !important;
+        max-width: none !important;
+        min-width: 0 !important;
+
+        min-height: 132px !important;
+        max-height: 205px !important;
+        box-sizing: border-box !important;
+        z-index: 30 !important;
+    }
+
+    #unitFloat #unitInfo {
+        max-height: 148px !important;
+        overflow-y: auto !important;
+        overflow-x: auto !important;
+    }
+}
+
+/* 较窄的 iPad 横屏 / 小型 Android 平板 */
+@media (orientation: landscape) and (min-width: 601px) and (max-width: 1100px) {
+    #turnInfo {
+        flex-basis: 225px !important;
+        min-width: 205px !important;
+        font-size: 10px !important;
+    }
+
+    #terrainFloat {
+        width: 176px !important;
+        max-width: 176px !important;
+    }
+
+    #unitFloat {
+        left: 192px !important;
+        right: 6px !important;
+        max-height: 195px !important;
+    }
+
+    #unitFloat #unitInfo {
+        max-height: 138px !important;
+    }
+
+    #save-system-controls button,
+    #save-system-controls select {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        font-size: 10px !important;
+    }
+}
+
+/* 平板竖屏：同样保证两个信息框之间留出明确间隔 */
+@media (orientation: portrait) and (min-width: 601px) and (max-width: 1100px) {
+    #terrainFloat {
+        left: 8px !important;
+        right: auto !important;
+        top: 8px !important;
+        width: 190px !important;
+        max-width: 190px !important;
+        box-sizing: border-box !important;
+    }
+
+    #unitFloat {
+        left: 206px !important;
+        right: 8px !important;
+        top: 8px !important;
+        transform: none !important;
+        width: auto !important;
+        max-width: none !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #turnInfo {
+        min-width: 210px !important;
+        max-width: none !important;
+        white-space: nowrap !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+    }
+}
+
+/* 手机继续采用紧凑布局；覆盖平板规则，避免互相污染 */
+@media (max-width: 600px) {
+    #turnInfo {
+        min-width: 0 !important;
+        max-width: 58vw !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+    #terrainFloat {
+        left: 5px !important;
+        right: auto !important;
+        width: 142px !important;
+        max-width: 142px !important;
+    }
+
+    #unitFloat {
+        left: auto !important;
+        right: 5px !important;
+        transform: none !important;
+        width: calc(100% - 157px) !important;
+        max-width: calc(100% - 157px) !important;
+    }
+}
+
+@media (max-width: 420px) {
+    #terrainFloat {
+        width: 124px !important;
+        max-width: 124px !important;
+    }
+
+    #unitFloat {
+        width: calc(100% - 139px) !important;
+        max-width: calc(100% - 139px) !important;
+    }
+}
+/* v0.14 战损统计增强 */
+.casualty-side b{font-weight:700}.casualty-command{margin-top:4px;padding-top:4px;border-top:1px dashed rgba(80,78,65,.28)}.casualty-command-names{margin-top:3px;padding-left:7px;font-size:11px;line-height:1.45;opacity:.9}
+
+
+/* v1.2.1 特战小组空降按钮：始终放在单位信息顶部显眼位置 */
+#unitFloat .special-airdrop-action {
+    flex: 1 0 100%;
+    order: -10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    box-sizing: border-box;
+    margin: 2px 0 6px;
+    padding: 6px 8px;
+    border: 1px solid #77715e;
+    background: rgba(214, 205, 174, .96);
+}
+#unitFloat .special-airdrop-summary { display:flex; gap:8px; align-items:baseline; min-width:0; }
+#unitFloat .special-airdrop-summary strong { white-space:normal; }
+#unitFloat .special-airdrop-action button {
+    flex: 0 0 auto;
+    min-width: 142px;
+    padding: 7px 12px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    background: #5d5f50;
+    color: #f2eddc;
+    border: 1px solid #777463;
+}
+#unitFloat .special-airdrop-action button:disabled { opacity:.55; cursor:default; }
+@media (max-width: 1100px) {
+    #unitFloat .special-airdrop-action { padding:4px 6px; gap:6px; }
+    #unitFloat .special-airdrop-action button { min-width:112px; padding:5px 7px; font-size:10px; }
+}
+/* ============================================================
+   v1.2.2 单位信息面板底部留白修正
+   ============================================================ */
+
+/* 单位信息主体：
+   给最后一行属性和面板底边之间留下空间 */
+#unitFloat #unitInfo {
+    box-sizing: border-box !important;
+
+    /* 重点：底部增加留白 */
+    padding-bottom: 26px !important;
+
+    /* 保持滚动，避免信息较多时被裁掉 */
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+/* 桌面端稍微增加整个单位信息框的最大高度 */
+#unitFloat {
+    min-height: 150px !important;
+    max-height: 255px !important;
+}
+
+/* 给内容区域同步增加一点可用高度 */
+#unitFloat #unitInfo {
+    max-height: 190px !important;
+}
+
+
+/* ---------- 平板横屏 ---------- */
+
+@media (orientation: landscape) and (max-width: 1366px) {
+
+    #unitFloat {
+        max-height: 220px !important;
+    }
+
+    #unitFloat #unitInfo {
+        max-height: 160px !important;
+        padding-bottom: 22px !important;
+    }
+}
+
+
+/* ---------- 较窄横屏设备 ---------- */
+
+@media (orientation: landscape) and (min-width: 601px) and (max-width: 1100px) {
+
+    #unitFloat {
+        max-height: 210px !important;
+    }
+
+    #unitFloat #unitInfo {
+        max-height: 150px !important;
+        padding-bottom: 18px !important;
+    }
+}
+
+/* ===== v1.2.2 游戏设置（仅现有视图选项） ===== */
+.settings-card{width:min(620px,90vw)!important;text-align:left!important}
+.settings-card h2{text-align:center}
+.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;margin:18px 0}
+.settings-grid label{display:flex;flex-direction:column;gap:7px;font-size:13px;color:#d8d1b7}
+.settings-grid select,.settings-grid input[type=range]{width:100%;box-sizing:border-box;font:inherit}
+.settings-grid select{padding:8px;border:1px solid #8d866d;background:#d8d0b1;color:#22261e}
+.settings-wide{grid-column:1/3}.settings-note{font-size:11px;line-height:1.6;color:#aaa38a;margin:8px 0 16px}
+@media(max-width:620px){.settings-grid{grid-template-columns:1fr}.settings-wide{grid-column:auto}}
+
+/* ============================================================
+   v1.2.4 VISUAL POLISH — 仅界面美化，不修改游戏系统逻辑
+   ============================================================ */
+:root{
+  --ui-paper:#e9e3c9; --ui-paper-2:#d8d0b1; --ui-ink:#292b24;
+  --ui-line:#817b63; --ui-dark:#242920; --ui-muted:#716c58;
+  --ui-shadow:0 7px 20px rgba(24,26,21,.24);
+}
+
+/* 顶栏：降低杂乱感，强化状态与按钮层级 */
+#topbar{box-shadow:0 2px 8px rgba(0,0,0,.28);border-bottom:1px solid #77715d;}
+#topbar-right{align-items:center;}
+#turnInfo{padding:0 10px;letter-spacing:.04em;white-space:nowrap;}
+#save-system-controls button,#save-system-controls select,#view25d-controls button{
+  min-height:28px;border:1px solid #7e7862;background:linear-gradient(#e6dfc2,#cec6a7);color:#292b24;
+  box-shadow:inset 0 1px rgba(255,255,255,.45);transition:filter .12s ease,transform .12s ease;
+}
+#save-system-controls button:hover,#view25d-controls button:hover{filter:brightness(1.06);transform:translateY(-1px)}
+#view25d-controls{gap:4px;padding-left:7px;border-left:1px solid rgba(216,208,177,.28)}
+#sandtable-pitch-wrap{padding:0 5px;white-space:nowrap}
+
+/* 地块浮窗：保持低干扰但更精致 */
+#terrainFloat{border:1px solid rgba(133,126,99,.82)!important;box-shadow:0 5px 14px rgba(0,0,0,.28)!important;}
+#terrainFloat h2{letter-spacing:.12em!important;border-bottom:1px solid rgba(205,197,164,.35);padding-bottom:7px!important;}
+
+/* 单位信息：作战档案卡风格 */
+#unitFloat{
+  border:1px solid #8a8369!important;border-top:3px solid #77715d!important;
+  box-shadow:var(--ui-shadow)!important;background:rgba(238,232,207,.965)!important;
+}
+#unitFloat:before{content:"";position:absolute;left:12px;right:12px;top:38px;border-top:1px solid rgba(105,100,80,.24);pointer-events:none}
+.unit-float-title{font-size:15px!important;font-weight:700!important;letter-spacing:.22em!important;color:#444337!important;padding-bottom:8px!important;}
+#unitFloat #unitInfo{line-height:1.5!important;column-gap:22px!important;row-gap:5px!important;padding-top:5px!important;padding-bottom:30px!important;}
+#unitFloat .unit-title{flex:1 0 100%;font-size:16px!important;letter-spacing:.03em;padding:5px 0 6px;border-bottom:1px solid rgba(105,100,80,.28);}
+#unitFloat .unit-row{padding:1px 0;}
+#unitFloat .unit-row span{color:#77715d;opacity:1!important;}
+#unitFloat .unit-row strong{color:#292b24;}
+#unitFloat .engineer-actions{padding:6px 0 7px;border-bottom:1px solid rgba(105,100,80,.22);}
+
+/* 工兵操作按钮：可执行状态使用深色高对比，禁用状态明显淡化。
+   仅修改显示，不改变 EngineerSystem、行动点、工兵套件或工程逻辑。 */
+#unitFloat .engineer-actions button{
+  border:1px solid #4b4d3d!important;
+  background:#686b57!important;
+  color:#fffdf0!important;
+  font-weight:600!important;
+  opacity:1!important;
+  cursor:pointer!important;
+  text-shadow:0 1px 0 rgba(0,0,0,.20);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 1px 2px rgba(0,0,0,.16)!important;
+  transition:background .12s ease,border-color .12s ease,box-shadow .12s ease,transform .06s ease;
+}
+#unitFloat .engineer-actions button:not(:disabled):hover{
+  background:#555846!important;
+  border-color:#34362b!important;
+  color:#fff!important;
+  filter:none!important;
+}
+#unitFloat .engineer-actions button:not(:disabled):active{
+  background:#444737!important;
+  transform:translateY(1px);
+  box-shadow:inset 0 1px 3px rgba(0,0,0,.28)!important;
+}
+#unitFloat .engineer-actions button:disabled{
+  background:#c4c0a8!important;
+  color:#777462!important;
+  border-color:#aaa58e!important;
+  font-weight:400!important;
+  opacity:.58!important;
+  cursor:not-allowed!important;
+  text-shadow:none!important;
+  box-shadow:none!important;
+  filter:none!important;
+}
+#unitFloat .engineer-actions button:disabled:hover{
+  background:#c4c0a8!important;
+  color:#777462!important;
+  border-color:#aaa58e!important;
+  filter:none!important;
+}
+#unitFloat .engineer-actions button:focus-visible{
+  outline:2px solid #34362b!important;
+  outline-offset:2px;
+}
+#unitFloat .special-airdrop-action{border-left:4px solid #696b58!important;background:rgba(214,205,174,.88)!important;}
+
+/* 右侧作战信息：分区清晰，降低“长文档”感 */
+#operationPanel{background:linear-gradient(90deg,#e9e3c9,#e1dac0)!important;border-left:1px solid #77715d!important;box-shadow:-4px 0 14px rgba(0,0,0,.12);}
+#operationPanel>h2{font-size:25px!important;letter-spacing:.12em!important;padding-bottom:12px;border-bottom:2px solid #77715d;margin-bottom:12px!important;}
+#turnPanel{padding:10px 9px 12px!important;background:rgba(246,241,220,.40);border:1px solid rgba(126,120,96,.35);}
+#operationPanel h3{letter-spacing:.09em;color:#3e3d32;}
+#endPhaseButton{letter-spacing:.16em;box-shadow:0 2px 5px rgba(0,0,0,.16);}
+
+/* 战略任务卡：主要/次要目标层次更明显 */
+.strategic-objectives-panel{margin-top:16px!important;padding-top:14px!important;}
+.strategic-objectives-title-row{padding-bottom:6px;border-bottom:1px solid rgba(105,100,80,.34);}
+.strategic-objective{margin:9px 0!important;padding:9px 10px!important;box-shadow:0 1px 3px rgba(55,52,42,.08);transition:transform .12s ease,box-shadow .12s ease;}
+.strategic-objective:hover{transform:translateX(-2px);box-shadow:2px 2px 7px rgba(55,52,42,.13)}
+.objective-primary{border-left-width:5px!important;background:rgba(242,237,208,.78)!important;}
+.objective-completed{background:rgba(221,228,202,.78)!important;}
+.objective-failed{background:rgba(229,211,197,.70)!important;}
+.objective-name{letter-spacing:.025em}.objective-description{line-height:1.58!important}.objective-turn{padding-top:6px!important;}
+
+/* 航空、增援、战损等列表统一为档案卡 */
+.reinforcement-item{border-left:3px solid #817b63!important;background:rgba(244,239,218,.72)!important;box-shadow:0 1px 2px rgba(0,0,0,.06);}
+.reinforcement-section-label{padding-bottom:5px;border-bottom:1px solid rgba(105,100,80,.28);}
+
+/* 胜负结算：强化仪式感，但保留现有逻辑/按钮 */
+.victory-overlay{backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);}
+.victory-window{border:3px double #77715d!important;box-shadow:0 22px 70px rgba(0,0,0,.48)!important;background:linear-gradient(135deg,#e9e3c9,#d9d1b3)!important;}
+.victory-title{letter-spacing:.18em!important;text-shadow:0 1px rgba(255,255,255,.5);}
+.victory-subtitle{letter-spacing:.06em;}
+.victory-details{border-top:1px solid #8b846b;border-bottom:1px solid #8b846b;padding-top:12px!important;padding-bottom:12px!important;}
+.victory-detail-row{padding:5px 2px!important;}
+.victory-button{border:1px solid #696553!important;box-shadow:0 2px 5px rgba(0,0,0,.15);letter-spacing:.08em;}
+
+/* 设置/存档/暂停：统一“参谋档案”窗口 */
+.save-modal-card,.pause-card{border:3px double #8d866d!important;background:linear-gradient(135deg,rgba(43,47,38,.985),rgba(30,34,28,.985))!important;box-shadow:0 24px 70px rgba(0,0,0,.55)!important;}
+.save-modal-card h2,.pause-card h2{letter-spacing:.16em;padding-bottom:12px;border-bottom:1px solid rgba(216,208,177,.35);}
+.settings-grid{padding:6px 0;}
+.settings-grid label{padding:8px 10px;border:1px solid rgba(141,134,109,.28);background:rgba(255,255,255,.025);}
+.settings-grid select{min-height:36px;}
+.save-modal-actions{padding-top:10px;border-top:1px solid rgba(216,208,177,.24);}
+
+/* 滚动条统一 */
+#operationPanel::-webkit-scrollbar,#unitFloat #unitInfo::-webkit-scrollbar,.save-modal-card::-webkit-scrollbar{width:8px}
+#operationPanel::-webkit-scrollbar-track,#unitFloat #unitInfo::-webkit-scrollbar-track,.save-modal-card::-webkit-scrollbar-track{background:rgba(70,68,56,.10)}
+#operationPanel::-webkit-scrollbar-thumb,#unitFloat #unitInfo::-webkit-scrollbar-thumb,.save-modal-card::-webkit-scrollbar-thumb{background:#8d866d;border-radius:4px}
+
+/* 小屏/平板：不让美化破坏原适配 */
+@media (orientation:landscape) and (max-width:1366px){
+  #unitFloat #unitInfo{padding-bottom:24px!important;column-gap:14px!important}
+  #operationPanel>h2{font-size:20px!important;padding-bottom:8px}
+  .strategic-objective{padding:7px 8px!important;margin:7px 0!important}
+}
+
+
+/* v1.2.5 FIX：特战单位紧凑信息卡 */
+#unitFloat #unitInfo.special-forces-info{display:block!important;max-height:168px!important;padding:6px 12px 20px!important;overflow-y:auto!important;}
+#unitFloat #unitInfo.special-forces-info .unit-title{margin:0 0 5px!important;padding-bottom:4px!important;}
+#unitFloat .sof-summary-grid{display:grid;grid-template-columns:repeat(6,minmax(72px,1fr));gap:4px 10px;font-size:11px;}
+#unitFloat .sof-summary-grid>div{display:flex;gap:5px;white-space:nowrap;}
+#unitFloat .sof-summary-grid span{opacity:.72;}
+#unitFloat .sof-combat-line{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:5px;padding-top:5px;border-top:1px solid rgba(80,78,65,.22);font-size:11px;}
+#unitFloat .sof-capabilities{display:flex;gap:10px;margin-top:5px;font-size:11px;}
+#unitFloat .sof-capabilities>span{opacity:.72;white-space:nowrap;}
+#unitFloat .sof-loss-line{margin-top:4px;font-size:10px;opacity:.78;}
+#unitFloat #unitInfo.special-forces-info .special-airdrop-action{margin:6px 0 4px!important;padding:4px 7px!important;}
+@media(max-width:1100px){#unitFloat .sof-summary-grid{grid-template-columns:repeat(3,minmax(72px,1fr));}#unitFloat #unitInfo.special-forces-info{max-height:176px!important;}}
+
+/* ===== v1.2.8 iOS campaign-only compatibility + fullscreen ===== */
+/* IMPORTANT: do not globally override .game-overlay / main-menu typography or text color. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+body{-webkit-touch-callout:none;}
+button,input,select,textarea{font:inherit;}
+button,[role="button"],a{-webkit-tap-highlight-color:transparent;}
+
+/* Only the campaign selector gets an explicit Safari text-color reset.
+   This prevents iOS from painting dynamically-created theater buttons blue,
+   while leaving the main menu exactly on its original visual rules. */
+#campaign-selection{font-family:FangSong,STFangsong,SimSun,serif!important;}
+#campaign-selection button{
+  -webkit-appearance:none!important;
+  appearance:none!important;
+  color:#24251f!important;
+  -webkit-text-fill-color:#24251f!important;
+  text-decoration:none!important;
+}
+#campaign-selection button strong,
+#campaign-selection button span,
+#campaign-selection button div{
+  color:#24251f!important;
+  -webkit-text-fill-color:#24251f!important;
+  text-decoration:none!important;
+}
+#campaign-selection #campaign-back,
+#campaign-selection #campaign-main,
+#campaign-selection #campaign-battle{
+  color:#24251f!important;
+  -webkit-text-fill-color:#24251f!important;
+}
+
+#fullscreen-toggle{min-width:48px;white-space:nowrap;}
+:fullscreen body,:-webkit-full-screen body{width:100vw;height:100vh;overflow:hidden;}
+:fullscreen #gameRoot,:-webkit-full-screen #gameRoot{width:100vw;height:100vh;}
+html.ios-maximized,html.ios-maximized body{position:fixed;inset:0;width:100%;height:100%;height:100dvh;margin:0;overflow:hidden;overscroll-behavior:none;background:#171b17;}
+html.ios-maximized body{padding-top:env(safe-area-inset-top);padding-right:env(safe-area-inset-right);padding-bottom:env(safe-area-inset-bottom);padding-left:env(safe-area-inset-left);box-sizing:border-box;}
+html.ios-maximized #gameRoot{width:100%;height:100%;}
+
+/* ============================================================
+   v1.5.5+ Campaign UI Full-Page Override
+   Keep this block AFTER all original game styles.
+   ============================================================ */
+
+#campaign-selection {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  z-index: 100000 !important;
+}
+
+/* CampaignSelection.shell() currently writes a 980px / 90vh inline panel.
+   !important intentionally overrides only that campaign shell. */
+#campaign-selection > div {
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-width: none !important;
+  max-height: none !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  padding: clamp(20px, 3vh, 40px) clamp(24px, 4vw, 68px) !important;
+}
+
+/* Let campaign pages use the available width without changing the battle UI. */
+#campaign-selection > div > h1,
+#campaign-selection > div > h1 + div,
+#campaign-selection > div > div:not(:last-child),
+#campaign-selection > div > div:last-child {
+  width: 100% !important;
+  max-width: 1720px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+#campaign-selection > div > h1 {
+  text-align: center !important;
+  font-size: clamp(30px, 2.6vw, 46px) !important;
+  line-height: 1.2 !important;
+}
+
+#campaign-selection > div > h1 + div {
+  text-align: center !important;
+  margin-bottom: clamp(18px, 2.5vh, 30px) !important;
+}
+
+/* Scenario briefing: enlarge the existing two-column briefing instead of
+   altering the rest of the game's panels. */
+#campaign-selection > div > div[style*="line-height:1.65"] {
+  max-width: 1720px !important;
+  padding: clamp(18px, 2vw, 32px) !important;
+}
+
+#campaign-selection > div > div[style*="line-height:1.65"] > div:first-child {
+  grid-template-columns: minmax(0, 1.55fr) minmax(340px, .75fr) !important;
+  gap: clamp(18px, 2vw, 32px) !important;
+}
+
+#campaign-selection > div > div[style*="line-height:1.65"] > div:first-child > div:first-child > div:first-child {
+  height: clamp(430px, 55vh, 760px) !important;
+  min-height: 430px !important;
+}
+
+#campaign-selection > div > div[style*="line-height:1.65"] > div:nth-child(2) {
+  gap: clamp(18px, 2vw, 32px) !important;
+}
+
+#campaign-selection #prelude-confirm {
+  min-width: 280px !important;
+  min-height: 50px !important;
+  padding: 12px 30px !important;
+  font-size: 17px !important;
+}
+
+/* Keep navigation accessible at the bottom of long full-page screens. */
+#campaign-selection > div > div:last-child {
+  position: sticky !important;
+  bottom: 0 !important;
+  z-index: 20 !important;
+  padding-top: 12px !important;
+}
+
+@media (max-width: 1000px) {
+  #campaign-selection > div {
+    padding: 18px 20px !important;
+  }
+
+  #campaign-selection > div > div[style*="line-height:1.65"] > div:first-child,
+  #campaign-selection > div > div[style*="line-height:1.65"] > div:nth-child(2) {
+    grid-template-columns: 1fr !important;
+  }
+
+  #campaign-selection > div > div[style*="line-height:1.65"] > div:first-child > div:first-child > div:first-child {
+    height: clamp(340px, 48vh, 520px) !important;
+    min-height: 340px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #campaign-selection > div {
+    padding: 12px 10px !important;
+  }
+
+  #campaign-selection > div > h1 {
+    font-size: 26px !important;
+  }
+
+  #campaign-selection #campaign-back,
+  #campaign-selection #campaign-main,
+  #campaign-selection #campaign-battle,
+  #campaign-selection #prelude-confirm {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+@supports (padding: max(0px)) {
+  #campaign-selection > div {
+    padding-top: max(clamp(20px, 3vh, 40px), env(safe-area-inset-top)) !important;
+    padding-right: max(clamp(24px, 4vw, 68px), env(safe-area-inset-right)) !important;
+    padding-bottom: max(clamp(20px, 3vh, 40px), env(safe-area-inset-bottom)) !important;
+    padding-left: max(clamp(24px, 4vw, 68px), env(safe-area-inset-left)) !important;
+  }
+}
+
+/* ============================================================
+   v1.5.8 砺剑-29 / 通用战前简报：真正全屏双栏布局
+   ============================================================ */
+#campaign-selection.campaign-prelude-mode > div{
+  height:100dvh!important; overflow:hidden!important;
+  display:grid!important; grid-template-rows:auto auto minmax(0,1fr) auto auto!important;
+  padding:18px 28px 14px!important;
+}
+#campaign-selection.campaign-prelude-mode > div > h1{
+  font-size:clamp(27px,2.2vw,40px)!important; margin:0!important;
+}
+#campaign-selection.campaign-prelude-mode > div > h1 + div{
+  margin:4px auto 10px!important; font-size:14px!important;
+}
+#campaign-selection .campaign-prelude-full{
+  width:100%!important; max-width:1760px!important; min-height:0!important;
+  margin:0 auto!important; display:grid!important;
+  grid-template-columns:minmax(0,1.35fr) minmax(440px,.8fr)!important;
+  gap:18px!important; overflow:hidden!important;
+}
+#campaign-selection .brief-map-panel{min-width:0;min-height:0;display:flex;flex-direction:column;}
+#campaign-selection .brief-map-frame{
+  flex:1;min-height:0;background:#071319;border:1px solid #6e6957;
+  display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
+#campaign-selection .brief-map-frame img{width:100%;height:100%;object-fit:contain;display:block;}
+#campaign-selection .brief-map-note{font-size:12px;color:#575345;padding:6px 2px 0;line-height:1.35;}
+#campaign-selection .brief-info-panel{min-width:0;min-height:0;overflow:auto;padding-right:5px;}
+#campaign-selection .brief-card{border:1px solid #77715d;background:rgba(255,255,255,.13);padding:11px 13px;margin-bottom:10px;line-height:1.55;}
+#campaign-selection .brief-card h2,#campaign-selection .brief-card h3{margin:0 0 6px;}
+#campaign-selection .brief-card h2{font-size:19px;} #campaign-selection .brief-card h3{font-size:16px;}
+#campaign-selection .brief-card p{margin:0;}
+#campaign-selection .brief-missions,#campaign-selection .brief-lower{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+#campaign-selection .brief-card.red{border-left:5px solid #8d3028;} #campaign-selection .brief-card.blue{border-left:5px solid #355d7a;}
+#campaign-selection .brief-phase{display:grid;grid-template-columns:27px 1fr;gap:8px;margin:7px 0;align-items:start;}
+#campaign-selection .brief-phase>span{width:25px;height:25px;border:1px solid #625d4c;text-align:center;line-height:25px;font-weight:700;}
+#campaign-selection .brief-phase p{font-size:12px;color:#514d40;}
+#campaign-selection .brief-objective{padding:7px 8px;margin:6px 0;background:rgba(255,255,255,.12);border-left:4px solid #6c674f;font-size:13px;}
+#campaign-selection .brief-objective.red{border-left-color:#8d3028;} #campaign-selection .brief-objective.blue{border-left-color:#355d7a;}
+#campaign-selection .brief-victory{font-size:12px;margin-top:8px!important;}
+#campaign-selection .brief-primary-action{width:100%;max-width:1760px;margin:8px auto 0!important;text-align:center;}
+#campaign-selection .brief-primary-action #prelude-confirm{height:auto!important;min-height:44px!important;padding:10px 32px!important;font:inherit;font-size:16px!important;cursor:pointer;}
+/* shell 导航固定为正常横向按钮，禁止被全局 div/button 规则拉成竖条 */
+#campaign-selection.campaign-prelude-mode > div > div:last-child{
+  position:static!important;width:100%!important;max-width:1760px!important;margin:8px auto 0!important;
+  padding:0!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;
+  gap:10px!important;flex-wrap:wrap!important;height:auto!important;min-height:38px!important;
+}
+#campaign-selection.campaign-prelude-mode #campaign-back,
+#campaign-selection.campaign-prelude-mode #campaign-main,
+#campaign-selection.campaign-prelude-mode #campaign-battle{
+  width:auto!important;height:auto!important;min-width:130px!important;min-height:38px!important;
+  padding:8px 16px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  flex:0 0 auto!important;align-self:auto!important;
+}
+@media(max-width:1100px){
+ #campaign-selection.campaign-prelude-mode > div{overflow:auto!important;padding:14px 16px!important;display:block!important;}
+ #campaign-selection .campaign-prelude-full{grid-template-columns:1fr!important;overflow:visible!important;}
+ #campaign-selection .brief-map-frame{height:min(52vw,520px);min-height:320px;flex:none;}
+ #campaign-selection .brief-info-panel{overflow:visible!important;}
+}
+@media(max-width:700px){
+ #campaign-selection .brief-missions,#campaign-selection .brief-lower{grid-template-columns:1fr!important;}
+ #campaign-selection.campaign-prelude-mode #campaign-back,#campaign-selection.campaign-prelude-mode #campaign-main,#campaign-selection.campaign-prelude-mode #campaign-battle{width:auto!important;min-width:0!important;}
+}

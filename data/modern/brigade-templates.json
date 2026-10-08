@@ -1,0 +1,67 @@
+{
+  "heavy": {
+    "name": "重型合成旅",
+    "desc": "履带式装甲体系；正面火力、防护强，油料与维修压力高。",
+    "tank": "ZTZ99A",
+    "ifv": "ZBD04A",
+    "art": "PLZ05",
+    "ad": "HQ17A",
+    "mods": {
+      "attack": 1.12,
+      "defense": 1.15,
+      "move": 0.92
+    }
+  },
+  "medium": {
+    "name": "中型合成旅",
+    "desc": "轮式装甲体系；道路机动突出，火力与防护居中。",
+    "tank": "ZTL11",
+    "ifv": "ZBL08",
+    "art": "PCL181",
+    "ad": "HQ17A",
+    "mods": {
+      "attack": 1.02,
+      "defense": 0.98,
+      "move": 1.16
+    }
+  },
+  "light": {
+    "name": "轻型合成旅",
+    "desc": "高机动车体系；战略与复杂地形机动强，正面装甲对抗较弱。",
+    "tank": "CSK181",
+    "ifv": "CSK181",
+    "art": "PCL181",
+    "ad": "HQ17A",
+    "mods": {
+      "attack": 0.9,
+      "defense": 0.86,
+      "move": 1.25
+    }
+  },
+  "mountain": {
+    "name": "山地合成旅",
+    "desc": "复杂山地与峡谷环境优化；徒步/高机动分队比例高，重装甲较少。",
+    "tank": "CSK181",
+    "ifv": "CSK181",
+    "art": "PCL181",
+    "ad": "HQ17A",
+    "mods": {
+      "attack": 0.94,
+      "defense": 1.04,
+      "move": 1.18
+    }
+  },
+  "amphibious": {
+    "name": "两栖合成旅",
+    "desc": "两栖突击体系；可在适宜水域实施两栖机动，陆上防护略低于重型旅。",
+    "tank": "ZTD05",
+    "ifv": "ZBD05",
+    "art": "PLZ05",
+    "ad": "HQ17A",
+    "mods": {
+      "attack": 1.04,
+      "defense": 0.96,
+      "move": 1.08
+    }
+  }
+}

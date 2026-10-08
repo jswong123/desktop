@@ -1,0 +1,9050 @@
+{
+  "id": "wanjialing_1938",
+  "key": "wanjialing",
+  "name": "万家岭战役",
+  "scenario": "万家岭战役",
+  "date": "1938-10-02",
+  "startTime": "08:00",
+  "hoursPerTurn": 2,
+  "startingPhase": "japanese",
+  "map": {
+    "id": "wanjialing_1938",
+    "name": "万家岭战役地图",
+    "width": 84,
+    "height": 56,
+    "hexSize": 24,
+    "terrain": [
+      {
+        "q": 10,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 6,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 6,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 6,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 29,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 7,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 69,
+        "r": 7,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 7,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 8,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 8,
+        "type": "hill"
+      },
+      {
+        "q": 75,
+        "r": 8,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 24,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 9,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 9,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 9,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 10,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 10,
+        "type": "hill"
+      },
+      {
+        "q": 75,
+        "r": 10,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 11,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 72,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 74,
+        "r": 11,
+        "type": "hill"
+      },
+      {
+        "q": 9,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 12,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 12,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 12,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 13,
+        "type": "mountain"
+      },
+      {
+        "q": 72,
+        "r": 13,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 13,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 14,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 14,
+        "type": "hill"
+      },
+      {
+        "q": 73,
+        "r": 14,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 15,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 15,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 15,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 16,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 16,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 16,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 16,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 16,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 16,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 17,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 17,
+        "type": "mountain"
+      },
+      {
+        "q": 71,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 74,
+        "r": 17,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 18,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 18,
+        "type": "mountain"
+      },
+      {
+        "q": 73,
+        "r": 18,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 19,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 19,
+        "type": "mountain"
+      },
+      {
+        "q": 71,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 19,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 16,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 20,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 72,
+        "r": 20,
+        "type": "hill"
+      },
+      {
+        "q": 73,
+        "r": 20,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 15,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 21,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 21,
+        "type": "mountain"
+      },
+      {
+        "q": 75,
+        "r": 21,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 14,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 16,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 22,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 22,
+        "type": "mountain"
+      },
+      {
+        "q": 72,
+        "r": 22,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 23,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 23,
+        "type": "mountain"
+      },
+      {
+        "q": 75,
+        "r": 23,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 16,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 24,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 71,
+        "r": 24,
+        "type": "mountain"
+      },
+      {
+        "q": 72,
+        "r": 24,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 14,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 15,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 25,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 75,
+        "r": 25,
+        "type": "hill"
+      },
+      {
+        "q": 9,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 26,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 26,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 26,
+        "type": "mountain"
+      },
+      {
+        "q": 13,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 27,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 27,
+        "type": "mountain"
+      },
+      {
+        "q": 12,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 14,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 15,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 16,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 28,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 28,
+        "type": "hill"
+      },
+      {
+        "q": 24,
+        "r": 29,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 29,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 29,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 29,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 29,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 29,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 30,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 30,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 31,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 14,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 15,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 31,
+        "type": "mountain"
+      },
+      {
+        "q": 72,
+        "r": 31,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 15,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 16,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 32,
+        "type": "mountain"
+      },
+      {
+        "q": 71,
+        "r": 32,
+        "type": "hill"
+      },
+      {
+        "q": 75,
+        "r": 32,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 25,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 33,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 72,
+        "r": 33,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 33,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 34,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 34,
+        "type": "hill"
+      },
+      {
+        "q": 70,
+        "r": 34,
+        "type": "mountain"
+      },
+      {
+        "q": 75,
+        "r": 34,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 35,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 35,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 15,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 18,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 35,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 73,
+        "r": 35,
+        "type": "hill"
+      },
+      {
+        "q": 11,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 16,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 17,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 57,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 67,
+        "r": 36,
+        "type": "mountain"
+      },
+      {
+        "q": 68,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 75,
+        "r": 36,
+        "type": "hill"
+      },
+      {
+        "q": 9,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 12,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 17,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 20,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 59,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 37,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 37,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 37,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 66,
+        "r": 38,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 38,
+        "type": "mountain"
+      },
+      {
+        "q": 71,
+        "r": 38,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 18,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 55,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 39,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 67,
+        "r": 39,
+        "type": "mountain"
+      },
+      {
+        "q": 70,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 39,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 40,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 40,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 19,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 20,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 21,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 23,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 65,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 66,
+        "r": 40,
+        "type": "mountain"
+      },
+      {
+        "q": 69,
+        "r": 40,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 40,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 27,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 41,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 46,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 62,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 63,
+        "r": 41,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 41,
+        "type": "hill"
+      },
+      {
+        "q": 68,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 41,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 22,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 61,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 63,
+        "r": 42,
+        "type": "mountain"
+      },
+      {
+        "q": 64,
+        "r": 42,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 42,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 21,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 22,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 26,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 56,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 43,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 43,
+        "type": "hill"
+      },
+      {
+        "q": 71,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 73,
+        "r": 43,
+        "type": "forest"
+      },
+      {
+        "q": 9,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 15,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 19,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 21,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 23,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 24,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 54,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 59,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 60,
+        "r": 44,
+        "type": "mountain"
+      },
+      {
+        "q": 61,
+        "r": 44,
+        "type": "hill"
+      },
+      {
+        "q": 62,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 64,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 66,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 72,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 44,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 23,
+        "r": 45,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 26,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 27,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 28,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 29,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 30,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 31,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 32,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 52,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 45,
+        "type": "mountain"
+      },
+      {
+        "q": 60,
+        "r": 45,
+        "type": "hill"
+      },
+      {
+        "q": 73,
+        "r": 45,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 45,
+        "type": "forest"
+      },
+      {
+        "q": 14,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 16,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 27,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 29,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 33,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 34,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 35,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 36,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 40,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 45,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 49,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 51,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 54,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 46,
+        "type": "mountain"
+      },
+      {
+        "q": 57,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 58,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 65,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 46,
+        "type": "hill"
+      },
+      {
+        "q": 74,
+        "r": 46,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 13,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 18,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 29,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 30,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 31,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 36,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 37,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 38,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 43,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 44,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 48,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 49,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 53,
+        "r": 47,
+        "type": "mountain"
+      },
+      {
+        "q": 55,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 63,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 47,
+        "type": "hill"
+      },
+      {
+        "q": 75,
+        "r": 47,
+        "type": "forest"
+      },
+      {
+        "q": 10,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 12,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 15,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 28,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 30,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 32,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 33,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 34,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 35,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 37,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 39,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 40,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 42,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 43,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 47,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 48,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 51,
+        "r": 48,
+        "type": "mountain"
+      },
+      {
+        "q": 52,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 56,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 66,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 69,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 48,
+        "type": "hill"
+      },
+      {
+        "q": 74,
+        "r": 48,
+        "type": "forest"
+      },
+      {
+        "q": 11,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 14,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 17,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 20,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 25,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 28,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 31,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 36,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 38,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 39,
+        "r": 49,
+        "type": "mountain"
+      },
+      {
+        "q": 41,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 42,
+        "r": 49,
+        "type": "mountain"
+      },
+      {
+        "q": 44,
+        "r": 49,
+        "type": "mountain"
+      },
+      {
+        "q": 45,
+        "r": 49,
+        "type": "mountain"
+      },
+      {
+        "q": 46,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 47,
+        "r": 49,
+        "type": "mountain"
+      },
+      {
+        "q": 50,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 53,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 61,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 64,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 67,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 70,
+        "r": 49,
+        "type": "forest"
+      },
+      {
+        "q": 75,
+        "r": 49,
+        "type": "hill"
+      },
+      {
+        "q": 10,
+        "r": 50,
+        "type": "hill"
+      },
+      {
+        "q": 13,
+        "r": 50,
+        "type": "hill"
+      },
+      {
+        "q": 16,
+        "r": 50,
+        "type": "hill"
+      },
+      {
+        "q": 19,
+        "r": 50,
+        "type": "hill"
+      },
+      {
+        "q": 22,
+        "r": 50,
+        "type": "hill"
+      },
+      {
+        "q": 25,
+        "r": 50,
+        "type": "hill"
+      },
+      {
+        "q": 50,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 53,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 56,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 59,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 62,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 65,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 68,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 71,
+        "r": 50,
+        "type": "forest"
+      },
+      {
+        "q": 74,
+        "r": 50,
+        "type": "forest"
+      }
+    ],
+    "roads": [
+      {
+        "name": "德安—万家岭公路",
+        "points": [
+          {
+            "q": 3,
+            "r": 28
+          },
+          {
+            "q": 14,
+            "r": 28
+          },
+          {
+            "q": 26,
+            "r": 29
+          },
+          {
+            "q": 43,
+            "r": 27
+          },
+          {
+            "q": 58,
+            "r": 29
+          },
+          {
+            "q": 80,
+            "r": 28
+          }
+        ],
+        "nameZh": "德安—万家岭公路"
+      }
+    ],
+    "rivers": [
+      {
+        "name": "博阳河支流",
+        "points": [
+          {
+            "q": 20,
+            "r": 8
+          },
+          {
+            "q": 24,
+            "r": 15
+          },
+          {
+            "q": 27,
+            "r": 23
+          },
+          {
+            "q": 29,
+            "r": 31
+          },
+          {
+            "q": 33,
+            "r": 40
+          },
+          {
+            "q": 37,
+            "r": 50
+          }
+        ],
+        "nameZh": "博阳河支流"
+      }
+    ],
+    "railways": [],
+    "settlements": [
+      {
+        "q": 43,
+        "r": 27,
+        "name": "万家岭",
+        "nameZh": "万家岭",
+        "type": "village"
+      },
+      {
+        "q": 37,
+        "r": 22,
+        "name": "张古山",
+        "nameZh": "张古山",
+        "type": "village"
+      },
+      {
+        "q": 49,
+        "r": 21,
+        "name": "小金山",
+        "nameZh": "小金山",
+        "type": "village"
+      },
+      {
+        "q": 53,
+        "r": 31,
+        "name": "哔叽街",
+        "nameZh": "哔叽街",
+        "type": "village"
+      },
+      {
+        "q": 32,
+        "r": 33,
+        "name": "箭炉苏",
+        "nameZh": "箭炉苏",
+        "type": "village"
+      },
+      {
+        "q": 67,
+        "r": 28,
+        "name": "白水街",
+        "nameZh": "白水街",
+        "type": "village"
+      },
+      {
+        "q": 14,
+        "r": 28,
+        "name": "德安方向",
+        "nameZh": "德安方向",
+        "type": "town"
+      }
+    ],
+    "fortifications": [
+      {
+        "q": 37,
+        "r": 22,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      },
+      {
+        "q": 43,
+        "r": 27,
+        "type": "fieldworks",
+        "level": 1,
+        "owner": "japanese",
+        "progress": 100
+      },
+      {
+        "q": 49,
+        "r": 21,
+        "type": "fieldworks",
+        "level": 1,
+        "owner": "japanese",
+        "progress": 100
+      },
+      {
+        "q": 32,
+        "r": 33,
+        "type": "fieldworks",
+        "level": 2,
+        "owner": "chinese",
+        "progress": 100
+      }
+    ],
+    "minefields": [
+      {
+        "q": 36,
+        "r": 23,
+        "owner": "chinese",
+        "strength": 55,
+        "discoveredBy": [
+          "chinese"
+        ]
+      },
+      {
+        "q": 38,
+        "r": 23,
+        "owner": "chinese",
+        "strength": 45,
+        "discoveredBy": [
+          "chinese"
+        ]
+      },
+      {
+        "q": 51,
+        "r": 30,
+        "owner": "japanese",
+        "strength": 35,
+        "discoveredBy": [
+          "japanese"
+        ]
+      }
+    ],
+    "entryZones": {
+      "CHN_NORTH": [
+        {
+          "q": 25,
+          "r": 2
+        },
+        {
+          "q": 28,
+          "r": 2
+        },
+        {
+          "q": 31,
+          "r": 2
+        },
+        {
+          "q": 34,
+          "r": 2
+        },
+        {
+          "q": 37,
+          "r": 2
+        },
+        {
+          "q": 40,
+          "r": 2
+        },
+        {
+          "q": 43,
+          "r": 2
+        },
+        {
+          "q": 46,
+          "r": 2
+        },
+        {
+          "q": 49,
+          "r": 2
+        },
+        {
+          "q": 52,
+          "r": 2
+        }
+      ],
+      "CHN_WEST": [
+        {
+          "q": 2,
+          "r": 15
+        },
+        {
+          "q": 2,
+          "r": 18
+        },
+        {
+          "q": 2,
+          "r": 21
+        },
+        {
+          "q": 2,
+          "r": 24
+        },
+        {
+          "q": 2,
+          "r": 27
+        },
+        {
+          "q": 2,
+          "r": 30
+        },
+        {
+          "q": 2,
+          "r": 33
+        },
+        {
+          "q": 2,
+          "r": 36
+        },
+        {
+          "q": 2,
+          "r": 39
+        },
+        {
+          "q": 2,
+          "r": 42
+        }
+      ],
+      "CHN_SOUTH": [
+        {
+          "q": 25,
+          "r": 53
+        },
+        {
+          "q": 28,
+          "r": 53
+        },
+        {
+          "q": 31,
+          "r": 53
+        },
+        {
+          "q": 34,
+          "r": 53
+        },
+        {
+          "q": 37,
+          "r": 53
+        },
+        {
+          "q": 40,
+          "r": 53
+        },
+        {
+          "q": 43,
+          "r": 53
+        },
+        {
+          "q": 46,
+          "r": 53
+        },
+        {
+          "q": 49,
+          "r": 53
+        },
+        {
+          "q": 52,
+          "r": 53
+        },
+        {
+          "q": 55,
+          "r": 53
+        },
+        {
+          "q": 58,
+          "r": 53
+        }
+      ],
+      "JPN_EAST": [
+        {
+          "q": 81,
+          "r": 20
+        },
+        {
+          "q": 81,
+          "r": 23
+        },
+        {
+          "q": 81,
+          "r": 26
+        },
+        {
+          "q": 81,
+          "r": 29
+        },
+        {
+          "q": 81,
+          "r": 32
+        },
+        {
+          "q": 81,
+          "r": 35
+        }
+      ]
+    },
+    "nameZh": "万家岭战役地图"
+  },
+  "victoryConditions": {
+    "chinese": {
+      "primary": [
+        "切断日军东部补给/撤退通道",
+        "重创第106师团主力",
+        "控制万家岭与张古山"
+      ]
+    },
+    "japanese": {
+      "primary": [
+        "保持至少一条东部通道",
+        "保存第106师团主力并突破合围"
+      ]
+    },
+    "turnLimit": 24
+  },
+  "nameZh": "万家岭战役",
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "chinese": {
+      "enabled": true,
+      "deckId": "soviet_volunteer_china",
+      "points": 4,
+      "uses": {
+        "i15_strafe": 1,
+        "i16_cap": 2,
+        "sb2_bomb": 2,
+        "db3_bomb": 0
+      }
+    },
+    "japanese": {
+      "enabled": true,
+      "deckId": "japanese_china_early",
+      "points": 5,
+      "uses": {
+        "a5m_cap": 2,
+        "a5m_strafe": 2,
+        "ki27_cap": 2
+      }
+    }
+  }
+}

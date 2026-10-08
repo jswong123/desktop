@@ -1,0 +1,58 @@
+{
+  "id": "dubno_1941",
+  "scenario": "杜布诺战役",
+  "date": "1941-06-26",
+  "startTime": "08:00",
+  "hoursPerTurn": 2,
+  "startingPhase": "german",
+  "victoryConditions": {
+    "deadlineTurn": 48,
+    "german": {
+      "eliminateEnemy": true,
+      "captureObjectives": {
+        "mode": "all",
+        "successText": "德军在规定时间内成功占领杜布诺",
+        "objectives": [
+          {
+            "id": "dubno",
+            "name": "杜布诺",
+            "q": 31,
+            "r": 13
+          }
+        ]
+      }
+    },
+    "soviet": {
+      "eliminateEnemy": true,
+      "defendObjectivesUntilDeadline": {
+        "mode": "all",
+        "successText": "苏军成功坚守杜布诺至规定时间",
+        "objectives": [
+          {
+            "id": "dubno",
+            "name": "杜布诺",
+            "q": 31,
+            "r": 13
+          }
+        ]
+      }
+    },
+    "deadlineFailureText": "德军未能在规定时间内占领杜布诺，苏军防御成功"
+  },
+  "fogOfWar": {
+    "enabled": true,
+    "mode": "standard"
+  },
+  "airSupport": {
+    "german": {
+      "enabled": true,
+      "deckId": "german_early_ww2",
+      "points": 6
+    },
+    "soviet": {
+      "enabled": true,
+      "deckId": "soviet_early_ww2",
+      "points": 5
+    }
+  }
+}
